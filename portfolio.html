@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>    
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Edwords Creative</title>
+	<meta name="author" content="Fenn Macon" />
+	<meta name="description" content="fullPage full-screen navigation and sections control menu." />
+	<meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,navigation,control arrows, dots" />
+	<meta name="Resource-type" content="Document" />
+
+
+	<link rel="stylesheet" type="text/css" href="js/fullpage/jquery.fullPage.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />	
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="js/fullpage/vendors/jquery.slimscroll.min.js"></script>
+
+	<script type="text/javascript" src="js/fullpage/jquery.fullPage.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['landing', 'print', 'directmail', 'online', 'othermedia'],
+				sectionsColor: ['#C63D0F', '#492', '#264', '#124', '#355'],
+				slidesNavigation: true,
+				navigation: true,
+				navigationPosition: 'right',
+				navigationTooltips: ['Top', 
+									 'Print', 
+									 'Direct Mail', 
+									 'Online', 
+									 'Other Media']
+			});
+		});
+	</script>
+</head>
+<body>
+<div id="fullpage">
+	<div class="section " id="section0">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Ed Bernard</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">                  
+          	  <li><a href="./index.html">Home</a></li>
+	          <li><a href="./resume.html">Resume</a></li>
+	          <li><a href="./clients.html">Client List</a></li>
+	          <li><a href="./process.html">Process</a></li>
+	          <li><a href="./reasonstohire.html">Reasons to Hire</a></li>
+	          <li class="active"><a href="./portfolio.html">Portfolio</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+      	<h1>My work</h1>
+		<br>
+          	<p>Over the years, I have worked on virtually every category of product, in every medium, to accomplish every marketing goal. My portfolio demonstrates this breadth, as well as the different styles I believe in.  For some pieces, you can access a popup window by clicking on “Read copy” and see an excerpt of my writing.  If there is a product, category, medium, or marketing goal you don’t see, please contact me and I can send you additional examples.  Thanks, and enjoy!</p>
+	</div>
+	<div class="section" id="section1">
+	    <div class="slide" id="slide1">
+			<div class="intro">
+				<h1>Print</h1>
+			</div>
+		</div>
+
+	    <div class="slide" id="slide2">
+			<h1>Work</h1>
+			<p>
+				Work
+			</p>
+		</div>
+	</div>
+	<div class="section" id="section2">
+	    <div class="slide" id="slide1">
+			<div class="intro">
+				<h1>Direct Mail</h1>
+			</div>
+		</div>
+
+	    <div class="slide" id="slide2">
+			<h1>Work</h1>
+			<p>
+				Work
+			</p>
+		</div>
+	</div>
+	<div class="section" id="section3">
+	    <div class="slide" id="slide1">
+			<div class="intro">
+				<h1>Online</h1>
+			</div>
+		</div>
+
+	    <div class="slide" id="slide2">
+			<h1>Work</h1>
+			<p>
+				Work
+			</p>
+		</div>
+	</div>
+	<div class="section" id="section4">
+	    <div class="slide" id="slide1">
+			<div class="intro">
+				<h1>Other Media</h1>
+			</div>
+		</div>
+
+	    <div class="slide" id="slide2">
+			<h1>Work</h1>
+			<p>
+				Work
+			</p>
+		</div>
+	</div>
+</div>
+
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
