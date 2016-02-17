@@ -34,15 +34,8 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				anchors: ['landing', 'story', 'response', 'brand', 'money'],
-				sectionsColor: ['#C63D0F', '#492', '#264', '#124', '#355'],
-				navigation: true,
-				navigationPosition: 'right',
-				navigationTooltips: ['Top', 
-									 'Tell your story', 
-									 'Create a response', 
-									 'Build your brand', 
-									 'Raise Money']
+				anchors: ['landing'],
+				sectionsColor: ['#aab6c1'],
 			});
 		});
 	</script>
@@ -58,7 +51,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Ed Bernard</a>
+          <a class="navbar-brand" href="#" data-toggle="modal" data-target="#myModal">Edwords Creative</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">                  
@@ -72,57 +65,129 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
+
+<!-- MODALS -->    
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Edwords Creative</h4>
+      </div>
+      <div class="modal-body">
+        <h1>Edward Bernard</h1>
+
+		<br>
+
+		<p>200 Nashoba Road</p>
+		<p>Concord, MA 01742</p>
+		<p>978-371-5585</p>
+		<p><a title="Let's chat" href="mailto:ed-words@mindspring.com">ed-words@mindspring.com</a></p>
+		<p><a href="http://edwordscreative.com">http://edwordscreative.com</a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 	<div id="footer" class="transparent">
-          <p>978-371-5585 • <a title="mailto:ed-words@mindspring.com" href="mailto:ed-words@mindspring.com">Ed-Words@mindspring.com</a> • 200 Nashoba Road Concord MA 01742</p>
+          <p>978-371-5585 • <a title="Let's chat" href="mailto:ed-words@mindspring.com">Ed-Words@mindspring.com</a> • 200 Nashoba Road Concord MA 01742</p>
     </div>
 
+<div class="modal fade" id="story" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Tell Your Story</h4>
+      </div>
+      <div class="modal-body">
+        <p>Behind every great product or company is a story. A company’s story forges a powerful connection between the company and its customers.  </p>
+
+		<p>There are many ways to tell a company’s story – advertising, web sites, e-mails, personal comments from senior executives.  Consistent themes across all communications builds the brand.  </p>
+
+		<p>I believe in getting under the hood of each product, going beyond features and benefits to add context, depth, and perspective.  By building stories about your products and brand, you turn your customers from buyers into believers.  </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="response" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Create a Response</h4>
+      </div>
+      <div class="modal-body">
+        <p>My first advertising jobs were in direct marketing, a medium generally reviled by the general advertising world (or as we called it, “indirect advertising”), because it used tacky techniques and non-clever headlines.  Then, I got to Hill, Holliday, where I was charged with creating DR “that didn’t suck.”</p>
+          	
+      	<p>I discovered what actually motivates a response, and how to generate responses within the context of advertising that award shows respected.</p>
+          	
+      	<p>I believe that it is possible to have direct response advertising that has brand building power for non-respondents (or, stated another way, brand advertising that pays for itself).</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="brand" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Build your Brand</h4>
+      </div>
+      <div class="modal-body">
+		<p>The power of a strong brand is nearly incalculable. The best brands are strong differentiators, unique statements that grow organically out of the company and its products.</p>
+          	
+      	<p>Defining your brand is an important first step.  Then comes the crucial and ongoing need to express the brand consistently across all communications.  Each of the examples I have shown here demonstrate to a wide range of constituents what the company stood for and why it is important to them.</p>
+          	
+      	<p>Different companies and different audiences require different creative approaches.  But each solution demanded clarity, coherence, and consistency.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="money" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Raise Money</h4>
+      </div>
+      <div class="modal-body">
+        <p>Fundraising is unique -- the donor is asked to spend money on something that yields no tangible or immediate benefit.  Or so it seems.  In reality, fundraising is most effective when it uncovers the core benefit that motivates contributions (not just “we need the money”).</p>
+          	
+      	<p>The key is to understand the the real reasons that people give.  Once that connection is established, you can raise more money from more donors without increasing costs.</p>
+          	
+      	<p>I focus on a compelling story, which often isn’t about the organization at all – it’s about the people they serve.  Finding and telling this story can have a huge impact on the bottom line.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div id="fullpage">
-	<div class="section " id="section0">
-		<h1>What do you need to do?</h1>
-		<br>
-        	<ul>
-				<li><a href="#story">Tell your story</a></li>
-				<li><a href="#response">Create a response</a></li>
-				<li><a href="#brand">Build your brand</a></li>
-				<li><a href="#money">Raise Money</a></li>
+	<div class="section" id="section0">
+		<h3 class="text-left clearfix" id="question">What do you need to do?</h3>
+        	<ul class="text-right">
+				<li><a href="#story" data-toggle="modal" data-target="#story" id="l1"><h2>Tell your story</h2></a></li>
+				<li><a href="#response" data-toggle="modal" data-target="#response" id="l2"><h2>Create a response</h2></a></li>
+				<li><a href="#brand" data-toggle="modal" data-target="#brand" id="l3"><h2>Build your brand</h2></a></li>
+				<li><a href="#money" data-toggle="modal" data-target="#money" id="l4"><h2>Raise Money</h2></a></li>
 			</ul>
-		<br>
-	</div>
-	<div class="section" id="section1">
-		<h1>Tell your story</h1>
-		<br>
-          	<p>Behind every great product or company is a story. A company’s story forges a powerful connection between the company and its customers.  </p>
-
-			<p>There are many ways to tell a company’s story – advertising, web sites, e-mails, personal comments from senior executives.  Consistent themes across all communications builds the brand.  </p>
-
-			<p>I believe in getting under the hood of each product, going beyond features and benefits to add context, depth, and perspective.  By building stories about your products and brand, you turn your customers from buyers into believers.  </p>
-	</div>
-	<div class="section" id="section2">
-      	<h1>Create a Response</h1>
-		<br>
-          	<p>My first advertising jobs were in direct marketing, a medium generally reviled by the general advertising world (or as we called it, “indirect advertising”), because it used tacky techniques and non-clever headlines.  Then, I got to Hill, Holliday, where I was charged with creating DR “that didn’t suck.”</p>
-          	
-          	<p>I discovered what actually motivates a response, and how to generate responses within the context of advertising that award shows respected.</p>
-          	
-          	<p>I believe that it is possible to have direct response advertising that has brand building power for non-respondents (or, stated another way, brand advertising that pays for itself).</p>
-	</div>
-	<div class="section" id="section3">
-      	<h1>Build your Brand</h1>
-		<br>
-          	<p>The power of a strong brand is nearly incalculable. The best brands are strong differentiators, unique statements that grow organically out of the company and its products.</p>
-          	
-          	<p>Defining your brand is an important first step.  Then comes the crucial and ongoing need to express the brand consistently across all communications.  Each of the examples I have shown here demonstrate to a wide range of constituents what the company stood for and why it is important to them.</p>
-          	
-          	<p>Different companies and different audiences require different creative approaches.  But each solution demanded clarity, coherence, and consistency.</p>
-	</div>
-	<div class="section" id="section4">
-      	<h1>Raise Money</h1>
-		<br>
-          	<p>Fundraising is unique -- the donor is asked to spend money on something that yields no tangible or immediate benefit.  Or so it seems.  In reality, fundraising is most effective when it uncovers the core benefit that motivates contributions (not just “we need the money”).</p>
-          	
-          	<p>The key is to understand the the real reasons that people give.  Once that connection is established, you can raise more money from more donors without increasing costs.</p>
-          	
-          	<p>I focus on a compelling story, which often isn’t about the organization at all – it’s about the people they serve.  Finding and telling this story can have a huge impact on the bottom line.</p>
 	</div>
 </div>
 

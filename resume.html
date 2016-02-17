@@ -32,23 +32,22 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				anchors: ['landing', 'employment', 'clients', 'awards', 'education'],
-				sectionsColor: ['#C63D0F', '#492', '#264', '#124', '#355'],
+				anchors: ['landing', 'employment', 'clients', 'awards', 'education', 'test'],
+				sectionsColor: ['#aab6c1', '#8a7369', '#c79b87', '#83d4ba', '#cecebe', '#c79b87'],
 				navigation: true,
 				navigationPosition: 'right',
 				navigationTooltips: ['Top', 
 									 'Employment History', 
 									 'Partial Client List', 
 									 'Awards', 
-									 'Education']
+									 'Education',
+									 'test']
 			});
 		});
 	</script>
 </head>
 <body>
-<div id="fullpage">
-	<div class="section " id="section0">
-    <nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -57,7 +56,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Ed Bernard</a>
+          <a class="navbar-brand" href="#" data-toggle="modal" data-target="#myModal">Edwords Creative</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">                  
@@ -71,6 +70,32 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Edwords Creative</h4>
+      </div>
+      <div class="modal-body">
+        <h1>Edward Bernard</h1>
+
+		<br>
+
+		<p>200 Nashoba Road</p>
+		<p>Concord, MA 01742</p>
+		<p>978-371-5585</p>
+		<p><a title="Let's chat" href="mailto:ed-words@mindspring.com">ed-words@mindspring.com</a></p>
+		<p><a href="http://edwordscreative.com">http://edwordscreative.com</a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="fullpage">
+	<div class="section " id="section0">
       	<h1>Edward Bernard</h1>
 
 		<br>
@@ -78,8 +103,8 @@
 		<p>200 Nashoba Road</p>
 		<p>Concord, MA 01742</p>
 		<p>978-371-5585</p>
-		<p>email: ed-words@mindspring.com</p>
-		<p>http://www.edwordscreative.com</p>
+		<p>ed-words@mindspring.com</p>
+		<p>http://edwordscreative.com</p>
 
 			
 	</div>
@@ -88,19 +113,30 @@
 
 		<br>
 
-		<p>1992-Present:	Consultant/freelance copywriter with expertise in branding, advertising and direct marketing.  Frequently assemble “virtual” agencies for clients.</p>
+		<dl class="dl-horizontal">
+		<dt>1992-Present</dt> <dd>Consultant/freelance copywriter with expertise in branding, advertising and direct marketing.  Frequently assemble “virtual” agencies for clients.</dd>
 
-		<p>1985-1992:	SVP/Creative Director, Hill, Holliday Direct, Boston</p>
+		<br>
 
-		<p>Helped grow a 3 person operation into a 55 person agency billing $40 million annually.  Agency received numerous creative awards. Part of team which landed many accounts (Infiniti, Hyatt, LL Bean and others). </p>
+		<dt>1985-1992</dt>	<dd>SVP/Creative Director, Hill, Holliday Direct, Boston</dd>
 
-		<p>1984-1985:	Copywriter, Scali, McCabe, Sloves, NY</p>
+		<dd>Helped grow a 3 person operation into a 55 person agency billing $40 million annually.  Agency received numerous creative awards. Part of team which landed many accounts (Infiniti, Hyatt, LL Bean and others). </dd>
 
-		<p>1982-1984:	Associate Creative Director, Hub Mail Advertising, Boston</p>
+		<br>
 
-		<p>1980-1982:	Creative Group Head, Panasonic, Secaucus, NJ</p>
+		<dt>1984-1985</dt>	<dd>Copywriter, Scali, McCabe, Sloves, NY</dd>
 
-		<p>1979-1980:	Encyclopedia Salesman, Harlem, S. Bronx, NY</p>
+		<br>
+
+		<dt>1982-1984</dt>	<dd>Associate Creative Director, Hub Mail Advertising, Boston</dd>
+
+		<br>
+
+		<dt>1980-1982</dt>	<dd>Creative Group Head, Panasonic, Secaucus, NJ</dd>
+
+		<br>
+
+		<dt>1979-1980</dt>	<dd>Encyclopedia Salesman, Harlem, S. Bronx, NY</dd>
 	</div>
 	<div class="section" id="section2">
 
@@ -108,38 +144,34 @@
 
 		<br>
 
-		<p>Health care:	Bayer, Harvard Community Health Plan, Medic Computer Systems, RIGHA, Fallon Community Health Plan, nejm.org, Biogen Idec</p>
-
-		<p>Agencies:	Fallon, McElligott, Cliff Freeman &amp; Partners, BBDO/Vancouver, CMN Design, HHCC/Altschiller, Heater Advertising, 
-		Leo Burnett, FGI, Berenson &amp; Isham, Darcy Masius Benton and Bowles, Red Advertising, Philip Johnson Associates, KHJ</p>
-
-		<p>Automotive:	Infiniti, Volvo, LoJack</p>
-
-		<p>Banks/financial:	John Hancock, Fidelity, Putnam, Scudder Investment Services, Savings Bank Life Insurance, The Hartford, Travelers Insurance, Fleet, BayBank, Bank of New England, NY Life	</p>
-
-		<p>Publications:	New England Journal of Medicine, Time Magazine, Boston Globe, Rochester Democrat &amp; Chronicle, Field  Publications, Financial Times,  Sloan Management Review (MIT), Harvard Business School Publishing</p>
-
-		<p>Computers/
-		hardware:	Wang, DEC, Data General, Codex, Prime, PictureTel, Green PC</p>
-
-		<p>Computers/
-		software:	Lotus, Delrina, Macmillian New Media, Kurzweil, Heroix, Centra, Authentica</p>
-
-		<p>Education: 	Wellesley College, Barnard College, Harvard Business School</p>
-
-		<p>Travel:	Hyatt, Hertz, Ritz/Carlton Boston, TravelGold, Cahners Travel Group. Mount Washington Hotel and Resort 	</p>
-
-		<p>Telecomm:	MCI, Ameritech, NYNEX, TCG</p>
-
-		<p>Hard goods:	Polaroid, Spalding, Nikon</p>
-
-		<p>Consumer 
-		electronics:	Panasonic, Technics, Sony</p>
-
-		<p>Fundraising:	WBUR, National Public Radio, PBS, US Olympic  Committee, 
-			Harvard University, Wellesley College, Tenacity</p>
-
-		<p>Other:	LL Bean, Talbots, Mass State Lottery, Mass Tourism, HomeRuns.com. Museumshop.com, Thomas Moser cabinetmakers</p>
+		<dl class="dl-horizontal">
+			  <dt>Agencies</dt>
+			  <dd>Fallon, McElligott, Cliff Freeman &amp; Partners, BBDO/Vancouver, CMN Design, HHCC/Altschiller, Heater Advertising, Leo Burnett, FGI, Berenson &amp; Isham, Darcy Masius Benton and Bowles, Red Advertising, Philip Johnson Associates, KHJ</dd>
+			  <dt>Automotive</dt> 
+			  <dd>Infiniti, Volvo, LoJack</dd>
+			  <dt>Banks/Financial</dt> 
+			  <dd>John Hancock, Fidelity, Putnam, Scudder Investment Services, Savings Bank Life Insurance, The Hartford, Travelers Insurance, Fleet, BayBank, Bank of New England, NY Life</dd>
+			  <dt>Computers</dt> 
+			  <dd>Wang, DEC, Data General, Codex, Prime, PictureTel, Green PC, Lotus, Delrina, Macmillian New Media, Kurzweil, Heroix, Centra, Authentica</dd> 
+			  <dt>Consumer electronics</dt> 
+			  <dd>Panasonic, Technics, Sony</dd>  
+			  <dt>Education</dt> 
+			  <dd>Wellesley College, Barnard College, Harvard Business School</dd>
+			  <dt>Fundraising</dt> 
+			  <dd>WBUR, National Public Radio, PBS, US Olympic Committee, Harvard University, Wellesley College, Tenacity</dd>  
+			  <dt>Hard goods</dt> 
+			  <dd>Polaroid, Spalding, Nikon</dd> 
+			  <dt>Health care</dt>
+			  <dd>Bayer, Harvard Community Health Plan, Medic Computer Systems, RIGHA, Fallon Community Health Plan, nejm.org, Biogen Idec</dd> 
+			  <dt>Publications</dt> 
+			  <dd>New England Journal of Medicine, Time Magazine, Boston Globe, Rochester Democrat &amp; Chronicle, Field  Publications, Financial Times,  Sloan Management Review (MIT), Harvard Business School Publishing</dd> 
+			  <dt>Telecomm</dt> 
+			  <dd>MCI, Ameritech, NYNEX, TCG</dd> 
+			  <dt>Travel</dt> 
+			  <dd>Hyatt, Hertz, Ritz/Carlton Boston, TravelGold, Cahners Travel Group. Mount Washington Hotel and Resort</dd> 
+			  <dt>Other</dt> 
+			  <dd>LL Bean, Talbots, Mass State Lottery, Mass Tourism, HomeRuns.com. Museumshop.com, Thomas Moser cabinetmakers</dd> 
+		</dl>
 	</div>
 	<div class="section" id="section3">
 		<h1>Awards</h1>
@@ -156,6 +188,24 @@
 		<p>B.A. 1979, Hamilton College, Clinton NY.  Majored in English and Psychology.  Dean's List.</p>
           	
 	</div>
+	<div class="section" id="section5">
+		<div>
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Agencies</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Automotive</a></li>
+    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+  </ul>		
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home"><p>Fallon, McElligott, Cliff Freeman &amp; Partners, BBDO/Vancouver, CMN Design, HHCC/Altschiller, Heater Advertising, Leo Burnett, FGI, Berenson &amp; Isham, Darcy Masius Benton and Bowles, Red Advertising, Philip Johnson Associates, KHJ</p></div>
+    <div role="tabpanel" class="tab-pane" id="profile"><p>Infiniti, Volvo, LoJack</p></div>
+    <div role="tabpanel" class="tab-pane" id="messages">..daf.</div>
+    <div role="tabpanel" class="tab-pane" id="settings">..bb.</div>
+  </div>
+
+</div>
+	</div>
+
 </div>
 
 <script src="js/bootstrap.min.js"></script>
