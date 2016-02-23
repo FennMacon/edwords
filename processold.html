@@ -11,9 +11,11 @@
 	<meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,navigation,control arrows, dots" />
 	<meta name="Resource-type" content="Document" />
 
+
+	<link rel="stylesheet" type="text/css" href="js/fullpage/jquery.fullPage.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css" />	
-	<link rel="stylesheet" type="text/css" href="css/process.css" />	
+
 	<!--[if IE]>
 		<script type="text/javascript">
 			 var console = { log: function() {} };
@@ -22,9 +24,23 @@
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="js/fullpage/vendors/jquery.slimscroll.min.js"></script>
+
+	<script type="text/javascript" src="js/fullpage/jquery.fullPage.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['landing', 'story', 'response', 'brand', 'money'],
+				sectionsColor: ['#aab6c1', '#492', '#264', '#124', '#355'],
+				scrollOverflow: true
+			});
+		});
+	</script>
 </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-top">
+	<nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -72,8 +88,9 @@
   </div>
 </div>
 <div id="fullpage">
-	<div class="section" id="buying">
-		<h1>The Buying Cycle</h1>
+	<div class="section intro" id="section0">
+    
+      	<h1>The Buying Cycle</h1>
 		<br>
           	<p>Is marketing an art or a science?  I think of it as a craft, because it starts with established principles, then creatively applies them to a specific task, the way a carpenter makes a cabinet or a knitter makes a sweater.</p>
 
@@ -118,12 +135,44 @@
 
 			<p>Please note that we may not know where any individual consumer is in the Buying Cycle.  That’s not important for strategizing.  What is important is making sure the customer gets the information they need, when and how they need it.  And the Buying Cycle helps us get there.</p>
 	</div>
-	<a href="#top"><h2>Back to top</h2></a>
-	<br>
-	<br>
-	<br>
+	<div class="section fp-auto-height" id="section1">
+		<div class="buyingcycletwo">
+			<div class="slide" id="slide1">
+	     		<h1>No Awareness</h1><br>
+	     		<p>Branding, broadcast, advertising</p>
+			</div>
+			<div class="slide" id="slide2">
+	     		<h1>Awareness</h1><br>
+	     		<p>Branding, broadcast, advertising</p>
+			</div>
+			<div class="slide" id="slide3">
+	     		<h1>Active Interest</h1><br>
+	     		<p>Fulfillment, Q&amp;A, FAQ</p>
+			</div>
+			<div class="slide" id="slide4">
+	     		<h1>Research</h1><br>
+	     		<p>Website, Brochure</p>
+			</div>
+			<div class="slide" id="slide5">
+	     		<h1>Trial Purchase</h1><br>
+	     		<p>Welcome kit</p>
+			</div>
+			<div class="slide" id="slide6">
+	     		<h1>Shared Usage</h1><br>
+	     		<p>Lifestyle marketing, upsell programs, loyalty programs, etc.</p>
+			</div>
+			<div class="slide" id="slide7">
+	     		<h1>Preferred Usage</h1><br>
+	     		<p>Lifestyle marketing, upsell programs, loyalty programs, etc.</p>
+			</div>
+			<div class="slide" id="slide8">
+	     		<h1>Exclusive Usage</h1><br>
+	     		<p>Lifestyle marketing, upsell programs, loyalty programs, etc.</p>
+			</div>
+		</div>
+	</div>
 </div>
-<script type="text/javascript" src="js/portfolio.js"></script>
+
 <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
