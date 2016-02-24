@@ -49,6 +49,37 @@ $(document).ready(function(){
 		$( "#p7" ).toggleClass("is-active");
 	});
 
+	$( "#dm1b" ).click(function(){
+		$( "#dm1" ).toggleClass("is-active");
+	});	
+	$( "#dm2b" ).click(function(){
+		$( "#dm2" ).toggleClass("is-active");
+	});
+	$( "#dm3b" ).click(function(){
+		$( "#dm3" ).toggleClass("is-active");
+	});	
+	$( "#dm4b" ).click(function(){
+		$( "#dm4" ).toggleClass("is-active");
+	});
+	$( "#dm5b" ).click(function(){
+		$( "#dm5" ).toggleClass("is-active");
+	});	
+	$( "#dm6b" ).click(function(){
+		$( "#dm6" ).toggleClass("is-active");
+	});
+
+	$( "#o1b" ).click(function(){
+		$( "#o1" ).toggleClass("is-active");
+	});	
+	$( "#o2b" ).click(function(){
+		$( "#o2" ).toggleClass("is-active");
+	});
+	$( "#o3b" ).click(function(){
+		$( "#o3" ).toggleClass("is-active");
+	});	
+	$( "#o4b" ).click(function(){
+		$( "#o4" ).toggleClass("is-active");
+	});
 	$(window).on("hashchange", function () {
     window.scrollTo(window.scrollX, window.scrollY - 100);
 	});
