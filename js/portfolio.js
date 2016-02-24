@@ -27,6 +27,7 @@ $(document).ready(function(){
 	$( ".pb" ).click(function(){
 		$( ".black" ).removeClass("is-active");
 	});
+
 	$( "#p1b" ).click(function(){
 		$( "#p1" ).toggleClass("is-active");
 	});	
@@ -80,6 +81,36 @@ $(document).ready(function(){
 	$( "#o4b" ).click(function(){
 		$( "#o4" ).toggleClass("is-active");
 	});
+	
+	$( "#b1b" ).click(function(){
+		$( "#b1" ).toggleClass("is-active");
+	});	
+	$( "#b2b" ).click(function(){
+		$( "#b2" ).toggleClass("is-active");
+	});
+	$( "#b3b" ).click(function(){
+		$( "#b3" ).toggleClass("is-active");
+	});	
+	$( "#b4b" ).click(function(){
+		$( "#b4" ).toggleClass("is-active");
+	});
+	$( "#b5b" ).click(function(){
+		$( "#b5" ).toggleClass("is-active");
+	});
+
+	$( "#om1b" ).click(function(){
+		$( "#om1" ).toggleClass("is-active");
+	});	
+	$( "#om2b" ).click(function(){
+		$( "#om2" ).toggleClass("is-active");
+	});
+	$( "#om3b" ).click(function(){
+		$( "#om3" ).toggleClass("is-active");
+	});	
+	$( "#om4b" ).click(function(){
+		$( "#om4" ).toggleClass("is-active");
+	});
+
 	$(window).on("hashchange", function () {
     window.scrollTo(window.scrollX, window.scrollY - 100);
 	});
