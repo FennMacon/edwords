@@ -6,12 +6,15 @@ body {
 
 .section {
   margin: 0px 5% 0px 5%;
-  padding: 10%;
-  height: 100%; }
+  padding: 10%; }
 
 .section p, .section h1, .section h2, .section h3, .section h4, .section h5, .section h6 {
   color: #bdf;
   text-shadow: none; }
+
+.section a {
+  font-size: 24px;
+  display: block; }
 
 .btn {
   background-color: #bdf;
@@ -108,14 +111,38 @@ body {
   display: none; }
 
 .is-active {
-  display: flex; }
+  display: block; }
 
-#clientList {
+.black {
   background: #000;
   color: #bdf;
+  padding-top: 0; }
+
+.black h1 {
+  color: #bdf; }
+
+#clientList {
   margin-bottom: 100px; }
 
-#clientList h1 {
-  color: #bdf; }
+.modal p, .modal h3, .modal h4 {
+  color: #000; }
+
+.button {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #cef;
+  background: #bdf;
+  color: #000; }
+
+.button:hover {
+  background: #cef; }
+
+.button:active {
+  background: #bdf; }
+
+.button:focus {
+  outline: none; }
 
 /*# sourceMappingURL=portfolio.css.map */

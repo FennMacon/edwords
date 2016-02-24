@@ -23,6 +23,32 @@ $(document).ready(function(){
 		$( "#prompt5" ).toggleClass("is-active");
 		$( "#eButton" ).toggleClass("btn-active");
 	});		
+
+	$( ".pb" ).click(function(){
+		$( ".black" ).removeClass("is-active");
+	});
+	$( "#p1b" ).click(function(){
+		$( "#p1" ).toggleClass("is-active");
+	});	
+	$( "#p2b" ).click(function(){
+		$( "#p2" ).toggleClass("is-active");
+	});
+	$( "#p3b" ).click(function(){
+		$( "#p3" ).toggleClass("is-active");
+	});	
+	$( "#p4b" ).click(function(){
+		$( "#p4" ).toggleClass("is-active");
+	});
+	$( "#p5b" ).click(function(){
+		$( "#p5" ).toggleClass("is-active");
+	});	
+	$( "#p6b" ).click(function(){
+		$( "#p6" ).toggleClass("is-active");
+	});
+	$( "#p7b" ).click(function(){
+		$( "#p7" ).toggleClass("is-active");
+	});
+
 	$(window).on("hashchange", function () {
     window.scrollTo(window.scrollX, window.scrollY - 100);
 	});
