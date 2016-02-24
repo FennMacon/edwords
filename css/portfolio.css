@@ -16,6 +16,10 @@ body {
   font-size: 24px;
   display: block; }
 
+.section a:hover {
+  color: #bdf;
+  text-shadow: none; }
+
 .btn {
   background-color: #bdf;
   margin: 0 10px 0 10px;
