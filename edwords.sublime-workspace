@@ -1,0 +1,772 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"a",
+				"auto"
+			],
+			[
+				"prompt1",
+				"prompt1-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"tex",
+				"text-shadow"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"bt",
+				"btn-active"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"ta",
+				"ta	text-align"
+			],
+			[
+				"pro",
+				"prompt1-color"
+			],
+			[
+				"col",
+				"color1"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"text",
+				"text-shadow"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"se",
+				"section1"
+			],
+			[
+				"sec",
+				"section0"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"var",
+				"vertical-align"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"d",
+				"d:b	display:block"
+			],
+			[
+				"foo",
+				"footer-color"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"bg",
+				"bgc	background-color"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"td",
+				"td:n	text-decoration:none"
+			],
+			[
+				"fl",
+				"fl:l	float:left"
+			],
+			[
+				"po",
+				"pos:a	position:absolute"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"ts",
+				"tsh+	text-shadow+"
+			],
+			[
+				"ac",
+				"active-color"
+			],
+			[
+				"hover",
+				"hover-color"
+			],
+			[
+				"hea",
+				"header-color"
+			],
+			[
+				"di",
+				"d:ib	display:inline-block"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bord",
+				"border-color"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"tabLines",
+				"tabLines"
+			],
+			[
+				"if",
+				"ife	if … else"
+			],
+			[
+				"tabLine",
+				"TabLine"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"bo",
+				"padding-bottom"
+			],
+			[
+				"s",
+				"style	Attr"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"TE",
+				"text-decoration"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"c",
+				"currentValue"
+			],
+			[
+				"str",
+				"stringSix"
+			],
+			[
+				"border-s",
+				"border-style"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "portfolio.html",
+			"settings":
+			{
+				"buffer_size": 85136,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/portfolio.scss",
+			"settings":
+			{
+				"buffer_size": 2575,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/portfolio.js",
+			"settings":
+			{
+				"buffer_size": 2976,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "process.html",
+			"settings":
+			{
+				"buffer_size": 8402,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/process.scss",
+			"settings":
+			{
+				"buffer_size": 3432,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/fennmacon/Documents/Web/edwords",
+		"/Users/fennmacon/Documents/Web/edwords/css"
+	],
+	"file_history":
+	[
+		"/Users/fennmacon/Documents/Web/edwords/css/process.scss",
+		"/Users/fennmacon/Documents/Web/edwords/process.html",
+		"/Users/fennmacon/Documents/Web/edwords/css/style.css",
+		"/Users/fennmacon/Documents/Web/edwords/reasonstohire.html",
+		"/Users/fennmacon/Documents/Web/edwords/clients.html",
+		"/Users/fennmacon/Documents/Web/edwords/resume.html",
+		"/Users/fennmacon/Documents/Web/edwords/index.html",
+		"/Users/fennmacon/Documents/Web/edwords/portfolio.html",
+		"/Users/fennmacon/Documents/Web/edwords/js/fullpage/examples/fixedHeaders.html",
+		"/Users/fennmacon/Documents/Web/edwords/config.json",
+		"/Users/fennmacon/Documents/Web/edwords/css/fullpagestyle.css",
+		"/Users/fennmacon/Documents/Web/guitar teacher/output.css",
+		"/Users/fennmacon/Documents/Web/guitar teach site 1:23:456/progressions.html",
+		"/Users/fennmacon/Documents/Web/guitar teach site 1:23:456/chords.html",
+		"/Users/fennmacon/Documents/Web/guitar teach site 1:23:456/intervals.html",
+		"/Users/fennmacon/Documents/Web/guitar teach site 1:23:456/scales.html",
+		"/Users/fennmacon/Documents/Web/guitar teach site 1:23:456/basics.html",
+		"/Users/fennmacon/Documents/Web/guitar teach site 1:23:456/input.scss.haml",
+		"/Users/fennmacon/Documents/Web/messing with sass/output.css",
+		"/Users/fennmacon/Desktop/ps/info for lastchance",
+		"/Users/fennmacon/Desktop/ps/walking101.html",
+		"/Users/fennmacon/Desktop/ps/lastchance.html",
+		"/Users/fennmacon/Desktop/ps/girls.html",
+		"/Users/fennmacon/Desktop/ps/boys.html",
+		"/Users/fennmacon/Desktop/ps/walking101.png",
+		"/Users/fennmacon/myblog/Gemfile",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-white-pizza-spread.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-vinaigrette.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-veal-parmigiana.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-twenty-ingredient-pie.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-toasted-orzo-with-peas.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-taco-salad.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-sweet-basil-marinated-onions.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-sweet-basil-chicken-sloppy-joes.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-sweet-basil-caramelized-onions.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-sweet-basil-martini.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-stuffed-portobello-mushrooms.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-spicy-grilled-shrimp.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-spicy-black-bean-salad.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-special-popcorn.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-spaghetti-pie.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-smore.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-slab-apple-pie.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-salted-caramel-sauce.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-roasted-potatoes.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-roasted-beets.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-potato-salad.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-popovers.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-pollo-mexicano.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-peters-punch.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-perfect-beef-tenderloin.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-pecan-apple-praline-bread.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-payard-chocolate-pudding-cake.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-pasta-salad.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-oatmeal-raisin-bars.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-nectarine-upside-down-cake.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-must-wear-white-lobster-thermidor.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-marinated-shrimp.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-marinated-salmon-filet.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-margaritas.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-margarita.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-mac-and-cheese-with-deconstructed-kabobs.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-lobster-tacos.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-lobster-roll.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-life-saving-vodka-rx.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-lemon-chicken.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-lasagna.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-kale-salad.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-ice-cream-pie.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-hot-buttered-rum.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-guacamole-with-optional-salsa.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-glens-best-apple-pie.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-fruit-salad-with-cannoli-cream.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-famous-chocolate-chip-cookies.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-escalloped-potatoes.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-ellsworth-75-champagne-cocktail.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-daves-margarita-beef-with-orange-salsa.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-double-crust-blueberry-pie.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-dark-chocolate-ganache-cheesecake.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-curried-chicken.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-cucumber-salad.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-creamed-spinach.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-creamed-corn.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-cowboy-caviar.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-col-busco-with-mushroom-ragu.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-chocolate-sauce.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-chicken-cutlets.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-chewy-chocolate-cherry-oatmeal-cookies.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-cheese-ball.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-brownies.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-bourbon-pecan-pie.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-blueberry-cake.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-bellini.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-beer-butt-chicken.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-beef-burgundy.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-battle-run-cauliflower-bake.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-bacon-tomato-cups.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-bacon-smashed-potatoes.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-bacon-and-watermelon-rinds.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-artichoke-dip.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-5-hour-spaghetti.markdown",
+		"/Users/fennmacon/myblog/about.md",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-the-game.markdown",
+		"/Users/fennmacon/myblog/_includes/header.html",
+		"/Users/fennmacon/myblog/cocktails.html",
+		"/Users/fennmacon/myblog/appetizers.html",
+		"/Users/fennmacon/myblog/bread.html",
+		"/Users/fennmacon/myblog/_includes/category-list.html",
+		"/Users/fennmacon/myblog/meat.html",
+		"/Users/fennmacon/myblog/_config.yml",
+		"/Users/fennmacon/myblog/index.html",
+		"/Users/fennmacon/myblog/fish.html",
+		"/Users/fennmacon/myblog/dessert.html",
+		"/Users/fennmacon/myblog/_layouts/default.html",
+		"/Users/fennmacon/myblog/vegetables.html",
+		"/Users/fennmacon/myblog/pasta.html",
+		"/Users/fennmacon/myblog/salad.html",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-downeast-maine-desserts.markdown",
+		"/Users/fennmacon/myblog/_posts/2015-12-18-picture-salad.markdown",
+		"/Users/fennmacon/myblog/_site/index.html",
+		"/Users/fennmacon/Documents/KentuckyRouteZero/save.krz",
+		"/Users/fennmacon/Documents/Web/BLGN MN SBRBN ADVNTR/worcester.html",
+		"/Users/fennmacon/Documents/Web/BLGN MN SBRBN ADVNTR/travel.html",
+		"/Users/fennmacon/Documents/Web/BLGN MN SBRBN ADVNTR/script.html",
+		"/Users/fennmacon/Documents/Web/BLGN MN SBRBN ADVNTR/na.html",
+		"/Users/fennmacon/Documents/Web/BLGN MN SBRBN ADVNTR/monks.html",
+		"/Users/fennmacon/Documents/Web/BLGN MN SBRBN ADVNTR/map.html",
+		"/Users/fennmacon/Documents/Web/BLGN MN SBRBN ADVNTR/home.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/fennmacon/myblog/_posts"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"header",
+			"nav",
+			"text-shadow",
+			"As",
+			"nav",
+			"nac",
+			"header",
+			"inner",
+			"div",
+			"p",
+			"btn",
+			"*/\n",
+			"cover",
+			"h4",
+			"h6",
+			"\nDirections",
+			"\nTools",
+			"\nIngredients",
+			"jekyll",
+			"span id=\"6\"",
+			"span id=\"5\"",
+			"span id=\"4\"",
+			"span id=\"3\"",
+			"span id=\"2\"",
+			"span id=\"1\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"h3",
+			"h4",
+			"\n### Directions",
+			"\n### Tools",
+			"\n### Ingredients",
+			"span id=\"six\"",
+			"span id=\"five\"",
+			"span id=\"four\"",
+			"span id=\"three\"",
+			"span id=\"two\"",
+			"span id=\"one\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "portfolio.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 85136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60289,
+								60289
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1035.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/portfolio.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2575,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1133,
+								1067
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 149.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/portfolio.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2976,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2519,
+								2519
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1012.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "process.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8402,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7453,
+								7449
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1822.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/process.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3432,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2361,
+								2361
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1389.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "edwords.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"docty",
+				"~/Documents/Web/fm code samples/style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 47.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 169.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

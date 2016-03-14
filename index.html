@@ -35,14 +35,13 @@
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
 				anchors: ['landing'],
-				sectionsColor: ['#aab6c1'],
 			});
 		});
 	</script>
 
 </head>
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top noscroll" id="nb">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -55,7 +54,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">                  
-          	  <li class="active"><a href="#">Home</a></li>
+          	  <li class="active-noscroll" id="active"><a href="#">Home</a></li>
 	          <li><a href="./resume.html">Resume</a></li>
 	          <li><a href="./clients.html">Client List</a></li>
 	          <li><a href="./process.html">Process</a></li>
@@ -91,7 +90,7 @@
     </div>
   </div>
 </div>
-	<div id="footer" class="transparent">
+	<div id="footer">
           <p>978-371-5585 • <a title="Let's chat" href="mailto:ed-words@mindspring.com">Ed-Words@mindspring.com</a> • 200 Nashoba Road Concord MA 01742</p>
     </div>
 
@@ -124,11 +123,12 @@
         <h4 class="modal-title" id="myModalLabel">Create a Response</h4>
       </div>
       <div class="modal-body">
-        <p>My first advertising jobs were in direct marketing, a medium generally reviled by the general advertising world (or as we called it, “indirect advertising”), because it used tacky techniques and non-clever headlines.  Then, I got to Hill, Holliday, where I was charged with creating DR “that didn’t suck.”</p>
-          	
-      	<p>I discovered what actually motivates a response, and how to generate responses within the context of advertising that award shows respected.</p>
-          	
-      	<p>I believe that it is possible to have direct response advertising that has brand building power for non-respondents (or, stated another way, brand advertising that pays for itself).</p>
+        <p>I cut my teeth in direct marketing, a medium generally reviled by brand-conscious marketers, because they (often rightly) think that tacky DR harms their brand (while still being effective and thus hard to kill.</p>
+
+        <p>At Hill Holliday, I was told to do direct “that didn’t suck.”I discovered that branding and DR are actually two sides of the same coin … that when the branding is emotionally rich, it generates response.</p>
+
+        <p>Still don’t love DR? Then think of it as “brand advertising that pays for itself.”</p>
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -142,14 +142,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Build your Brand</h4>
+        <h4 class="modal-title" id="myModalLabel">Define your Brand</h4>
       </div>
       <div class="modal-body">
-		<p>The power of a strong brand is nearly incalculable. The best brands are strong differentiators, unique statements that grow organically out of the company and its products.</p>
-          	
-      	<p>Defining your brand is an important first step.  Then comes the crucial and ongoing need to express the brand consistently across all communications.  Each of the examples I have shown here demonstrate to a wide range of constituents what the company stood for and why it is important to them.</p>
-          	
-      	<p>Different companies and different audiences require different creative approaches.  But each solution demanded clarity, coherence, and consistency.</p>
+		    <p>The power of a brand is nearly incalculable. Every business, large or small, needs to define, articulate and promote their brand.</p>
+
+        <p>I work with clients to develop their brand, using a disciplined yet flexible plan revolving around differentiators and core messages. The result is a document that both supplies content for all consumer-facing materials, and serves as a measuring stick for the future.</p>
+
+        <p>It doesn’t make for a flashy show on a web page. But it does provide messages for ALL your audiences, in ALL your interactions that are powerful, differentiating and memorable.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -170,7 +170,7 @@
           	
       	<p>The key is to understand the the real reasons that people give.  Once that connection is established, you can raise more money from more donors without increasing costs.</p>
           	
-      	<p>I focus on a compelling story, which often isn’t about the organization at all – it’s about the people they serve.  Finding and telling this story can have a huge impact on the bottom line.</p>
+      	<p>I have found that stories work best. The truth is, donors don’t care that much about your organization … they care about their money helping people. </p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -185,12 +185,11 @@
         	<ul class="text-right">
 				<li><a href="#story" data-toggle="modal" data-target="#story" id="l1"><h2>Tell your story</h2></a></li>
 				<li><a href="#response" data-toggle="modal" data-target="#response" id="l2"><h2>Create a response</h2></a></li>
-				<li><a href="#brand" data-toggle="modal" data-target="#brand" id="l3"><h2>Build your brand</h2></a></li>
-				<li><a href="#money" data-toggle="modal" data-target="#money" id="l4"><h2>Raise Money</h2></a></li>
+				<li><a href="#brand" data-toggle="modal" data-target="#brand" id="l3"><h2>Define your brand</h2></a></li>
+				<li><a href="#money" data-toggle="modal" data-target="#money" id="l4"><h2>Raise money</h2></a></li>
 			</ul>
 	</div>
 </div>
-
 <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

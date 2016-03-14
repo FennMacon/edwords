@@ -13,19 +13,19 @@ body {
   text-shadow: none; }
 
 .section a {
-  font-size: 24px;
-  display: block; }
+  display: block;
+  font-size: 24px; }
 
 .section a:hover {
   color: #bdf;
   text-shadow: none; }
 
 .btn {
-  background-color: #bdf;
+  height: 20%;
   margin: 0 10px 0 10px;
   padding: 10px;
-  border: none;
-  height: 20%; }
+  background-color: #bdf;
+  border: none; }
 
 #aButton:hover {
   background-color: #944; }
@@ -39,17 +39,20 @@ body {
 #dButton:hover {
   background-color: #499; }
 
+#eButton:hover {
+  background-color: #994; }
+
 .btn-active {
   background-color: #cef; }
 
 #intro {
+  height: 100%;
   margin: 10% 5% 0px 5%;
-  padding: 10%;
-  height: 100%; }
+  padding: 10%; }
   #intro p, #intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6 {
     color: #000;
-    text-shadow: none;
-    text-align: left; }
+    text-align: left;
+    text-shadow: none; }
 
 #prompt1 {
   background: #944;
@@ -111,16 +114,10 @@ body {
   background: linear-gradient(#994, #000);
   /* Standard syntax */ }
 
-.is-hidden {
-  display: none; }
-
-.is-active {
-  display: block; }
-
 .black {
+  padding-top: 100px;
   background: #000;
-  color: #bdf;
-  padding-top: 0; }
+  color: #bdf; }
 
 .black h1 {
   color: #bdf; }
@@ -132,13 +129,13 @@ body {
   color: #000; }
 
 .button {
+  border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
-  border-radius: 10px;
-  border: 1px solid #cef;
   background: #bdf;
-  color: #000; }
+  color: #000;
+  border: 1px solid #cef; }
 
 .button:hover {
   background: #cef; }

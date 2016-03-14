@@ -1,9 +1,6 @@
 body {
   background-color: #bdf; }
 
-#fullpage {
-  height: 100%; }
-
 .section {
   margin: 100px 5% 100px 5%;
   padding: 10%; }
@@ -13,11 +10,11 @@ body {
   text-shadow: none; }
 
 .btn {
-  background-color: #bdf;
+  height: 20%;
   margin: 0 10px 0 10px;
   padding: 10px;
-  border: none;
-  height: 20%; }
+  background-color: #bdf;
+  border: none; }
 
 #aButton:hover {
   background-color: #944; }
@@ -35,79 +32,30 @@ body {
   background-color: #cef; }
 
 #intro {
+  height: 100%;
   margin: 10% 5% 0px 5%;
-  padding: 10%;
-  height: 100%; }
+  padding: 10%; }
   #intro p, #intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6 {
     color: #000;
-    text-shadow: none;
-    text-align: left; }
+    text-align: left;
+    text-shadow: none; }
 
-#prompt1 {
-  background: #944;
-  /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#944, #000);
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#944, #000);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#944, #000);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#944, #000);
-  /* Standard syntax */ }
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+  opacity: 0.01; }
 
-#prompt2 {
-  background: #494;
-  /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#494, #000);
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#494, #000);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#494, #000);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#494, #000);
-  /* Standard syntax */ }
-
-#prompt3 {
-  background: #449;
-  /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#449, #000);
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#449, #000);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#449, #000);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#449, #000);
-  /* Standard syntax */ }
-
-#prompt4 {
-  background: #499;
-  /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#499, #000);
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#499, #000);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#499, #000);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#499, #000);
-  /* Standard syntax */ }
-
-#prompt5 {
-  background: #994;
-  /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#994, #000);
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#994, #000);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#994, #000);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#994, #000);
-  /* Standard syntax */ }
-
-.is-hidden {
-  display: none; }
-
-.is-active {
-  display: flex; }
+.footer:hover {
+  -webkit-transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+  opacity: 1.0; }
 
 #buying {
   background: #000;
@@ -115,5 +63,113 @@ body {
 
 #buying h1 {
   color: #bdf; }
+
+.row {
+  margin: 10px auto 10px auto; }
+  .row div {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+    background-color: #000;
+    color: #bdf;
+    border: 3px outset #cef; }
+  .row div:active {
+    border: 3px inset #cef; }
+
+#b1:hover {
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  background-color: #944; }
+
+#b2:hover {
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  background-color: #944; }
+
+#b3:hover {
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  background-color: #494; }
+
+#b4:hover {
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  background-color: #449; }
+
+#b5:hover {
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  background-color: #499; }
+
+#b6:hover {
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  background-color: #994; }
+
+#b7:hover {
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  background-color: #994; }
+
+#b8:hover {
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  background-color: #994; }
+
+#m1:hover {
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  background-color: #944; }
+
+#m2:hover {
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  background-color: #494; }
+
+#m3:hover {
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  background-color: #449; }
+
+#m4:hover {
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  background-color: #499; }
+
+#m5:hover {
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  background-color: #994; }
 
 /*# sourceMappingURL=process.css.map */

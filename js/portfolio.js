@@ -111,7 +111,4 @@ $(document).ready(function(){
 		$( "#om4" ).toggleClass("is-active");
 	});
 
-	$(window).on("hashchange", function () {
-    window.scrollTo(window.scrollX, window.scrollY - 100);
-	});
 });

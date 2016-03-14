@@ -1,220 +1,297 @@
-@import 'reset';
+/*
+ * Globals
+ */
 
-$font-stack: Helvetica, sans-serif;
-$primary-color: #e5fcc2;
-$secondary-color: #9DE0AD;
-$header-color: #547980;
-$footer-color: #E0E4CC;
-$active-color: #55bdb8;
-$text-color: #190f0f;
-
-@mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-     -moz-border-radius: $radius;
-      -ms-border-radius: $radius;
-          border-radius: $radius;
-}
-$breakpoint-tablet: 1200px;
+$main-color             : #000;
+$prompt1-color          : #944;
+$prompt2-color          : #494;
+$prompt3-color          : #449;
+$prompt4-color          : #499;
+$prompt5-color          : #994;
+$background-color       : #bdf;
+$background-light-color : #cef;
 
 body{
-	color: $text-color;
-	background: $primary-color;
-	font-family: 'Patua One', cursive;
+	background-color : $background-color;
 }
 
-header{
-	font-family: 'Covered By Your Grace', cursive;
-	background: $header-color;
-	width:100%;
-	position:fixed;
-	top:0;
-	left:0;
-	z-index: 1;
+@mixin background-gradient ($color1,$color2) {
+    background: $color1; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient($color1,$color2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($color1,$color2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($color1,$color2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient($color1,$color2); /* Standard syntax */
+}
+
+@mixin border-radius($radius) {
+	border-radius         : $radius;
+	-webkit-border-radius : $radius;
+	-moz-border-radius    : $radius;
+	-ms-border-radius     : $radius;
+}
+
+@mixin transition($time){
+	-webkit-transition : all $time ease-in;
+	-moz-transition    : all $time ease-in;
+	-o-transition      : all $time ease-in;
+	transition         : all $time ease-in;
+}
+
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  text-decoration: none;
+  color: #fff;
+
+  text-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+} 
+a{
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+  }
+a:hover { 
+  color: #000;
+  text-shadow: 0px 1px 2px rgba(255, 255, 255, 0.4);
+  }
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,1);
+}
+
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.transparent{
+    opacity: 0.50;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
 }
 
 h1{
-	text-shadow: 1px 1px 1px #000;
-	text-align: center;
-	color: #F38630;
-}
-li{
-	list-style-type: square;
-    list-style-position: inside;
-    font-family: 'Raleway', sans-serif;
-}
+    font-size: 3em;
+    font-family: arial,helvetica;
+    color: #fff;
+    margin:0;
+  }
 p{
-	font-family: 'Raleway', sans-serif;
-}
-a{
-	text-decoration:none;
-	color:$text-color;
-}
-a:hover{
-	text-shadow: 1px 1px 1px #fff;
+    color: #fff;
+    font-size: 1em;
+  }
+
+
+/*
+ * Nav Scrolling
+ */
+
+.navbar{
+	border:none;
 }
 
-.container { 
-	position: absolute;
-	top:100px;
-	width: 100%; 
-	padding-bottom: 20px;
-	z-index: 0;
+.navbar:hover{
+	@include transition(1.0s);
+	opacity : 1.0;
 }
 
-article {
-  float: left;
-  width: 600px / 960px * 100%;
-  border: 1px groove #EC407A;
-  @include border-radius(4px);  
-  margin-left:10px;
-  margin-right:10px;
-  margin-bottom: 20px;
-  background: $secondary-color;
-  padding: 10px;
-    @media (max-width: $breakpoint-tablet) {
-  		width: 90%;
-	}
+.noscroll{
+	@include transition(1.0s);
+	background-color : $background-light-color;
 }
 
-aside {	
-  float: right;
-  width: 300px / 960px * 90%;
-  border: 1px groove #EC407A;
-  @include border-radius(4px);
-  margin-left:10px;
-  margin-right:20px;
-  margin-bottom: 20px;
-  background: $secondary-color;
-  padding-left:10px;
-  padding-bottom:10px;
-  	@media (max-width: $breakpoint-tablet) {
-  		display:none;
-	}
+.active-noscroll{
+	@include transition(1.0s);
+	background-color : $background-color;
 }
 
-footer{
-	background: $footer-color;
-	width:100%;
-	height:22px;
-	position:fixed;
-	bottom:0;
-	left:0;
-	display: inline-block;
-	border-top: 1px solid #000;
-	border-bottom: 1px solid #000;
-	z-index: 1;
+.scroll{
+	@include transition(1.5s);
+	background-color : $background-color;
 }
 
-button{
-	height: 18px;
-	font-family: 'Raleway', sans-serif;
-    @include border-radius(4px);  
-	border-left: 1px outset #000;
-	border-right: 1px outset #000;
-	border-top: 1px outset #000;
-	border-bottom: 1px outset #000;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-top: 2px;
-	background: $primary-color;
-	float: left;
+.active-scroll{	
+	@include transition(1.5s);
+	background-color : $background-light-color;
 }
 
-button:hover{
-	background: $secondary-color;
-}
-
-button:active{
-	background: $active-color;
-}
-
-button:focus{
-	outline:none;
-}
-
-.btn-active{
-	background: $active-color;
-}
-
-#piano{
-	background: url("svg/piano.svg");
-	background-size: 100% 300px;
-	width:100%;
-	height:300px;
-	position:fixed;
-	overflow:hidden;
-}
-#pianonotes{
-	background: url("svg/pianonotes.svg");
-	background-size: 100% 300px;
-	width:100%;
-	height:300px;
-	position:fixed;
-	overflow:hidden;
-}
-#tc{
-	background-image: url("svg/tc.svg");
-	background-size: 100% 300px;
-	width:100%;
-	height:300px;
-	position:fixed;
-	overflow:hidden;
-}
-#bc{
-	background-image: url("svg/bc.svg");
-	background-size: 100% 300px;
-	width:100%;
-	height:300px;
-	position:fixed;
-	overflow:hidden;
-}
-#b{
-	background: url("svg/bass.svg");
-	background-size: 100% 300px;
-	width:100%;
-	height:300px;
-	position:fixed;
-	overflow:hidden;
-}
-#bn{
-	background: url("svg/bassnotes.svg");
-	background-size: 100% 300px;
-	width:100%;
-	height:300px;
-	position:fixed;
-	overflow:hidden;
-}
-#bt{
-	background: url("svg/bassnumbers.svg");
-	background-size: 100% 300px;
-	width:100%;
-	height:300px;
-	position:fixed;
-	overflow:hidden;
-}
-#full{
-	background-image: url("svg/tcnotes.svg");
-	background-size: 100% 300px;
-	width:100%;
-	height:300px;
-	position:fixed;
-	overflow:hidden;
-}
-#nd{
-	background-image: url("svg/bcnotes.svg");
-	background-size: 100% 300px;
-	width:100%;
-	height:300px;
-	position:fixed;
-	overflow:hidden;
-}
 .is-hidden{
-	bottom:-5000px;
+	display : none;
 }
 
 .is-active{
-	bottom:24px;
+	display : block;
 }
-.right{
-	float:right;
+
+/*
+ * Gradient
+ */
+.gradient{ 
+@include background-gradient (rgb(255, 138, 110) 0%, rgb(186, 218, 216) 100%);
+text-shadow: none;
+}
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+#l1:hover{
+  color:$prompt1-color;
+  text-shadow: none;
+}
+#l2:hover{
+  color:$prompt2-color;
+  text-shadow: none;
+}
+#l3:hover{
+  color:$prompt3-color;
+  text-shadow: none;
+}
+#l4:hover{
+  color:$prompt4-color;
+  text-shadow: none;
+}
+
+
+/*
+ * Buying Cycle
+ */
+
+.buyingcycle{
+  height: 100px;
+  padding-top: 5px;
+  text-align: center;
+}
+.buyingcycletwo{
+  height: 140px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+/* 
+ * Centered texts in each section
+ */
+.section{
+    text-align:left;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+/* 
+ * Overwriting styles for control arrows for slides
+ */
+.controlArrow.prev {
+    left: 50px;
+  }
+.controlArrow.next{
+    right: 50px;
+  }
+
+
+/*
+ * Footer
+ */
+
+  #footer{
+    position:fixed;
+    height: 3%;
+    display:block;
+    width: 100%;
+    z-index:9;
+    text-align:center;
+    vertical-align: text-top;
+    color: #000 !important;
+    padding: 0 0 0 0;
+    bottom:0px;
+  }
+  #footer:hover{
+    opacity: 1.0;
+  }
+
+/*
+ * Modal
+ */
+.modal, .modal p, .modal h1, .modal a{
+  color: #000;
+  text-shadow: none;
+  text-align: justify;
+}
+.modal a:hover{
+  color: #268;
+}
+#myModal, #myModal p, #myModal h1, #myModal a{
+  text-align: center;
+}
+
+/*
+ * Affix and center
+ */
+
+ #question{
+  position: fixed;
+  top: 50%;
+ }
+
+ .intro{
+  padding-top: 20px;
+  padding-bottom: 5%;
+ }
+
+@media (max-width: 768px) {
+  /* Pull out the header and footer */
+  #footer{
+    display: none;
+  }
+  .section{
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  #question{
+    display: none;
+  }
+  ul{
+    text-align: left;
+  }
+}
+.buyingcycle{
+  height: 150px;
+  padding-top: 5px;
+  text-align: center;
+}
+.buyingcycletwo{
+  height: 180px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .footer{
+    display: none;
+  }
 }

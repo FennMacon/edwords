@@ -1,6 +1,8 @@
 /*
  * Globals
  */
+body {
+  background-color: #bdf; }
 
 /* Links */
 a,
@@ -8,223 +10,245 @@ a:focus,
 a:hover {
   text-decoration: none;
   color: #fff;
+  text-shadow: 0px 0px 0px rgba(255, 255, 255, 0); }
 
-  text-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
-} 
-a{
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s;
-  }
-a:hover { 
+a {
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s; }
+
+a:hover {
   color: #000;
-  text-shadow: 0px 1px 2px rgba(255, 255, 255, 0.4);
-  }
+  text-shadow: 0px 1px 2px rgba(255, 255, 255, 0.4); }
 
 /*
  * Base structure
  */
-
 html,
 body {
   height: 100%;
-  width: 100%;
-}
+  width: 100%; }
+
 body {
   color: #fff;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,1);
-}
+  text-shadow: 0 1px 3px black; }
 
 .cover-container {
   margin-right: auto;
-  margin-left: auto;
-}
+  margin-left: auto; }
 
-.transparent{
-    opacity: 0.50;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
-    transition: opacity 1s;
-    -webkit-transition: opacity 1s;
-}
+.transparent {
+  opacity: 0.50;
+  filter: alpha(opacity=50);
+  /* For IE8 and earlier */
+  transition: opacity 1s;
+  -webkit-transition: opacity 1s; }
 
-h1{
-    font-size: 3em;
-    font-family: arial,helvetica;
-    color: #fff;
-    margin:0;
-  }
-p{
-    color: #fff;
-    font-size: 1em;
-  }
+h1 {
+  font-size: 3em;
+  font-family: arial,helvetica;
+  color: #fff;
+  margin: 0; }
 
+p {
+  color: #fff;
+  font-size: 1em; }
 
 /*
- * Header
+ * Nav Scrolling
  */
+.navbar {
+  border: none; }
 
- .navbar{
- }
+.navbar:hover {
+  -webkit-transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+  opacity: 1.0; }
+
+.noscroll {
+  -webkit-transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+  background-color: #cef; }
+
+.active-noscroll {
+  -webkit-transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+  background-color: #bdf; }
+
+.scroll {
+  -webkit-transition: all 1.5s ease-in;
+  -moz-transition: all 1.5s ease-in;
+  -o-transition: all 1.5s ease-in;
+  transition: all 1.5s ease-in;
+  background-color: #bdf; }
+
+.active-scroll {
+  -webkit-transition: all 1.5s ease-in;
+  -moz-transition: all 1.5s ease-in;
+  -o-transition: all 1.5s ease-in;
+  transition: all 1.5s ease-in;
+  background-color: #cef; }
+
+.is-hidden {
+  display: none; }
+
+.is-active {
+  display: block; }
 
 /*
  * Gradient
  */
-.gradient{ 
-background: rgb(255, 138, 110);
-background: -moz-linear-gradient(90deg, rgb(255, 138, 110) 0%, rgb(186, 218, 216) 100%);
-background: -webkit-linear-gradient(90deg, rgb(255, 138, 110) 0%, rgb(186, 218, 216) 100%);
-background: -o-linear-gradient(90deg, rgb(255, 138, 110) 0%, rgb(186, 218, 216) 100%);
-background: -ms-linear-gradient(90deg, rgb(255, 138, 110) 0%, rgb(186, 218, 216) 100%);
-background: linear-gradient(180deg, rgb(255, 138, 110) 0%, rgb(186, 218, 216) 100%);
-text-shadow: none;
-}
+.gradient {
+  background: #ff8a6e 0%;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#ff8a6e 0%, #badad8 100%);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#ff8a6e 0%, #badad8 100%);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#ff8a6e 0%, #badad8 100%);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#ff8a6e 0%, #badad8 100%);
+  /* Standard syntax */
+  text-shadow: none; }
+
 /*
  * Cover
  */
-
 .cover {
-  padding: 0;
-}
+  padding: 0; }
+
 .cover .btn-lg {
   padding: 10px 20px;
-  font-weight: bold;
-}
-ul{
-  list-style: none;
-  padding-left: 0;
-}
-#l1:hover{
-  color:#8a7369;
-  text-shadow: none;
-}
-#l2:hover{
-  color:#c79b87;
-  text-shadow: none;
-}
-#l3:hover{
-  color:#83d4ba;
-  text-shadow: none;
-}
-#l4:hover{
-  color:#dedece;
-  text-shadow: none;
-}
+  font-weight: bold; }
 
+ul {
+  list-style: none;
+  padding-left: 0; }
+
+#l1:hover {
+  color: #944;
+  text-shadow: none; }
+
+#l2:hover {
+  color: #494;
+  text-shadow: none; }
+
+#l3:hover {
+  color: #449;
+  text-shadow: none; }
+
+#l4:hover {
+  color: #499;
+  text-shadow: none; }
 
 /*
  * Buying Cycle
  */
-
-.buyingcycle{
+.buyingcycle {
   height: 100px;
   padding-top: 5px;
-  text-align: center;
-}
-.buyingcycletwo{
+  text-align: center; }
+
+.buyingcycletwo {
   height: 140px;
   padding-top: 5px;
-  text-align: center;
-}
+  text-align: center; }
 
 /* 
  * Centered texts in each section
  */
-.section{
-    text-align:left;
-    padding-left: 10%;
-    padding-right: 10%;
-  }
+.section {
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%; }
 
 /* 
  * Overwriting styles for control arrows for slides
  */
 .controlArrow.prev {
-    left: 50px;
-  }
-.controlArrow.next{
-    right: 50px;
-  }
+  left: 50px; }
 
+.controlArrow.next {
+  right: 50px; }
 
 /*
  * Footer
  */
+#footer {
+  position: fixed;
+  height: 3%;
+  display: block;
+  width: 100%;
+  z-index: 9;
+  text-align: center;
+  vertical-align: text-top;
+  color: #000 !important;
+  padding: 0 0 0 0;
+  bottom: 0px; }
 
-  #footer{
-    position:fixed;
-    height: 3%;
-    display:block;
-    width: 100%;
-    z-index:9;
-    text-align:center;
-    vertical-align: text-top;
-    color: #000 !important;
-    padding: 0 0 0 0;
-    bottom:0px;
-  }
-  #footer:hover{
-    opacity: 1.0;
-  }
+#footer:hover {
+  opacity: 1.0; }
 
 /*
  * Modal
  */
-.modal, .modal p, .modal h1, .modal a{
+.modal, .modal p, .modal h1, .modal a {
   color: #000;
   text-shadow: none;
-  text-align: justify;
-}
-.modal a:hover{
-  color: #268;
-}
-#myModal, #myModal p, #myModal h1, #myModal a{
-  text-align: center;
-}
+  text-align: justify; }
+
+.modal a:hover {
+  color: #268; }
+
+#myModal, #myModal p, #myModal h1, #myModal a {
+  text-align: center; }
 
 /*
  * Affix and center
  */
-
- #question{
+#question {
   position: fixed;
-  top: 50%;
- }
+  top: 50%; }
 
- .intro{
+.intro {
   padding-top: 20px;
-  padding-bottom: 5%;
- }
+  padding-bottom: 5%; }
 
 @media (max-width: 768px) {
   /* Pull out the header and footer */
-  #footer{
-    display: none;
-  }
-  .section{
+  #footer {
+    display: none; }
+
+  .section {
     padding-left: 15%;
-    padding-right: 15%;
-  }
-  #question{
-    display: none;
-  }
-  ul{
-    text-align: left;
-  }
-}
-.buyingcycle{
+    padding-right: 15%; }
+
+  #question {
+    display: none; }
+
+  ul {
+    text-align: left; } }
+.buyingcycle {
   height: 150px;
   padding-top: 5px;
-  text-align: center;
-}
-.buyingcycletwo{
+  text-align: center; }
+
+.buyingcycletwo {
   height: 180px;
   padding-top: 5px;
-  text-align: center;
-}
+  text-align: center; }
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
+  .footer {
+    display: none; } }
 
-}
+/*# sourceMappingURL=style.css.map */

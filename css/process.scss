@@ -1,14 +1,15 @@
-$main-color: #000;
-$prompt1-color: #944;
-$prompt2-color: #494;
-$prompt3-color: #449;
-$prompt4-color: #499;
-$prompt5-color: #994;
-$background-color: #bdf;
-$background-light-color: #cef;
+
+$main-color             : #000;
+$prompt1-color          : #944;
+$prompt2-color          : #494;
+$prompt3-color          : #449;
+$prompt4-color          : #499;
+$prompt5-color          : #994;
+$background-color       : #bdf;
+$background-light-color : #cef;
 
 body{
-	background-color: $background-color;
+	background-color : $background-color;
 }
 
 @mixin background-gradient ($color1,$color2) {
@@ -18,80 +19,175 @@ body{
     background: -moz-linear-gradient($color1,$color2); /* For Firefox 3.6 to 15 */
     background: linear-gradient($color1,$color2); /* Standard syntax */
 }
+
+@mixin border-radius($radius) {
+	border-radius         : $radius;
+	-webkit-border-radius : $radius;
+	-moz-border-radius    : $radius;
+	-ms-border-radius     : $radius;
+}
+
+@mixin transition($time){
+	-webkit-transition : all $time ease-in;
+	-moz-transition    : all $time ease-in;
+	-o-transition      : all $time ease-in;
+	transition         : all $time ease-in;
+}
+
 #fullpage{
 }
+
 .section{
-	margin: 100px 5% 100px 5%;
-	padding: 10%;
+	margin  : 100px 5% 100px 5%;
+	padding : 10%;
 }
+
 .section {
 	p, h1, h2, h3, h4, h5, h6 {
-	color: $background-color;
-	text-shadow: none;
+		color       : $background-color;
+		text-shadow : none;
 	}
 }
 
 .btn{
-	background-color: $background-color;
-	margin: 0 10px 0 10px;
-	padding: 10px;
-	border: none;
-	height: 20%;
+	height           : 20%;
+	margin           : 0 10px 0 10px;
+	padding          : 10px;
+
+	background-color : $background-color;
+	border           : none;
 }
+
 #aButton:hover{
-	background-color: $prompt1-color;
+	background-color : $prompt1-color;
 }
+
 #bButton:hover{
-	background-color: $prompt2-color;
+	background-color : $prompt2-color;
 }
+
 #cButton:hover{
-	background-color: $prompt3-color;
+	background-color : $prompt3-color;
 }
+
 #dButton:hover{
-	background-color: $prompt4-color;
+	background-color : $prompt4-color;
 }
+
 .btn-active{
-	background-color: $background-light-color;
+	background-color : $background-light-color;
 }
 
 #intro {
+	height  : 100%;
+	margin  : 10% 5% 0px 5%;
+	padding : 10%;
+
 	p, h1, h2, h3, h4, h5, h6 {
-	color: $main-color;
-	text-shadow:none;
-	text-align: left;
+		color       : $main-color;
+		text-align  : left;
+		text-shadow : none;
 	}
-	margin: 10% 5% 0px 5%;
-	padding: 10%;
-	height: 100%;	
-}
-#prompt1{
-	@include background-gradient ($prompt1-color,$main-color);
-}
-#prompt2{
-	@include background-gradient ($prompt2-color,$main-color);
-}
-#prompt3{
-	@include background-gradient ($prompt3-color,$main-color);
-}
-#prompt4{
-	@include background-gradient ($prompt4-color,$main-color);
-}
-#prompt5{
-	@include background-gradient ($prompt5-color,$main-color);
 }
 
-.is-hidden{
-	display:none;
+.footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	@include transition(1s);
+	opacity: 0.01;
+}
+.footer:hover{
+	@include transition(1s);
+	opacity: 1.0;
 }
 
-.is-active{
-	display:flex;
-}
 
 #buying{
-	background:$main-color;
-	color:$background-color;
+	background : $main-color;
+	color      : $background-color;
 }
+
 #buying h1{
-	color:$background-color;
+	color : $background-color;
+}
+
+.row {
+	margin : 10px auto 10px auto;
+	div{
+		@include border-radius(0px);
+		@include transition(1s);
+
+		background-color : $main-color;
+		color            : $background-color;
+		border           : 3px outset $background-light-color;
+	}
+	div:active{
+		border 			 : 3px inset $background-light-color; 	
+	}
+}
+
+#b1:hover{
+	@include transition(0.5s);
+	background-color : $prompt1-color;
+}
+
+#b2:hover{
+	@include transition(0.5s);
+	background-color : $prompt1-color;
+}
+
+#b3:hover{
+	@include transition(0.5s);
+	background-color : $prompt2-color;
+}
+
+#b4:hover{
+	@include transition(0.5s);
+	background-color : $prompt3-color;
+}
+
+#b5:hover{
+	@include transition(0.5s);
+	background-color : $prompt4-color;
+}
+
+#b6:hover{
+	@include transition(0.5s);
+	background-color : $prompt5-color;
+}
+
+#b7:hover{
+	@include transition(0.5s);
+	background-color : $prompt5-color;
+}
+
+#b8:hover{
+	@include transition(0.5s);
+	background-color : $prompt5-color;
+}
+
+#m1:hover{
+	@include transition(0.5s);
+	background-color : $prompt1-color;
+}
+
+#m2:hover{
+	@include transition(0.5s);
+	background-color : $prompt2-color;
+}
+
+#m3:hover{
+	@include transition(0.5s);
+	background-color : $prompt3-color;
+}
+
+#m4:hover{
+	@include transition(0.5s);
+	background-color : $prompt4-color;
+}
+
+#m5:hover{
+	@include transition(0.5s);
+	background-color : $prompt5-color;
 }
