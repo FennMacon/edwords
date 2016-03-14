@@ -97,11 +97,11 @@ body{
 	@include transition(1s);
 	opacity: 0.01;
 }
+
 .footer:hover{
 	@include transition(1s);
 	opacity: 1.0;
 }
-
 
 #buying{
 	background : $main-color;

@@ -5,7 +5,7 @@ body {
   height: 100%; }
 
 .section {
-  margin: 0px 5% 0px 5%;
+  margin: 0px 7% 0px 7%;
   padding: 10%; }
 
 .section p, .section h1, .section h2, .section h3, .section h4, .section h5, .section h6 {
@@ -40,7 +40,7 @@ body {
   background-color: #499; }
 
 #eButton:hover {
-  background-color: #994; }
+  background-color: #CCCC66; }
 
 .btn-active {
   background-color: #cef; }
@@ -103,15 +103,15 @@ body {
   /* Standard syntax */ }
 
 #prompt5 {
-  background: #994;
+  background: #CCCC66;
   /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#994, #000);
+  background: -webkit-linear-gradient(#CCCC66, #000);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#994, #000);
+  background: -o-linear-gradient(#CCCC66, #000);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#994, #000);
+  background: -moz-linear-gradient(#CCCC66, #000);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#994, #000);
+  background: linear-gradient(#CCCC66, #000);
   /* Standard syntax */ }
 
 .black {
