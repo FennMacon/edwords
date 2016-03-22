@@ -1,195 +1,101 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Edwords Creative</title>
-	<meta name="author" content="Fenn Macon" />
-	<meta name="description" content="fullPage full-screen navigation and sections control menu." />
-	<meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,navigation,control arrows, dots" />
-	<meta name="Resource-type" content="Document" />
-
-
-	<link rel="stylesheet" type="text/css" href="js/fullpage/jquery.fullPage.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Edwords Creative</title>
+    <meta name="author" content="Fenn Macon" />
+    <meta name="description" content="fullPage full-screen navigation and sections control menu." />
+    <meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,navigation,control arrows, dots" />
+    <meta name="Resource-type" content="Document" />
+    <link rel="stylesheet" type="text/css" href="js/fullpage/jquery.fullPage.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css" />	
-
-	<!--[if IE]>
-		<script type="text/javascript">
-			 var console = { log: function() {} };
-		</script>
-	<![endif]-->
-
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-
-	<script type="text/javascript" src="js/fullpage/vendors/jquery.slimscroll.min.js"></script>
-
-	<script type="text/javascript" src="js/fullpage/jquery.fullPage.js"></script>
-
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('#fullpage').fullpage({
-				anchors: ['landing'],
-			});
-		});
-	</script>
-
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!--[if IE]>
+    <script type="text/javascript">
+    var console = { log: function() {} };
+    </script>
+    <![endif]-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/fullpage/vendors/jquery.slimscroll.min.js"></script>
+    <script type="text/javascript" src="js/fullpage/jquery.fullPage.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+    $('#fullpage').fullpage({
+    anchors: ['landing'],
+    });
+    });
+    </script>
+  </head>
+  <body>
     <nav class="navbar navbar-default navbar-fixed-top noscroll" id="nb">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="#" data-toggle="modal" data-target="#myModal">Edwords Creative</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">                  
-          	  <li class="active-noscroll" id="active"><a href="#">Home</a></li>
-	          <li><a href="./resume.html">Resume</a></li>
-	          <li><a href="./clients.html">Client List</a></li>
-	          <li><a href="./process.html">Process</a></li>
-	          <li><a href="./reasonstohire.html">Reasons to Hire</a></li>
-	          <li><a href="./portfolio.html">Portfolio</a></li>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active-noscroll" id="active"><a href="#">Home</a></li>
+            <li><a href="./resume.html">Resume</a></li>
+            <li><a href="./clients.html">Client List</a></li>
+            <li><a href="./process.html">Process</a></li>
+            <li><a href="./reasonstohire.html">Reasons to Hire</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+      <!-- MODALS -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Edwords Creative</h4>
+            </div>
+            <div class="modal-body">
+              <h1>Edward Bernard</h1>
+              <br>
+              <p>200 Nashoba Road</p>
+              <p>Concord, MA 01742</p>
+              <p>978-371-5585</p>
+              <p><a title="Let's chat" href="mailto:ed-words@mindspring.com">ed-words@mindspring.com</a></p>
+              <p><a href="http://edwordscreative.com">http://edwordscreative.com</a></p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
       </div>
-    </nav>
-
-<!-- MODALS -->    
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Edwords Creative</h4>
+      <div id="footer">
+        <p>978-371-5585 • <a title="Let's chat" href="mailto:ed-words@mindspring.com">Ed-Words@mindspring.com</a> • 200 Nashoba Road Concord MA 01742</p>
       </div>
-      <div class="modal-body">
-        <h1>Edward Bernard</h1>
-
-		<br>
-
-		<p>200 Nashoba Road</p>
-		<p>Concord, MA 01742</p>
-		<p>978-371-5585</p>
-		<p><a title="Let's chat" href="mailto:ed-words@mindspring.com">ed-words@mindspring.com</a></p>
-		<p><a href="http://edwordscreative.com">http://edwordscreative.com</a></p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-	<div id="footer">
-          <p>978-371-5585 • <a title="Let's chat" href="mailto:ed-words@mindspring.com">Ed-Words@mindspring.com</a> • 200 Nashoba Road Concord MA 01742</p>
-    </div>
-
-<div class="modal fade" id="story" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Tell Your Story</h4>
-      </div>
-      <div class="modal-body">
-        <p>Behind every great product or company is a story. A company’s story forges a powerful connection between the company and its customers.  </p>
-
-		<p>There are many ways to tell a company’s story – advertising, web sites, e-mails, personal comments from senior executives.  Consistent themes across all communications builds the brand.  </p>
-
-		<p>I believe in getting under the hood of each product, going beyond features and benefits to add context, depth, and perspective.  By building stories about your products and brand, you turn your customers from buyers into believers.  </p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="response" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Create a Response</h4>
-      </div>
-      <div class="modal-body">
-        <p>I cut my teeth in direct marketing, a medium generally reviled by brand-conscious marketers, because they (often rightly) think that tacky DR harms their brand (while still being effective and thus hard to kill.</p>
-
-        <p>At Hill Holliday, I was told to do direct “that didn’t suck.”I discovered that branding and DR are actually two sides of the same coin … that when the branding is emotionally rich, it generates response.</p>
-
-        <p>Still don’t love DR? Then think of it as “brand advertising that pays for itself.”</p>
-
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="brand" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Define your Brand</h4>
-      </div>
-      <div class="modal-body">
-		    <p>The power of a brand is nearly incalculable. Every business, large or small, needs to define, articulate and promote their brand.</p>
-
-        <p>I work with clients to develop their brand, using a disciplined yet flexible plan revolving around differentiators and core messages. The result is a document that both supplies content for all consumer-facing materials, and serves as a measuring stick for the future.</p>
-
-        <p>It doesn’t make for a flashy show on a web page. But it does provide messages for ALL your audiences, in ALL your interactions that are powerful, differentiating and memorable.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="money" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Raise Money</h4>
-      </div>
-      <div class="modal-body">
-        <p>Fundraising is unique -- the donor is asked to spend money on something that yields no tangible or immediate benefit.  Or so it seems.  In reality, fundraising is most effective when it uncovers the core benefit that motivates contributions (not just “we need the money”).</p>
-          	
-      	<p>The key is to understand the the real reasons that people give.  Once that connection is established, you can raise more money from more donors without increasing costs.</p>
-          	
-      	<p>I have found that stories work best. The truth is, donors don’t care that much about your organization … they care about their money helping people. </p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div id="fullpage">
-	<div class="section" id="section0">
-		<h3 class="text-left clearfix" id="question">What do you need to do?</h3>
-        	<ul class="text-right">
-				<li><a href="#story" data-toggle="modal" data-target="#story" id="l1"><h2>Tell your story</h2></a></li>
-				<li><a href="#response" data-toggle="modal" data-target="#response" id="l2"><h2>Create a response</h2></a></li>
-				<li><a href="#brand" data-toggle="modal" data-target="#brand" id="l3"><h2>Define your brand</h2></a></li>
-				<li><a href="#money" data-toggle="modal" data-target="#money" id="l4"><h2>Raise money</h2></a></li>
-			</ul>
-	</div>
-</div>
-<script src="js/bootstrap.min.js"></script>
-</body>
-</html>
+      <div id="fullpage">
+        <div class="section" id="section0">
+          <div id="qa" class="col-md-12 gradient">
+            <div id="response" class="col-md-6 col-sm-8 col-xs-8">
+              <h3 class="text-left clearfix" id="question">What do you need to do?</h3>
+            </div>
+            <div class="q">
+              <ul class="text-right">
+                <li><a id="l1" class="l"><h2>Tell your story</h2></a></li>
+                <li><a id="l2" class="l"><h2>Create a response</h2></a></li>
+                <li><a id="l3" class="l"><h2>Define your brand</h2></a></li>
+                <li><a id="l4" class="l"><h2>Raise money</h2></a></li>
+              </ul>
+            </div>
+        </div>
+        <script src="js/fourpanel.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+      </body>
+    </html>

@@ -1,37 +1,7 @@
-
-$main-color             : #000;
-$prompt1-color          : #944;
-$prompt2-color          : #494;
-$prompt3-color          : #449;
-$prompt4-color          : #499;
-$prompt5-color          : #994;
-$background-color       : #bdf;
-$background-light-color : #cef;
+@import 'globals';
 
 body{
 	background-color : $background-color;
-}
-
-@mixin background-gradient ($color1,$color2) {
-    background: $color1; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient($color1,$color2); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient($color1,$color2); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient($color1,$color2); /* For Firefox 3.6 to 15 */
-    background: linear-gradient($color1,$color2); /* Standard syntax */
-}
-
-@mixin border-radius($radius) {
-	border-radius         : $radius;
-	-webkit-border-radius : $radius;
-	-moz-border-radius    : $radius;
-	-ms-border-radius     : $radius;
-}
-
-@mixin transition($time){
-	-webkit-transition : all $time ease-in;
-	-moz-transition    : all $time ease-in;
-	-o-transition      : all $time ease-in;
-	transition         : all $time ease-in;
 }
 
 #fullpage{
@@ -44,7 +14,7 @@ body{
 
 .section {
 	p, h1, h2, h3, h4, h5, h6 {
-		color       : $background-color;
+		color       : $main-color;
 		text-shadow : none;
 	}
 }
@@ -104,12 +74,12 @@ body{
 }
 
 #buying{
-	background : $main-color;
-	color      : $background-color;
+	background : $background-light-color;
+	color      : $main-color;
 }
 
 #buying h1{
-	color : $background-color;
+	color : $main-color;
 }
 
 .row {

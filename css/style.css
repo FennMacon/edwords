@@ -1,27 +1,28 @@
 /*
  * Globals
  */
-body {
-  background-color: #bdf; }
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+*, body, p {
+  text-shadow: none;
+  color: #212121;
+  font-family: "Cabin", sans-serif; }
 
 /* Links */
 a,
 a:focus,
 a:hover {
   text-decoration: none;
-  color: #fff;
-  text-shadow: 0px 0px 0px rgba(255, 255, 255, 0); }
+  color: #212121;
+  text-shadow: none; }
 
 a {
-  -o-transition: .5s;
-  -ms-transition: .5s;
-  -moz-transition: .5s;
-  -webkit-transition: .5s;
-  transition: .5s; }
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in; }
 
 a:hover {
-  color: #000;
-  text-shadow: 0px 1px 2px rgba(255, 255, 255, 0.4); }
+  color: #B0BEC5; }
 
 /*
  * Base structure
@@ -32,7 +33,8 @@ body {
   width: 100%; }
 
 body {
-  color: #fff;
+  background-color: #ECEFF1;
+  color: #212121;
   text-align: center;
   text-shadow: 0 1px 3px black; }
 
@@ -50,11 +52,12 @@ body {
 h1 {
   font-size: 3em;
   font-family: arial,helvetica;
-  color: #fff;
-  margin: 0; }
+  color: #212121;
+  margin: 0;
+  text-shadow: none; }
 
 p {
-  color: #fff;
+  color: #212121;
   font-size: 1em; }
 
 /*
@@ -62,6 +65,11 @@ p {
  */
 .navbar {
   border: none; }
+  .navbar li a {
+    color: #212121; }
+
+.navbar-default .navbar-brand {
+  color: #212121; }
 
 .navbar:hover {
   -webkit-transition: all 1s ease-in;
@@ -70,33 +78,42 @@ p {
   transition: all 1s ease-in;
   opacity: 1.0; }
 
+.navbar-default .navbar-nav > li > a {
+  color: #212121; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #ECEFF1; }
+
 .noscroll {
   -webkit-transition: all 1s ease-in;
   -moz-transition: all 1s ease-in;
   -o-transition: all 1s ease-in;
   transition: all 1s ease-in;
-  background-color: #cef; }
+  background-color: #B0BEC5; }
 
 .active-noscroll {
   -webkit-transition: all 1s ease-in;
   -moz-transition: all 1s ease-in;
   -o-transition: all 1s ease-in;
   transition: all 1s ease-in;
-  background-color: #bdf; }
+  background-color: #ECEFF1; }
 
 .scroll {
   -webkit-transition: all 1.5s ease-in;
   -moz-transition: all 1.5s ease-in;
   -o-transition: all 1.5s ease-in;
   transition: all 1.5s ease-in;
-  background-color: #bdf; }
+  background-color: #ECEFF1; }
+
+.scroll:hover {
+  background-color: #B0BEC5; }
 
 .active-scroll {
   -webkit-transition: all 1.5s ease-in;
   -moz-transition: all 1.5s ease-in;
   -o-transition: all 1.5s ease-in;
   transition: all 1.5s ease-in;
-  background-color: #cef; }
+  background-color: #B0BEC5; }
 
 .is-hidden {
   display: none; }
@@ -108,15 +125,15 @@ p {
  * Gradient
  */
 .gradient {
-  background: #ff8a6e 0%;
+  background: #B0BEC5 5%;
   /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#ff8a6e 0%, #badad8 100%);
+  background: -webkit-linear-gradient(#B0BEC5 5%, #ECEFF1 100%);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#ff8a6e 0%, #badad8 100%);
+  background: -o-linear-gradient(#B0BEC5 5%, #ECEFF1 100%);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#ff8a6e 0%, #badad8 100%);
+  background: -moz-linear-gradient(#B0BEC5 5%, #ECEFF1 100%);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#ff8a6e 0%, #badad8 100%);
+  background: linear-gradient(#B0BEC5 5%, #ECEFF1 100%);
   /* Standard syntax */
   text-shadow: none; }
 
@@ -135,20 +152,30 @@ ul {
   padding-left: 0; }
 
 #l1:hover {
-  color: #944;
+  color: #E57373;
   text-shadow: none; }
 
 #l2:hover {
-  color: #494;
+  color: #FFA000;
   text-shadow: none; }
 
 #l3:hover {
-  color: #449;
+  color: #00BCD4;
   text-shadow: none; }
 
 #l4:hover {
-  color: #499;
+  color: #26A69A;
   text-shadow: none; }
+
+/*
+ * Main splash
+ */
+#qa {
+  border: 1px solid #212121;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px; }
 
 /*
  * Buying Cycle
@@ -188,15 +215,12 @@ ul {
   height: 3%;
   display: block;
   width: 100%;
-  z-index: 9;
   text-align: center;
   vertical-align: text-top;
-  color: #000 !important;
   padding: 0 0 0 0;
-  bottom: 0px; }
-
-#footer:hover {
-  opacity: 1.0; }
+  bottom: 0px;
+  text-shadow: none;
+  color: #212121; }
 
 /*
  * Modal
@@ -215,9 +239,10 @@ ul {
 /*
  * Affix and center
  */
-#question {
+#response {
   position: fixed;
-  top: 50%; }
+  vertical-align: center;
+  margin-top: 20px; }
 
 .intro {
   padding-top: 20px;
@@ -232,11 +257,11 @@ ul {
     padding-left: 15%;
     padding-right: 15%; }
 
-  #question {
-    display: none; }
-
   ul {
-    text-align: left; } }
+    text-align: left; }
+
+  .q ul {
+    display: inline; } }
 .buyingcycle {
   height: 150px;
   padding-top: 5px;

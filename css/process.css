@@ -1,42 +1,46 @@
+/*
+ * Globals
+ */
+@import url(https://fonts.googleapis.com/css?family=Cabin);
 body {
-  background-color: #bdf; }
+  background-color: #ECEFF1; }
 
 .section {
   margin: 100px 5% 100px 5%;
   padding: 10%; }
 
 .section p, .section h1, .section h2, .section h3, .section h4, .section h5, .section h6 {
-  color: #bdf;
+  color: #212121;
   text-shadow: none; }
 
 .btn {
   height: 20%;
   margin: 0 10px 0 10px;
   padding: 10px;
-  background-color: #bdf;
+  background-color: #ECEFF1;
   border: none; }
 
 #aButton:hover {
-  background-color: #944; }
+  background-color: #E57373; }
 
 #bButton:hover {
-  background-color: #494; }
+  background-color: #FFA000; }
 
 #cButton:hover {
-  background-color: #449; }
+  background-color: #00BCD4; }
 
 #dButton:hover {
-  background-color: #499; }
+  background-color: #26A69A; }
 
 .btn-active {
-  background-color: #cef; }
+  background-color: #B0BEC5; }
 
 #intro {
   height: 100%;
   margin: 10% 5% 0px 5%;
   padding: 10%; }
   #intro p, #intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6 {
-    color: #000;
+    color: #212121;
     text-align: left;
     text-shadow: none; }
 
@@ -58,11 +62,11 @@ body {
   opacity: 1.0; }
 
 #buying {
-  background: #000;
-  color: #bdf; }
+  background: #B0BEC5;
+  color: #212121; }
 
 #buying h1 {
-  color: #bdf; }
+  color: #212121; }
 
 .row {
   margin: 10px auto 10px auto; }
@@ -75,101 +79,101 @@ body {
     -moz-transition: all 1s ease-in;
     -o-transition: all 1s ease-in;
     transition: all 1s ease-in;
-    background-color: #000;
-    color: #bdf;
-    border: 3px outset #cef; }
+    background-color: #212121;
+    color: #ECEFF1;
+    border: 3px outset #B0BEC5; }
   .row div:active {
-    border: 3px inset #cef; }
+    border: 3px inset #B0BEC5; }
 
 #b1:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #944; }
+  background-color: #E57373; }
 
 #b2:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #944; }
+  background-color: #E57373; }
 
 #b3:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #494; }
+  background-color: #FFA000; }
 
 #b4:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #449; }
+  background-color: #00BCD4; }
 
 #b5:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #499; }
+  background-color: #26A69A; }
 
 #b6:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #994; }
+  background-color: #B39DDB; }
 
 #b7:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #994; }
+  background-color: #B39DDB; }
 
 #b8:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #994; }
+  background-color: #B39DDB; }
 
 #m1:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #944; }
+  background-color: #E57373; }
 
 #m2:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #494; }
+  background-color: #FFA000; }
 
 #m3:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #449; }
+  background-color: #00BCD4; }
 
 #m4:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #499; }
+  background-color: #26A69A; }
 
 #m5:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #994; }
+  background-color: #B39DDB; }
 
 /*# sourceMappingURL=process.css.map */

@@ -1,5 +1,9 @@
+/*
+ * Globals
+ */
+@import url(https://fonts.googleapis.com/css?family=Cabin);
 body {
-  background-color: #bdf; }
+  background-color: #ECEFF1; }
 
 #fullpage {
   height: 100%; }
@@ -9,7 +13,7 @@ body {
   padding: 10%; }
 
 .section p, .section h1, .section h2, .section h3, .section h4, .section h5, .section h6 {
-  color: #bdf;
+  color: #ECEFF1;
   text-shadow: none; }
 
 .section a {
@@ -17,131 +21,131 @@ body {
   font-size: 24px; }
 
 .section a:hover {
-  color: #bdf;
+  color: #ECEFF1;
   text-shadow: none; }
 
 .btn {
   height: 20%;
   margin: 0 10px 0 10px;
   padding: 10px;
-  background-color: #bdf;
+  background-color: #ECEFF1;
   border: none; }
 
 #aButton:hover {
-  background-color: #944; }
+  background-color: #E57373; }
 
 #bButton:hover {
-  background-color: #494; }
+  background-color: #FFA000; }
 
 #cButton:hover {
-  background-color: #449; }
+  background-color: #00BCD4; }
 
 #dButton:hover {
-  background-color: #499; }
+  background-color: #26A69A; }
 
 #eButton:hover {
-  background-color: #CCCC66; }
+  background-color: #B39DDB; }
 
 .btn-active {
-  background-color: #cef; }
+  background-color: #B0BEC5; }
 
 #intro {
   height: 100%;
   margin: 10% 5% 0px 5%;
   padding: 10%; }
   #intro p, #intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6 {
-    color: #000;
+    color: #212121;
     text-align: left;
     text-shadow: none; }
 
 #prompt1 {
-  background: #944;
+  background: #E57373;
   /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#944, #000);
+  background: -webkit-linear-gradient(#E57373, #212121);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#944, #000);
+  background: -o-linear-gradient(#E57373, #212121);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#944, #000);
+  background: -moz-linear-gradient(#E57373, #212121);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#944, #000);
+  background: linear-gradient(#E57373, #212121);
   /* Standard syntax */ }
 
 #prompt2 {
-  background: #494;
+  background: #FFA000;
   /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#494, #000);
+  background: -webkit-linear-gradient(#FFA000, #212121);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#494, #000);
+  background: -o-linear-gradient(#FFA000, #212121);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#494, #000);
+  background: -moz-linear-gradient(#FFA000, #212121);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#494, #000);
+  background: linear-gradient(#FFA000, #212121);
   /* Standard syntax */ }
 
 #prompt3 {
-  background: #449;
+  background: #00BCD4;
   /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#449, #000);
+  background: -webkit-linear-gradient(#00BCD4, #212121);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#449, #000);
+  background: -o-linear-gradient(#00BCD4, #212121);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#449, #000);
+  background: -moz-linear-gradient(#00BCD4, #212121);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#449, #000);
+  background: linear-gradient(#00BCD4, #212121);
   /* Standard syntax */ }
 
 #prompt4 {
-  background: #499;
+  background: #26A69A;
   /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#499, #000);
+  background: -webkit-linear-gradient(#26A69A, #212121);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#499, #000);
+  background: -o-linear-gradient(#26A69A, #212121);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#499, #000);
+  background: -moz-linear-gradient(#26A69A, #212121);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#499, #000);
+  background: linear-gradient(#26A69A, #212121);
   /* Standard syntax */ }
 
 #prompt5 {
-  background: #CCCC66;
+  background: #B39DDB;
   /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#CCCC66, #000);
+  background: -webkit-linear-gradient(#B39DDB, #212121);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#CCCC66, #000);
+  background: -o-linear-gradient(#B39DDB, #212121);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#CCCC66, #000);
+  background: -moz-linear-gradient(#B39DDB, #212121);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#CCCC66, #000);
+  background: linear-gradient(#B39DDB, #212121);
   /* Standard syntax */ }
 
 .black {
   padding-top: 100px;
-  background: #000;
-  color: #bdf; }
+  background: #212121;
+  color: #ECEFF1; }
 
 .black h1 {
-  color: #bdf; }
+  color: #ECEFF1; }
 
 #clientList {
   margin-bottom: 100px; }
 
 .modal p, .modal h3, .modal h4 {
-  color: #000; }
+  color: #212121; }
 
 .button {
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
-  background: #bdf;
-  color: #000;
-  border: 1px solid #cef; }
+  background: #ECEFF1;
+  color: #212121;
+  border: 1px solid #B0BEC5; }
 
 .button:hover {
-  background: #cef; }
+  background: #B0BEC5; }
 
 .button:active {
-  background: #bdf; }
+  background: #ECEFF1; }
 
 .button:focus {
   outline: none; }

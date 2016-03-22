@@ -1,62 +1,24 @@
-/*
- * Globals
- */
+@import 'globals';
 
-$main-color             : #000;
-$prompt1-color          : #944;
-$prompt2-color          : #494;
-$prompt3-color          : #449;
-$prompt4-color          : #499;
-$prompt5-color          : #994;
-$background-color       : #bdf;
-$background-light-color : #cef;
-
-body{
-	background-color : $background-color;
-}
-
-@mixin background-gradient ($color1,$color2) {
-    background: $color1; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient($color1,$color2); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient($color1,$color2); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient($color1,$color2); /* For Firefox 3.6 to 15 */
-    background: linear-gradient($color1,$color2); /* Standard syntax */
-}
-
-@mixin border-radius($radius) {
-	border-radius         : $radius;
-	-webkit-border-radius : $radius;
-	-moz-border-radius    : $radius;
-	-ms-border-radius     : $radius;
-}
-
-@mixin transition($time){
-	-webkit-transition : all $time ease-in;
-	-moz-transition    : all $time ease-in;
-	-o-transition      : all $time ease-in;
-	transition         : all $time ease-in;
-}
-
+*,body,p{
+  text-shadow:none;
+  color: $main-color;
+  font-family: $font;
+  }
 
 /* Links */
 a,
 a:focus,
 a:hover {
   text-decoration: none;
-  color: #fff;
-
-  text-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+  color: $main-color;
+  text-shadow: none;
 } 
 a{
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s;
+  @include transition(0.5s);
   }
 a:hover { 
-  color: #000;
-  text-shadow: 0px 1px 2px rgba(255, 255, 255, 0.4);
+  color: $background-light-color;
   }
 
 /*
@@ -69,7 +31,8 @@ body {
   width: 100%;
 }
 body {
-  color: #fff;
+  background-color : $background-color;
+  color: $main-color;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,1);
 }
@@ -89,11 +52,12 @@ body {
 h1{
     font-size: 3em;
     font-family: arial,helvetica;
-    color: #fff;
+    color: $main-color;
     margin:0;
+    text-shadow: none;
   }
 p{
-    color: #fff;
+    color: $main-color;
     font-size: 1em;
   }
 
@@ -104,11 +68,26 @@ p{
 
 .navbar{
 	border:none;
+  li a{
+  color: $main-color;
+  }
+}
+
+.navbar-default .navbar-brand{
+  color: $main-color;
 }
 
 .navbar:hover{
 	@include transition(1.0s);
 	opacity : 1.0;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: $main-color;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+  background-color:$background-color;
 }
 
 .noscroll{
@@ -126,6 +105,10 @@ p{
 	background-color : $background-color;
 }
 
+.scroll:hover{
+  background-color : $background-light-color;
+}
+
 .active-scroll{	
 	@include transition(1.5s);
 	background-color : $background-light-color;
@@ -138,14 +121,15 @@ p{
 .is-active{
 	display : block;
 }
-
 /*
  * Gradient
  */
+
 .gradient{ 
-@include background-gradient (rgb(255, 138, 110) 0%, rgb(186, 218, 216) 100%);
+@include background-gradient ($background-light-color 5%, $background-color 100%);
 text-shadow: none;
 }
+
 /*
  * Cover
  */
@@ -176,6 +160,15 @@ ul{
 #l4:hover{
   color:$prompt4-color;
   text-shadow: none;
+}
+
+/*
+ * Main splash
+ */
+
+#qa{
+  border: 1px solid $main-color;
+  @include border-radius(3px);
 }
 
 
@@ -223,15 +216,12 @@ ul{
     height: 3%;
     display:block;
     width: 100%;
-    z-index:9;
     text-align:center;
     vertical-align: text-top;
-    color: #000 !important;
     padding: 0 0 0 0;
     bottom:0px;
-  }
-  #footer:hover{
-    opacity: 1.0;
+    text-shadow: none;
+    color: $main-color;
   }
 
 /*
@@ -253,9 +243,10 @@ ul{
  * Affix and center
  */
 
- #question{
+ #response{
   position: fixed;
-  top: 50%;
+  vertical-align: center;
+  margin-top: 20px;
  }
 
  .intro{
@@ -272,11 +263,13 @@ ul{
     padding-left: 15%;
     padding-right: 15%;
   }
-  #question{
-    display: none;
-  }
   ul{
     text-align: left;
+  }
+  #response{
+  }
+  .q ul{
+    display: inline;
   }
 }
 .buyingcycle{
