@@ -47,7 +47,7 @@ body {
   background-color: #B39DDB; }
 
 .btn-active {
-  background-color: #B0BEC5; }
+  background-color: #88BB88; }
 
 #intro {
   height: 100%;
@@ -139,10 +139,10 @@ body {
   -ms-border-radius: 10px;
   background: #ECEFF1;
   color: #212121;
-  border: 1px solid #B0BEC5; }
+  border: 1px solid #88BB88; }
 
 .button:hover {
-  background: #B0BEC5; }
+  background: #88BB88; }
 
 .button:active {
   background: #ECEFF1; }

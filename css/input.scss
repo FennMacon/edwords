@@ -103,6 +103,7 @@ p{
 .scroll{
 	@include transition(1.5s);
 	background-color : $background-color;
+  opacity: 0.9;
 }
 
 .scroll:hover{
@@ -112,6 +113,7 @@ p{
 .active-scroll{	
 	@include transition(1.5s);
 	background-color : $background-light-color;
+  opacity: 0.9;
 }
 
 .is-hidden{
@@ -119,7 +121,7 @@ p{
 }
 
 .is-active{
-	display : block;
+	display : flex;
 }
 /*
  * Gradient
@@ -161,6 +163,23 @@ ul{
   color:$prompt4-color;
   text-shadow: none;
 }
+.l1h{
+  @include transition(1.5s);
+  background-color:$prompt1-color;
+}
+.l2h{
+  @include transition(1.5s);
+  background-color:$prompt2-color;
+}
+.l3h{
+  @include transition(1.5s);
+  background-color:$prompt3-color;
+}
+.l4h{
+  @include transition(1.5s);
+  background-color:$prompt4-color;
+}
+
 
 /*
  * Main splash
@@ -169,7 +188,20 @@ ul{
 #qa{
   border: 1px solid $main-color;
   @include border-radius(3px);
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: center;
 }
+#question{
+  
+}
+#answer{
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+
 
 
 /*
@@ -194,6 +226,7 @@ ul{
     text-align:left;
     padding-left: 10%;
     padding-right: 10%;
+    margin-top: 30px;
   }
 
 /* 
@@ -243,12 +276,6 @@ ul{
  * Affix and center
  */
 
- #response{
-  position: fixed;
-  vertical-align: center;
-  margin-top: 20px;
- }
-
  .intro{
   padding-top: 20px;
   padding-bottom: 5%;
@@ -256,6 +283,9 @@ ul{
 
 @media (max-width: 768px) {
   /* Pull out the header and footer */
+  *, body{
+  overflow: scroll;
+  }
   #footer{
     display: none;
   }
@@ -266,10 +296,20 @@ ul{
   ul{
     text-align: left;
   }
-  #response{
+  #qa{
+  border: 1px solid $main-color;
+  @include border-radius(3px);
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  justify-content: center;
   }
-  .q ul{
-    display: inline;
+  
+  #question{
+    order: 1;
+  }
+  #answer{
+    order: -1;
   }
 }
 .buyingcycle{

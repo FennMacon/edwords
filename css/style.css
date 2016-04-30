@@ -22,7 +22,7 @@ a {
   transition: all 0.5s ease-in; }
 
 a:hover {
-  color: #B0BEC5; }
+  color: #88BB88; }
 
 /*
  * Base structure
@@ -89,7 +89,7 @@ p {
   -moz-transition: all 1s ease-in;
   -o-transition: all 1s ease-in;
   transition: all 1s ease-in;
-  background-color: #B0BEC5; }
+  background-color: #88BB88; }
 
 .active-noscroll {
   -webkit-transition: all 1s ease-in;
@@ -103,37 +103,39 @@ p {
   -moz-transition: all 1.5s ease-in;
   -o-transition: all 1.5s ease-in;
   transition: all 1.5s ease-in;
-  background-color: #ECEFF1; }
+  background-color: #ECEFF1;
+  opacity: 0.9; }
 
 .scroll:hover {
-  background-color: #B0BEC5; }
+  background-color: #88BB88; }
 
 .active-scroll {
   -webkit-transition: all 1.5s ease-in;
   -moz-transition: all 1.5s ease-in;
   -o-transition: all 1.5s ease-in;
   transition: all 1.5s ease-in;
-  background-color: #B0BEC5; }
+  background-color: #88BB88;
+  opacity: 0.9; }
 
 .is-hidden {
   display: none; }
 
 .is-active {
-  display: block; }
+  display: flex; }
 
 /*
  * Gradient
  */
 .gradient {
-  background: #B0BEC5 5%;
+  background: #88BB88 5%;
   /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#B0BEC5 5%, #ECEFF1 100%);
+  background: -webkit-linear-gradient(#88BB88 5%, #ECEFF1 100%);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#B0BEC5 5%, #ECEFF1 100%);
+  background: -o-linear-gradient(#88BB88 5%, #ECEFF1 100%);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#B0BEC5 5%, #ECEFF1 100%);
+  background: -moz-linear-gradient(#88BB88 5%, #ECEFF1 100%);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#B0BEC5 5%, #ECEFF1 100%);
+  background: linear-gradient(#88BB88 5%, #ECEFF1 100%);
   /* Standard syntax */
   text-shadow: none; }
 
@@ -167,6 +169,34 @@ ul {
   color: #26A69A;
   text-shadow: none; }
 
+.l1h {
+  -webkit-transition: all 1.5s ease-in;
+  -moz-transition: all 1.5s ease-in;
+  -o-transition: all 1.5s ease-in;
+  transition: all 1.5s ease-in;
+  background-color: #E57373; }
+
+.l2h {
+  -webkit-transition: all 1.5s ease-in;
+  -moz-transition: all 1.5s ease-in;
+  -o-transition: all 1.5s ease-in;
+  transition: all 1.5s ease-in;
+  background-color: #FFA000; }
+
+.l3h {
+  -webkit-transition: all 1.5s ease-in;
+  -moz-transition: all 1.5s ease-in;
+  -o-transition: all 1.5s ease-in;
+  transition: all 1.5s ease-in;
+  background-color: #00BCD4; }
+
+.l4h {
+  -webkit-transition: all 1.5s ease-in;
+  -moz-transition: all 1.5s ease-in;
+  -o-transition: all 1.5s ease-in;
+  transition: all 1.5s ease-in;
+  background-color: #26A69A; }
+
 /*
  * Main splash
  */
@@ -175,7 +205,15 @@ ul {
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  -ms-border-radius: 3px; }
+  -ms-border-radius: 3px;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: center; }
+
+#answer {
+  flex-flow: row wrap;
+  justify-content: space-between; }
 
 /*
  * Buying Cycle
@@ -196,7 +234,8 @@ ul {
 .section {
   text-align: left;
   padding-left: 10%;
-  padding-right: 10%; }
+  padding-right: 10%;
+  margin-top: 30px; }
 
 /* 
  * Overwriting styles for control arrows for slides
@@ -239,17 +278,15 @@ ul {
 /*
  * Affix and center
  */
-#response {
-  position: fixed;
-  vertical-align: center;
-  margin-top: 20px; }
-
 .intro {
   padding-top: 20px;
   padding-bottom: 5%; }
 
 @media (max-width: 768px) {
   /* Pull out the header and footer */
+  *, body {
+    overflow: scroll; }
+
   #footer {
     display: none; }
 
@@ -260,8 +297,22 @@ ul {
   ul {
     text-align: left; }
 
-  .q ul {
-    display: inline; } }
+  #qa {
+    border: 1px solid #212121;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: center; }
+
+  #question {
+    order: 1; }
+
+  #answer {
+    order: -1; } }
 .buyingcycle {
   height: 150px;
   padding-top: 5px;
