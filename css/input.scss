@@ -186,7 +186,6 @@ ul{
  */
 
 #qa{
-  border: 1px solid $main-color;
   @include border-radius(3px);
   display: flex;
   flex-flow: row wrap;
@@ -194,14 +193,68 @@ ul{
   justify-content: center;
 }
 #question{
-  
+  padding-top: 30%;
+  padding-right: 3px;
 }
 #answer{
+  padding-top: 30%;
   flex-flow: row wrap;
   justify-content: space-between;
 }
+.fill{
+  padding: 20px;
+}
 
-
+/*
+ * Portfolio
+ */
+ .portfolio{
+  border: 1px $background-color solid;
+  @include border-radius(3px);
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ }
+ .example{
+  border: 3px $background-light-color solid;
+  @include border-radius(3px);
+  width: 20%;
+  padding: 10px;
+ }
+ .gotoport{
+  border: 3px $background-light-color solid;
+  @include border-radius(5px);
+  padding: 5px;
+ }
+ .gotoport:hover{
+  background-color: $background-color;
+  color: $main-color
+ }
+ .gotoport:active{
+  background-color: $background-lighter-color;
+  color: $background-light-color;
+ }
+ #e1{
+  background-color: $prompt1-color;
+ }
+#e2{
+  background-color: $prompt2-color;
+ }
+#e3{
+  background-color: $prompt3-color;
+ }
+#e4{
+  background-color: $prompt4-color;
+ }
+ .p-hidden{
+  visibility: hidden;
+ }
+ .p-visible{
+  visibility: visible;
+ }
 
 
 /*
@@ -224,9 +277,7 @@ ul{
  */
 .section{
     text-align:left;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-top: 25px;
+    margin-top: 30px;
   }
 
 /* 
@@ -290,21 +341,36 @@ ul{
     display: none;
   }
   .section{
-    padding-left: 15%;
-    padding-right: 15%;
   }
   ul{
     text-align: left;
   }
   #qa{
-  border: 1px solid $main-color;
-  @include border-radius(3px);
   display: flex;
   flex-flow: row wrap;
   align-content: space-between;
   justify-content: center;
   }
-  
+
+/*
+ * Portfolio
+ */
+ .portfolio{
+  border: 1px $background-color solid;
+  @include border-radius(3px);
+  display: flex;
+  flex-flow: column wrap;
+  align-content: space-around;
+  justify-content: space-around;
+ }
+ .example{
+  border: 3px $background-light-color solid;
+  @include border-radius(3px);
+  width: 100%;
+  height: 20%;
+  margin-bottom: 10px;
+ }
+
   #question{
     order: 1;
   }
@@ -321,10 +387,4 @@ ul{
   height: 180px;
   padding-top: 5px;
   text-align: center;
-}
-
-@media (max-width: 992px) {
-  .footer{
-    display: none;
-  }
 }
