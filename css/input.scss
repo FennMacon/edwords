@@ -122,6 +122,9 @@ p{
 
 .is-active{
 	display : flex;
+  flex-flow: column wrap;
+  align-content: space-around;
+  justify-content: space-around;
 }
 /*
  * Gradient

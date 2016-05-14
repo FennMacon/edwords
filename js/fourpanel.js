@@ -5,8 +5,7 @@ $(document).ready(function() {
         }
     );
 
-    $("#l1").click(
-        function() {
+    $("#l1").click(function() {
             $("#response").hide().html(" <div class=\"fill\"><p>Behind every great product or company is a story. A company’s story forges a powerful connection between the company and its customers.</p> <p>There are many ways to tell a company’s story – advertising, web sites, e-mails, personal comments from senior executives.  Consistent themes across all communications builds the brand.</p> <p>I believe in getting under the hood of each product, going beyond features and benefits to add context, depth, and perspective.  By building stories about your products and brand, you turn your customers from buyers into believers.</p></div> ").fadeIn('800');
             $("#port").removeClass("p-hidden").addClass("p-visible");
             $("#e1 > h3").text("Thos. Moser Cabinetmakers");
