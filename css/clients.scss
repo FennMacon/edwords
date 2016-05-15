@@ -1,0 +1,12 @@
+@import 'globals';
+
+.slide{
+	height: 100%;
+	padding: 10%;
+	margin: 0;
+}
+@media (max-width: 768px) {
+	#slide1{
+		padding-top: 15%;
+	}
+}

@@ -1,0 +1,14 @@
+/*
+ * Globals
+ */
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+.slide {
+  height: 100%;
+  padding: 10%;
+  margin: 0; }
+
+@media (max-width: 768px) {
+  #slide1 {
+    padding-top: 15%; } }
+
+/*# sourceMappingURL=clients.css.map */

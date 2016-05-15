@@ -1,0 +1,44 @@
+/*
+ * Globals
+ */
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+body {
+  background-color: #ECEFF1; }
+
+#section0 {
+  background-color: #E57373; }
+
+#section1 {
+  background-color: #FFA000; }
+
+#section2 {
+  background-color: #00BCD4; }
+
+#section3 {
+  background-color: #26A69A; }
+
+#section4 {
+  background-color: #B39DDB; }
+
+#section5 {
+  background-color: #E57373; }
+
+#section6 {
+  background-color: #FFA000; }
+
+#section7 {
+  background-color: #00BCD4; }
+
+#section8 {
+  background-color: #26A69A; }
+
+.divider {
+  height: 100%;
+  padding: 10%;
+  margin: 0; }
+
+@media (max-width: 768px) {
+  #section0 {
+    padding-top: 15%; } }
+
+/*# sourceMappingURL=reasonstohire.css.map */

@@ -326,7 +326,8 @@ ul {
   padding: 0 0 0 0;
   bottom: 0px;
   text-shadow: none;
-  color: #212121; }
+  color: #212121;
+  background-color: #ECEFF1; }
 
 /*
  * Modal
