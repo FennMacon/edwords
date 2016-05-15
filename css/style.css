@@ -351,9 +351,6 @@ ul {
 
 @media (max-width: 768px) {
   /* Pull out the header and footer */
-  *, body {
-    overflow: scroll; }
-
   #footer {
     display: none; }
 
