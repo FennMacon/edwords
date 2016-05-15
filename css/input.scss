@@ -227,17 +227,28 @@ ul{
   padding: 10px;
   margin-bottom: 10px;
   box-shadow: 1.5px 1.5px 5.5px $main-color;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: space-between;
+  justify-content: space-between;
+ }
+ .example > p{
+  text-align: left;
  }
  .gotoport{
-  border: 3px $background-light-color solid;
+  background-color: $background-color;
+  box-shadow: 1px 1px 1px;
   @include border-radius(5px);
   padding: 5px;
  }
  .gotoport:hover{
+  @include transition(0s); 
   background-color: $background-color;
+  box-shadow: 1px 1px 2px;
   color: $main-color
  }
  .gotoport:active{
+  @include transition(0s); 
   background-color: $background-lighter-color;
   color: $background-light-color;
  }
@@ -358,6 +369,7 @@ ul{
  * Portfolio
  */
  .portfolio{
+  border: 1px $background-color solid;
   @include border-radius(3px);
   display: flex;
   flex-flow: column wrap;

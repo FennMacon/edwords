@@ -249,10 +249,18 @@ ul {
   width: 20%;
   padding: 10px;
   margin-bottom: 10px;
-  box-shadow: 1.5px 1.5px 5.5px #212121; }
+  box-shadow: 1.5px 1.5px 5.5px #212121;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: space-between;
+  justify-content: space-between; }
+
+.example > p {
+  text-align: left; }
 
 .gotoport {
-  border: 3px #88BB88 solid;
+  background-color: #ECEFF1;
+  box-shadow: 1px 1px 1px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -260,10 +268,19 @@ ul {
   padding: 5px; }
 
 .gotoport:hover {
+  -webkit-transition: all 0s ease-in;
+  -moz-transition: all 0s ease-in;
+  -o-transition: all 0s ease-in;
+  transition: all 0s ease-in;
   background-color: #ECEFF1;
+  box-shadow: 1px 1px 2px;
   color: #212121; }
 
 .gotoport:active {
+  -webkit-transition: all 0s ease-in;
+  -moz-transition: all 0s ease-in;
+  -o-transition: all 0s ease-in;
+  transition: all 0s ease-in;
   background-color: #DCDFE1;
   color: #88BB88; }
 
@@ -369,6 +386,7 @@ ul {
    * Portfolio
    */
   .portfolio {
+    border: 1px #ECEFF1 solid;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
