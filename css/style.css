@@ -242,7 +242,6 @@ ul {
   margin-bottom: 20px; }
 
 .example {
-  border: 3px #88BB88 solid;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -370,7 +369,6 @@ ul {
    * Portfolio
    */
   .portfolio {
-    border: 1px #ECEFF1 solid;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -381,7 +379,6 @@ ul {
     justify-content: space-around; }
 
   .example {
-    border: 3px #88BB88 solid;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;

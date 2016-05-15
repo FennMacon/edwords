@@ -222,7 +222,6 @@ ul{
   margin-bottom: 20px;
  }
  .example{
-  border: 3px $background-light-color solid;
   @include border-radius(3px);
   width: 20%;
   padding: 10px;
@@ -359,7 +358,6 @@ ul{
  * Portfolio
  */
  .portfolio{
-  border: 1px $background-color solid;
   @include border-radius(3px);
   display: flex;
   flex-flow: column wrap;
@@ -367,7 +365,6 @@ ul{
   justify-content: space-around;
  }
  .example{
-  border: 3px $background-light-color solid;
   @include border-radius(3px);
   width: 100%;
   margin-bottom: 10px;
