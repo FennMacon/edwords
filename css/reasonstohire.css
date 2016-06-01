@@ -1,36 +1,35 @@
 /*
  * Globals
  */
-@import url(https://fonts.googleapis.com/css?family=Cabin);
 body {
   background-color: #ECEFF1; }
 
 #section0 {
-  background-color: #E57373; }
+  background-color: #a9a18c; }
 
 #section1 {
-  background-color: #FFA000; }
+  background-color: #855723; }
 
 #section2 {
-  background-color: #00BCD4; }
+  background-color: #688d3c; }
 
 #section3 {
-  background-color: #26A69A; }
+  background-color: #4e6172; }
 
 #section4 {
-  background-color: #B39DDB; }
+  background-color: #8f3b1b; }
 
 #section5 {
-  background-color: #E57373; }
+  background-color: #a9a18c; }
 
 #section6 {
-  background-color: #FFA000; }
+  background-color: #855723; }
 
 #section7 {
-  background-color: #00BCD4; }
+  background-color: #688d3c; }
 
 #section8 {
-  background-color: #26A69A; }
+  background-color: #4e6172; }
 
 .divider {
   height: 100%;

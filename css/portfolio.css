@@ -1,7 +1,6 @@
 /*
  * Globals
  */
-@import url(https://fonts.googleapis.com/css?family=Cabin);
 body {
   background-color: #ECEFF1; }
 
@@ -32,19 +31,19 @@ body {
   border: none; }
 
 #aButton:hover {
-  background-color: #E57373; }
+  background-color: #a9a18c; }
 
 #bButton:hover {
-  background-color: #FFA000; }
+  background-color: #855723; }
 
 #cButton:hover {
-  background-color: #00BCD4; }
+  background-color: #688d3c; }
 
 #dButton:hover {
-  background-color: #26A69A; }
+  background-color: #4e6172; }
 
 #eButton:hover {
-  background-color: #B39DDB; }
+  background-color: #8f3b1b; }
 
 .btn-active {
   background-color: #88BB88; }
@@ -59,63 +58,63 @@ body {
     text-shadow: none; }
 
 #prompt1 {
-  background: #E57373;
+  background: #a9a18c;
   /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#E57373, #212121);
+  background: -webkit-linear-gradient(#a9a18c, #212121);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#E57373, #212121);
+  background: -o-linear-gradient(#a9a18c, #212121);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#E57373, #212121);
+  background: -moz-linear-gradient(#a9a18c, #212121);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#E57373, #212121);
+  background: linear-gradient(#a9a18c, #212121);
   /* Standard syntax */ }
 
 #prompt2 {
-  background: #FFA000;
+  background: #855723;
   /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#FFA000, #212121);
+  background: -webkit-linear-gradient(#855723, #212121);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#FFA000, #212121);
+  background: -o-linear-gradient(#855723, #212121);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#FFA000, #212121);
+  background: -moz-linear-gradient(#855723, #212121);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#FFA000, #212121);
+  background: linear-gradient(#855723, #212121);
   /* Standard syntax */ }
 
 #prompt3 {
-  background: #00BCD4;
+  background: #688d3c;
   /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#00BCD4, #212121);
+  background: -webkit-linear-gradient(#688d3c, #212121);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#00BCD4, #212121);
+  background: -o-linear-gradient(#688d3c, #212121);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#00BCD4, #212121);
+  background: -moz-linear-gradient(#688d3c, #212121);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#00BCD4, #212121);
+  background: linear-gradient(#688d3c, #212121);
   /* Standard syntax */ }
 
 #prompt4 {
-  background: #26A69A;
+  background: #4e6172;
   /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#26A69A, #212121);
+  background: -webkit-linear-gradient(#4e6172, #212121);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#26A69A, #212121);
+  background: -o-linear-gradient(#4e6172, #212121);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#26A69A, #212121);
+  background: -moz-linear-gradient(#4e6172, #212121);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#26A69A, #212121);
+  background: linear-gradient(#4e6172, #212121);
   /* Standard syntax */ }
 
 #prompt5 {
-  background: #B39DDB;
+  background: #8f3b1b;
   /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#B39DDB, #212121);
+  background: -webkit-linear-gradient(#8f3b1b, #212121);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#B39DDB, #212121);
+  background: -o-linear-gradient(#8f3b1b, #212121);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#B39DDB, #212121);
+  background: -moz-linear-gradient(#8f3b1b, #212121);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#B39DDB, #212121);
+  background: linear-gradient(#8f3b1b, #212121);
   /* Standard syntax */ }
 
 .black {

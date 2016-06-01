@@ -3,17 +3,16 @@
  */
 
 $main-color               : #212121;
-$prompt1-color            : #E57373;
-$prompt2-color            : #FFA000;
-$prompt3-color            : #00BCD4;
-$prompt4-color            : #26A69A;
-$prompt5-color            : #B39DDB;
+$prompt1-color            : #a9a18c;
+$prompt2-color            : #855723;
+$prompt3-color            : #688d3c;
+$prompt4-color            : #4e6172;
+$prompt5-color            : #8f3b1b;
 $background-color         : #ECEFF1;
 $background-light-color   : #88BB88;
 $background-lighter-color : #DCDFE1;
 
-@import url(https://fonts.googleapis.com/css?family=Cabin);
-$font:'Cabin', sans-serif;
+$font: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
 
 @mixin background-gradient ($color1,$color2) {
     background: $color1; /* For browsers that do not support gradients */

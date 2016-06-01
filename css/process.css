@@ -1,7 +1,6 @@
 /*
  * Globals
  */
-@import url(https://fonts.googleapis.com/css?family=Cabin);
 body {
   background-color: #ECEFF1; }
 
@@ -21,19 +20,19 @@ body {
   border: none; }
 
 #aButton:hover {
-  background-color: #E57373; }
+  background-color: #a9a18c; }
 
 #bButton:hover {
-  background-color: #FFA000; }
+  background-color: #855723; }
 
 #cButton:hover {
-  background-color: #00BCD4; }
+  background-color: #688d3c; }
 
 #dButton:hover {
-  background-color: #26A69A; }
+  background-color: #4e6172; }
 
 .btn-active {
-  background-color: #B0BEC5; }
+  background-color: #88BB88; }
 
 #intro {
   height: 100%;
@@ -62,7 +61,7 @@ body {
   opacity: 1.0; }
 
 #buying {
-  background: #B0BEC5;
+  background: #88BB88;
   color: #212121; }
 
 #buying h1 {
@@ -81,99 +80,99 @@ body {
     transition: all 1s ease-in;
     background-color: #212121;
     color: #ECEFF1;
-    border: 3px outset #B0BEC5; }
+    border: 3px outset #88BB88; }
   .row div:active {
-    border: 3px inset #B0BEC5; }
+    border: 3px inset #88BB88; }
 
 #b1:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #E57373; }
+  background-color: #a9a18c; }
 
 #b2:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #E57373; }
+  background-color: #a9a18c; }
 
 #b3:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #FFA000; }
+  background-color: #855723; }
 
 #b4:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #00BCD4; }
+  background-color: #688d3c; }
 
 #b5:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #26A69A; }
+  background-color: #4e6172; }
 
 #b6:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #B39DDB; }
+  background-color: #8f3b1b; }
 
 #b7:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #B39DDB; }
+  background-color: #8f3b1b; }
 
 #b8:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #B39DDB; }
+  background-color: #8f3b1b; }
 
 #m1:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #E57373; }
+  background-color: #a9a18c; }
 
 #m2:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #FFA000; }
+  background-color: #855723; }
 
 #m3:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #00BCD4; }
+  background-color: #688d3c; }
 
 #m4:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #26A69A; }
+  background-color: #4e6172; }
 
 #m5:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #B39DDB; }
+  background-color: #8f3b1b; }
 
 /*# sourceMappingURL=process.css.map */

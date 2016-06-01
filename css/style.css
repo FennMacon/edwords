@@ -1,11 +1,10 @@
 /*
  * Globals
  */
-@import url(https://fonts.googleapis.com/css?family=Cabin);
 *, body, p {
   text-shadow: none;
   color: #212121;
-  font-family: "Cabin", sans-serif; }
+  font-family: Bodoni MT, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif; }
 
 /* Links */
 a,
@@ -157,19 +156,19 @@ ul {
   padding-left: 0; }
 
 #l1:hover {
-  color: #E57373;
+  color: #a9a18c;
   text-shadow: none; }
 
 #l2:hover {
-  color: #FFA000;
+  color: #855723;
   text-shadow: none; }
 
 #l3:hover {
-  color: #00BCD4;
+  color: #688d3c;
   text-shadow: none; }
 
 #l4:hover {
-  color: #26A69A;
+  color: #4e6172;
   text-shadow: none; }
 
 .l1h {
@@ -177,28 +176,28 @@ ul {
   -moz-transition: all 1.5s ease-in;
   -o-transition: all 1.5s ease-in;
   transition: all 1.5s ease-in;
-  background-color: #E57373; }
+  background-color: #a9a18c; }
 
 .l2h {
   -webkit-transition: all 1.5s ease-in;
   -moz-transition: all 1.5s ease-in;
   -o-transition: all 1.5s ease-in;
   transition: all 1.5s ease-in;
-  background-color: #FFA000; }
+  background-color: #855723; }
 
 .l3h {
   -webkit-transition: all 1.5s ease-in;
   -moz-transition: all 1.5s ease-in;
   -o-transition: all 1.5s ease-in;
   transition: all 1.5s ease-in;
-  background-color: #00BCD4; }
+  background-color: #688d3c; }
 
 .l4h {
   -webkit-transition: all 1.5s ease-in;
   -moz-transition: all 1.5s ease-in;
   -o-transition: all 1.5s ease-in;
   transition: all 1.5s ease-in;
-  background-color: #26A69A; }
+  background-color: #4e6172; }
 
 /*
  * Main splash
@@ -285,16 +284,16 @@ ul {
   color: #88BB88; }
 
 #e1 {
-  background-color: #E57373; }
+  background-color: #a9a18c; }
 
 #e2 {
-  background-color: #FFA000; }
+  background-color: #855723; }
 
 #e3 {
-  background-color: #00BCD4; }
+  background-color: #688d3c; }
 
 #e4 {
-  background-color: #26A69A; }
+  background-color: #4e6172; }
 
 .p-hidden {
   visibility: hidden; }
