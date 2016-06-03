@@ -13,6 +13,51 @@ body {
   background-color: rgba(255, 255, 255, 0.75);
   box-shadow: 1px 1px 3px #212121; }
 
+.scrap {
+  position: relative;
+  display: flex;
+  flex-flow: row-wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  padding: 50px;
+  background-color: #ECEFF1;
+  box-shadow: 0 10px 6px -6px #777; }
+
+.hidden {
+  -webkit-transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+  opacity: 0; }
+
+.visible {
+  -webkit-transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+  opacity: 1; }
+
+#scraps {
+  display: flex;
+  flex-flow: row-wrap;
+  align-content: space-around;
+  justify-content: space-around; }
+
+#ebtn {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row-wrap;
+  align-content: space-around;
+  justify-content: space-around; }
+
+#ex {
+  background-color: #ECEFF1;
+  box-shadow: 0 10px 6px -6px #777;
+  border-radius: 1px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px; }
+
 #nav > ul {
   margin: 5%; }
 

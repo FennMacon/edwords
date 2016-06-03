@@ -15,6 +15,46 @@ body{
 	box-shadow: 1px 1px 3px $main-color;
 }
 
+.scrap{
+	position: relative;
+	display: flex;
+	flex-flow: row-wrap;
+  	align-content: space-around;
+  	justify-content: space-around;
+	padding: 50px;
+	background-color: $background-color;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+.hidden{
+	@include transition(1s);
+	opacity: 0;
+}
+.visible{
+	@include transition(1s);
+	opacity: 1;
+}
+
+#scraps{
+	display: flex;
+	flex-flow: row-wrap;
+  	align-content: space-around;
+  	justify-content: space-around;
+}
+
+#ebtn{
+	margin-top:20px;
+	display: flex;
+	flex-flow: row-wrap;
+  	align-content: space-around;
+  	justify-content: space-around;
+}
+#ex{
+  	background-color: $background-color;
+    box-shadow: 0 10px 6px -6px #777;
+    @include border-radius(1px);
+}
+
 #nav>ul{
 	margin:5%
 }
