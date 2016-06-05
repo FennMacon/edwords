@@ -18,7 +18,7 @@ body{
 .scrap{
 	position: relative;
 	display: flex;
-	flex-flow: row-wrap;
+	flex-flow: row nowrap;
   	align-content: space-around;
   	justify-content: space-around;
 	padding: 50px;
@@ -37,7 +37,7 @@ body{
 
 #scraps{
 	display: flex;
-	flex-flow: row-wrap;
+	flex-flow: row nowrap;
   	align-content: space-around;
   	justify-content: space-around;
 }
@@ -45,7 +45,7 @@ body{
 #ebtn{
 	margin-top:20px;
 	display: flex;
-	flex-flow: row-wrap;
+	flex-flow: row nowrap;
   	align-content: space-around;
   	justify-content: space-around;
 }
@@ -113,4 +113,34 @@ body{
 	#banner{
 		padding-top : 15%;
 	}
+
+	.scrap{
+		margin:20px;
+		position: relative;
+		display: flex;
+		flex-flow: column nowrap;
+	  	align-content: center;
+	  	justify-content: center;
+		padding: 50px;
+		background-color: $background-color;
+	    box-shadow: 0 10px 6px -6px #777;
+	}
+	#scraps{
+		margin:20px;
+		display: flex;
+		flex-flow: column nowrap;
+	  	align-content: space-around;
+	  	justify-content: space-around;
+	}
+
+	#ebtn{
+		margin:20px;
+		display: flex;
+		flex-flow: column nowrap;
+	  	align-content: space-around;
+	  	justify-content: space-around;
+	}
+	#question{
+	padding-top: 300px;
+}
 }
