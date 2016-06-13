@@ -1,6 +1,11 @@
 /*
  * Globals
  */
+*, body, p, h1, h2, h3, h4, h5, h6 {
+  font-family: Bodoni MT, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
+  color: #212121;
+  text-shadow: none; }
+
 body {
   background-color: #ECEFF1; }
 
@@ -17,11 +22,20 @@ body {
 
 .section a {
   display: block;
-  font-size: 24px; }
+  font-size: 24px;
+  color: #ECEFF1; }
 
 .section a:hover {
-  color: #ECEFF1;
+  color: #88BB88;
   text-shadow: none; }
+
+.prompt {
+  border-radius: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  border-bottom-right-radius: 0em 0em;
+  border-bottom-left-radius: 0em 0em; }
 
 .btn {
   height: 20%;
@@ -40,10 +54,10 @@ body {
   background-color: #688d3c; }
 
 #dButton:hover {
-  background-color: #4e6172; }
+  background-color: #A3ADB8; }
 
 #eButton:hover {
-  background-color: #8f3b1b; }
+  background-color: #057555; }
 
 .btn-active {
   background-color: #88BB88; }
@@ -94,33 +108,39 @@ body {
   /* Standard syntax */ }
 
 #prompt4 {
-  background: #4e6172;
+  background: #A3ADB8;
   /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#4e6172, #212121);
+  background: -webkit-linear-gradient(#A3ADB8, #212121);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#4e6172, #212121);
+  background: -o-linear-gradient(#A3ADB8, #212121);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#4e6172, #212121);
+  background: -moz-linear-gradient(#A3ADB8, #212121);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#4e6172, #212121);
+  background: linear-gradient(#A3ADB8, #212121);
   /* Standard syntax */ }
 
 #prompt5 {
-  background: #8f3b1b;
+  background: #057555;
   /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#8f3b1b, #212121);
+  background: -webkit-linear-gradient(#057555, #212121);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#8f3b1b, #212121);
+  background: -o-linear-gradient(#057555, #212121);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#8f3b1b, #212121);
+  background: -moz-linear-gradient(#057555, #212121);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#8f3b1b, #212121);
+  background: linear-gradient(#057555, #212121);
   /* Standard syntax */ }
 
 .black {
   padding-top: 100px;
   background: #212121;
-  color: #ECEFF1; }
+  color: #ECEFF1;
+  border-radius: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  border-top-right-radius: 0em 0em;
+  border-top-left-radius: 0em 0em; }
 
 .black h1 {
   color: #ECEFF1; }
@@ -148,5 +168,3 @@ body {
 
 .button:focus {
   outline: none; }
-
-/*# sourceMappingURL=portfolio.css.map */

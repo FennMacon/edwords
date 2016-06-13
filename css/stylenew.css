@@ -1,13 +1,18 @@
 /*
  * Globals
  */
-*, body, p {
+*, body, p, h1, h2, h3, h4, h5, h6 {
   font-family: Bodoni MT, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
   color: #212121;
   text-shadow: none; }
 
 body {
   background-color: #ECEFF1; }
+
+img {
+  max-width: 500px;
+  max-height: 500px;
+  margin: 10px; }
 
 .jumbotron {
   background-color: rgba(255, 255, 255, 0.75);
@@ -43,6 +48,9 @@ body {
   align-content: space-around;
   justify-content: space-around; }
 
+#a {
+  padding: 20px; }
+
 #ebtn {
   margin-top: 20px;
   display: flex;
@@ -57,6 +65,26 @@ body {
   -webkit-border-radius: 1px;
   -moz-border-radius: 1px;
   -ms-border-radius: 1px; }
+
+#exwrap {
+  padding: 20px; }
+
+#bcwrap {
+  padding: 20px; }
+
+#cl {
+  margin: 20px auto 0 auto;
+  width: 50%; }
+
+#cl > a {
+  color: #212121; }
+
+#pbtn {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: space-around;
+  justify-content: space-around; }
 
 #nav > ul {
   margin: 5%; }
@@ -81,10 +109,13 @@ body {
   background-attachment: fixed;
   background-size: 60% 60%;
   background-position: center;
-  background-color: #a9a18c;
-  height: 600px; }
+  background-color: #a9a18c; }
 
 #question {
+  background-image: url(http://williamleeks.com/img/home-typewriter.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 80%;
   background-color: #855723;
   display: flex;
   flex-wrap: center; }
@@ -94,44 +125,107 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-color: #688d3c; }
+  background-color: #688d3c;
+  display: flex;
+  flex-wrap: center; }
 
 #example {
-  background-color: #4e6172; }
+  background-image: url(https://d30y9cdsu7xlg0.cloudfront.net/png/42984-200.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-color: #A3ADB8; }
 
 #clients {
-  background-color: #8f3b1b; }
+  background-image: url(https://d30y9cdsu7xlg0.cloudfront.net/png/42984-200.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-color: #057555; }
+
+.arrow_box {
+  position: relative;
+  background: #ECEFF1;
+  border: 1px solid #688d3c; }
+
+.arrow_box:after, .arrow_box:before {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none; }
+
+.arrow_box:after {
+  border-color: rgba(136, 183, 213, 0);
+  border-top-color: #ECEFF1;
+  border-width: 30px;
+  margin-left: -30px; }
+
+.arrow_box:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-top-color: #688d3c;
+  border-width: 33px;
+  margin-left: -33px; }
+
+.arrow_box_r {
+  position: relative;
+  background: #ECEFF1;
+  border: 1px solid #688d3c; }
+
+.arrow_box_r:after, .arrow_box_r:before {
+  left: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none; }
+
+.arrow_box_r:after {
+  border-color: rgba(136, 183, 213, 0);
+  border-left-color: #ECEFF1;
+  border-width: 30px;
+  margin-top: -30px; }
+
+.arrow_box_r:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-left-color: #688d3c;
+  border-width: 33px;
+  margin-top: -33px; }
 
 @media (max-width: 768px) {
   #banner {
-    padding-top: 15%; }
-
+    padding-top: 15%;
+    float: left; }
   .scrap {
     margin: 20px;
     position: relative;
     display: flex;
+    float: left;
     flex-flow: column nowrap;
     align-content: center;
     justify-content: center;
     padding: 50px;
     background-color: #ECEFF1;
     box-shadow: 0 10px 6px -6px #777; }
-
   #scraps {
     margin: 20px;
     display: flex;
+    float: left;
     flex-flow: column nowrap;
     align-content: space-around;
     justify-content: space-around; }
-
   #ebtn {
     margin: 20px;
     display: flex;
+    float: left;
     flex-flow: column nowrap;
     align-content: space-around;
     justify-content: space-around; }
-
   #question {
-    padding-top: 300px; } }
-
-/*# sourceMappingURL=stylenew.css.map */
+    padding-top: 300px;
+    float: left; } }

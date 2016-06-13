@@ -2,6 +2,11 @@
  * Globals
  */
 *, body, p, h1, h2, h3, h4, h5, h6 {
+  font-family: Bodoni MT, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
+  color: #212121;
+  text-shadow: none; }
+
+*, body, p, h1, h2, h3, h4, h5, h6 {
   text-shadow: none;
   color: #212121;
   font-family: Bodoni MT, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif; }
@@ -129,5 +134,3 @@
 @media (max-width: 768px) {
   #slide1 {
     padding-top: 15%; } }
-
-/*# sourceMappingURL=clients.css.map */

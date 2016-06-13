@@ -1,6 +1,11 @@
 /*
  * Globals
  */
+*, body, p, h1, h2, h3, h4, h5, h6 {
+  font-family: Bodoni MT, Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
+  color: #212121;
+  text-shadow: none; }
+
 body {
   background-color: #ECEFF1; }
 
@@ -29,7 +34,7 @@ body {
   background-color: #688d3c; }
 
 #dButton:hover {
-  background-color: #4e6172; }
+  background-color: #A3ADB8; }
 
 .btn-active {
   background-color: #88BB88; }
@@ -117,28 +122,28 @@ body {
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #4e6172; }
+  background-color: #A3ADB8; }
 
 #b6:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #8f3b1b; }
+  background-color: #057555; }
 
 #b7:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #8f3b1b; }
+  background-color: #057555; }
 
 #b8:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #8f3b1b; }
+  background-color: #057555; }
 
 #m1:hover {
   -webkit-transition: all 0.5s ease-in;
@@ -166,13 +171,11 @@ body {
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #4e6172; }
+  background-color: #A3ADB8; }
 
 #m5:hover {
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
-  background-color: #8f3b1b; }
-
-/*# sourceMappingURL=process.css.map */
+  background-color: #057555; }
