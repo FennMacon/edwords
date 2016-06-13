@@ -146,7 +146,8 @@ img {
 .arrow_box {
   position: relative;
   background: #ECEFF1;
-  border: 1px solid #688d3c; }
+  border: 1px solid #688d3c;
+  opacity: 0.85; }
 
 .arrow_box:after, .arrow_box:before {
   top: 100%;
@@ -170,10 +171,25 @@ img {
   border-width: 33px;
   margin-left: -33px; }
 
+.arrow_box:hover {
+  opacity: 1; }
+
+.arrow_box_r:hover {
+  -webkit-transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+  opacity: 1; }
+
 .arrow_box_r {
   position: relative;
   background: #ECEFF1;
-  border: 1px solid #688d3c; }
+  border: 1px solid #688d3c;
+  -webkit-transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+  opacity: 0.85; }
 
 .arrow_box_r:after, .arrow_box_r:before {
   left: 100%;
