@@ -81,7 +81,10 @@ $(document).ready(function(){
 	$( "#o4b" ).click(function(){
 		$( "#o4" ).toggleClass("is-active");
 	});
-	
+	$( "#o5b" ).click(function(){
+		$( "#o5" ).toggleClass("is-active");
+	});
+
 	$( "#b1b" ).click(function(){
 		$( "#b1" ).toggleClass("is-active");
 	});	
