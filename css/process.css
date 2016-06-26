@@ -17,27 +17,40 @@ body {
   color: #212121;
   text-shadow: none; }
 
-.btn {
-  height: 20%;
-  margin: 0 10px 0 10px;
-  padding: 10px;
+.scrap {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: space-around;
+  justify-content: space-around;
+  padding: 50px;
+  margin: 10px;
+  min-height: 150px;
+  vertical-text-align: center;
   background-color: #ECEFF1;
-  border: none; }
+  box-shadow: 0 10px 6px -6px #777;
+  border: 2px solid #212121; }
 
-#aButton:hover {
-  background-color: #a9a18c; }
+.hidden {
+  -webkit-transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+  opacity: 0; }
 
-#bButton:hover {
-  background-color: #855723; }
+.visible {
+  -webkit-transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+  opacity: 1; }
 
-#cButton:hover {
-  background-color: #688d3c; }
-
-#dButton:hover {
-  background-color: #A3ADB8; }
-
-.btn-active {
-  background-color: #88BB88; }
+#scraps {
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: space-around;
+  justify-content: space-around;
+  margin-bottom: 20px; }
 
 #intro {
   height: 100%;
@@ -48,23 +61,6 @@ body {
     text-align: left;
     text-shadow: none; }
 
-.footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  -webkit-transition: all 1s ease-in;
-  -moz-transition: all 1s ease-in;
-  -o-transition: all 1s ease-in;
-  transition: all 1s ease-in;
-  opacity: 0.01; }
-
-.footer:hover {
-  -webkit-transition: all 1s ease-in;
-  -moz-transition: all 1s ease-in;
-  -o-transition: all 1s ease-in;
-  transition: all 1s ease-in;
-  opacity: 1.0; }
-
 #buying {
   background: #88BB88;
   color: #212121; }
@@ -72,110 +68,52 @@ body {
 #buying h1 {
   color: #212121; }
 
-.row {
-  margin: 10px auto 10px auto; }
-  .row div {
-    border-radius: 0px;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    -ms-border-radius: 0px;
-    -webkit-transition: all 1s ease-in;
-    -moz-transition: all 1s ease-in;
-    -o-transition: all 1s ease-in;
-    transition: all 1s ease-in;
-    background-color: #212121;
-    color: #ECEFF1;
-    border: 3px outset #88BB88; }
-  .row div:active {
-    border: 3px inset #88BB88; }
-
-#b1:hover {
-  -webkit-transition: all 0.5s ease-in;
-  -moz-transition: all 0.5s ease-in;
-  -o-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in;
+#l1 {
   background-color: #a9a18c; }
 
-#b2:hover {
-  -webkit-transition: all 0.5s ease-in;
-  -moz-transition: all 0.5s ease-in;
-  -o-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in;
+#l2 {
   background-color: #a9a18c; }
 
-#b3:hover {
-  -webkit-transition: all 0.5s ease-in;
-  -moz-transition: all 0.5s ease-in;
-  -o-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in;
+#l3 {
   background-color: #855723; }
 
-#b4:hover {
-  -webkit-transition: all 0.5s ease-in;
-  -moz-transition: all 0.5s ease-in;
-  -o-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in;
+#l4 {
   background-color: #688d3c; }
 
-#b5:hover {
-  -webkit-transition: all 0.5s ease-in;
-  -moz-transition: all 0.5s ease-in;
-  -o-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in;
+#l5 {
   background-color: #A3ADB8; }
 
-#b6:hover {
-  -webkit-transition: all 0.5s ease-in;
-  -moz-transition: all 0.5s ease-in;
-  -o-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in;
+#l6 {
   background-color: #057555; }
 
-#b7:hover {
-  -webkit-transition: all 0.5s ease-in;
-  -moz-transition: all 0.5s ease-in;
-  -o-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in;
-  background-color: #057555; }
-
-#b8:hover {
-  -webkit-transition: all 0.5s ease-in;
-  -moz-transition: all 0.5s ease-in;
-  -o-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in;
-  background-color: #057555; }
-
-#m1:hover {
-  -webkit-transition: all 0.5s ease-in;
-  -moz-transition: all 0.5s ease-in;
-  -o-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in;
-  background-color: #a9a18c; }
-
-#m2:hover {
-  -webkit-transition: all 0.5s ease-in;
-  -moz-transition: all 0.5s ease-in;
-  -o-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in;
-  background-color: #855723; }
-
-#m3:hover {
-  -webkit-transition: all 0.5s ease-in;
-  -moz-transition: all 0.5s ease-in;
-  -o-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in;
-  background-color: #688d3c; }
-
-#m4:hover {
-  -webkit-transition: all 0.5s ease-in;
-  -moz-transition: all 0.5s ease-in;
-  -o-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in;
-  background-color: #A3ADB8; }
-
-#m5:hover {
-  -webkit-transition: all 0.5s ease-in;
-  -moz-transition: all 0.5s ease-in;
-  -o-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in;
-  background-color: #057555; }
+@media (max-width: 1000px) {
+  #banner {
+    padding-top: 15%;
+    float: left; }
+  #fill {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    padding: 10px;
+    background-color: #ECEFF1; }
+  .scrap {
+    width: 100%;
+    opacity: 0.95;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-around;
+    justify-content: center;
+    padding: 50px;
+    background-color: #ECEFF1;
+    box-shadow: 0 10px 6px -6px #777; }
+  #scraps {
+    margin: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-around;
+    justify-content: space-around; }
+  #buying {
+    display: flex;
+    flex-flow: column nowrap; } }
