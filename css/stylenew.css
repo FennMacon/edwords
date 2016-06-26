@@ -251,4 +251,6 @@ img {
     float: left;
     flex-flow: column nowrap;
     align-content: space-around;
-    justify-content: space-around; } }
+    justify-content: space-around; }
+  #question {
+    padding-top: 60px; } }
