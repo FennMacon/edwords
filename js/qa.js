@@ -1,4 +1,8 @@
 $(document).ready(function() {
+    $("#msc_letter").hide();
+    $("#msc_insert").hide();
+    $("#msc_toque").hide();
+    $("#msc_reply").hide();
     $("#l1").click(function() {    
             $("#p1").text("Behind every great product or company is a story. A company’s story forges a powerful connection between the company and its customers.");
             $("#p2").text("There are many ways to tell a company’s story – advertising, web sites, e-mails, personal comments from senior executives.  Consistent themes across all communications builds the brand.");
@@ -43,5 +47,24 @@ $(document).ready(function() {
             $("#example > div > p").text("One of dozens of campaigns I created for WBUR’s fundraising. During my time there, we increased the amount raised through the mail by more than TEN times. This campaign illustrated our central theme -- by contributing through the mail, you could drastically reduce on-air fundraising, a benefit that every listener would support.");
             $("#eximg").attr("src", "http://edwordscreative.com/Portfolio_-_WBUR_files/Food_newspaper_IC%201.jpg");        
         });
-
+    $("#msc_env").click(function() {
+            $("#msc_env").fadeOut(1000);
+            $("#msc_letter").fadeIn(1500);
+        });
+    $("#msc_letter").click(function() {
+            $("#msc_letter").fadeOut(1000);
+            $("#msc_insert").fadeIn(1500);
+        });
+    $("#msc_insert").click(function() {
+            $("#msc_insert").fadeOut(1000);
+            $("#msc_toque").fadeIn(1500);
+        });
+    $("#msc_toque").click(function() {
+            $("#msc_toque").fadeOut(1000);
+            $("#msc_reply").fadeIn(1500);
+        });
+    $("#msc_reply").click(function() {
+            $("#msc_reply").fadeOut(1000);
+            $("#msc_env").fadeIn(1500);
+        });
 });
