@@ -6,41 +6,56 @@
   color: #212121;
   text-shadow: none; }
 
+p {
+  font-size: 18px; }
+
 body {
   background-color: #ECEFF1; }
 
 #section0 {
-  background-color: #a9a18c; }
+  background-color: #a9a18c;
+  margin-top: 60px;
+  margin-right: 20%; }
 
 #section1 {
-  background-color: #855723; }
+  background-color: #855723;
+  margin-left: 20%; }
 
 #section2 {
-  background-color: #688d3c; }
+  background-color: #688d3c;
+  margin-right: 20%; }
 
 #section3 {
-  background-color: #A3ADB8; }
+  background-color: #A3ADB8;
+  margin-left: 20%; }
 
 #section4 {
-  background-color: #057555; }
+  background-color: #057555;
+  margin-right: 20%; }
 
 #section5 {
-  background-color: #a9a18c; }
+  background-color: #a9a18c;
+  margin-left: 20%; }
 
 #section6 {
-  background-color: #855723; }
+  background-color: #855723;
+  margin-right: 20%; }
 
 #section7 {
-  background-color: #688d3c; }
+  background-color: #688d3c;
+  margin-left: 20%; }
 
 #section8 {
-  background-color: #A3ADB8; }
+  background-color: #A3ADB8;
+  margin-right: 20%; }
 
 .divider {
   height: 100%;
-  padding: 10%;
-  margin: 0; }
-
-@media (max-width: 768px) {
-  #section0 {
-    padding-top: 15%; } }
+  margin: 10px;
+  padding: 3%;
+  border: 1px #cc3333 groove;
+  box-shadow: 1px 1px 3px #212121;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px; }

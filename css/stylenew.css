@@ -6,6 +6,9 @@
   color: #212121;
   text-shadow: none; }
 
+p {
+  font-size: 18px; }
+
 body {
   background-color: #ECEFF1; }
 
@@ -86,6 +89,9 @@ img {
   align-content: space-around;
   justify-content: space-around; }
 
+#nb {
+  opacity: 0.95; }
+
 #nav > ul {
   margin: 5%; }
 
@@ -100,9 +106,10 @@ img {
 
 .divider {
   height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 10%; }
+  margin: 10px;
+  padding: 10%;
+  border: 1px #cc3333 groove;
+  box-shadow: 1px 1px 3px #212121; }
 
 #banner {
   background-image: url(http://www.calvarymemorial.com/img/typewriter-icon.svg);
@@ -110,7 +117,8 @@ img {
   background-attachment: fixed;
   background-size: 60% 60%;
   background-position: center;
-  background-color: #a9a18c; }
+  background-color: #a9a18c;
+  margin-top: 60px; }
 
 #question {
   background-image: url(http://williamleeks.com/img/home-typewriter.svg);
@@ -232,19 +240,19 @@ img {
     display: flex;
     float: left;
     flex-flow: column wrap;
-    align-content: space-around;
+    align-content: center;
     justify-content: center;
     padding: 50px;
     background-color: #ECEFF1;
     box-shadow: 0 10px 6px -6px #777;
     border-bottom: 1px solid black; }
   #scraps {
-    margin: 20px;
+    margin: 20px auto;
     display: flex;
     float: left;
     flex-flow: column nowrap;
-    align-content: space-around;
-    justify-content: space-around; }
+    align-content: center;
+    justify-content: center; }
   #ebtn {
     margin: 20px;
     display: flex;
@@ -253,4 +261,7 @@ img {
     align-content: space-around;
     justify-content: space-around; }
   #question {
-    padding-top: 60px; } }
+    padding-top: 60px; }
+  .divider {
+    width: 100%;
+    margin: 0; } }

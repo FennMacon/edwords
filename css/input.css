@@ -6,6 +6,9 @@
   color: #212121;
   text-shadow: none; }
 
+p {
+  font-size: 18px; }
+
 *, body, p {
   text-shadow: none;
   color: #212121;

@@ -4,15 +4,13 @@ $(document).ready(function() {
     $("#msc_toque").hide();
     $("#msc_reply").hide();
     $("#l1").click(function() {    
-            $("#p1").text("Behind every great product or company is a story. A company’s story forges a powerful connection between the company and its customers.");
-            $("#p2").text("There are many ways to tell a company’s story – advertising, web sites, e-mails, personal comments from senior executives.  Consistent themes across all communications builds the brand.");
-            $("#p3").text("I believe in getting under the hood of each product, going beyond features and benefits to add context, depth, and perspective.  By building stories about your products and brand, you turn your customers from buyers into believers.");
+            $("#p1").text("People make decisions for emotional reasons. Human beings respond better to stories, rather than facts. That’s why I believe that, if you want to sell something to someone, tell them a story. A problem with a solution. A benefit they personally feel. These stories are not easy to identify, or to credibly express. But finding where what your product does dovetails with why the consumer cares is the key to effective marketing.");
             $("#ex").removeClass("hidden").addClass("visible");
             $("#a").removeClass("hidden").addClass("visible");
             $("#exwrap").removeClass("hidden").addClass("visible");
-            $("#example > div > h1").text("Travel Gold");
-            $("#example > div > p").text("Canada has excellent health care -- until you leave home. Then you need to buy travel health insurance, to ensure care away from home. This campaign focused on humorous \“near disasters\” to drive home the need for coverage.");
-            $("#eximg").attr("src", "http://edwordscreative.com/Portfolio_-_Travel_Gold_files/travelgold_camping.jpg");
+            $("#example > div > h1").text("LL Bean");
+            $("#example > div > p").text("LL Bean is one of the most beloved brands in the world. These ads reinforce Bean’s connection to the outdoors, and to values that are traditional, respected and very Maine-like.");
+            $("#eximg").attr("src", "http://edwordscreative.com/Portfolio_-_Bean_files/llbean2.jpg");
         });
     $("#l2").click(function() {
             $("#p1").text("I cut my teeth in direct marketing, a medium generally reviled by brand-conscious marketers, because they (often rightly) think that tacky DR harms their brand (while still being effective and thus hard to kill).");
@@ -27,8 +25,8 @@ $(document).ready(function() {
         });
     $("#l3").click(function() {
             $("#p1").text("The power of a brand is nearly incalculable. Every business, large or small, needs to define, articulate and promote their brand.");
-            $("#p2").text("I work with clients to develop their brand, using a disciplined yet flexible plan revolving around differentiators and core messages. The result is a document that both supplies content for all consumer-facing materials, and serves as a measuring stick for the future.");
-            $("#p3").text("It doesn’t make for a flashy show on a web page. But it does provide messages for ALL your audiences, in ALL your interactions that are powerful, differentiating and memorable.");
+            $("#p2").text("I work with clients to develop their brand, using a disciplined yet flexible plan revolving around differentiators and core messages. The result is a Brand Map – a document that both supplies content for all consumer-facing materials, and serves as a measuring stick for the future.");
+            $("#p3").text("An Edwords Brand Map includes messages for ALL your audiences, to ALL your interactions powerful, differentiating and memorable.");
             $("#ex").removeClass("hidden").addClass("visible");
             $("#a").removeClass("hidden").addClass("visible");
             $("#exwrap").removeClass("hidden").addClass("visible");

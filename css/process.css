@@ -6,12 +6,17 @@
   color: #212121;
   text-shadow: none; }
 
+p {
+  font-size: 18px; }
+
 body {
   background-color: #ECEFF1; }
 
 .section {
   margin: 100px 5% 100px 5%;
-  padding: 10%; }
+  padding: 10%;
+  border: 1px #cc3333 groove;
+  box-shadow: 1px 1px 3px #212121; }
 
 .section p, .section h1, .section h2, .section h3, .section h4, .section h5, .section h6 {
   color: #212121;

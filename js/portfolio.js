@@ -18,11 +18,7 @@ $(document).ready(function(){
 	$( "#dButton" ).click(function(){
 		$( "#prompt4" ).toggleClass("is-active");
 		$( "#dButton" ).toggleClass("btn-active");
-	});		
-	$( "#eButton" ).click(function(){
-		$( "#prompt5" ).toggleClass("is-active");
-		$( "#eButton" ).toggleClass("btn-active");
-	});		
+	});			
 
 	$( ".pb" ).click(function(){
 		$( ".black" ).removeClass("is-active");
