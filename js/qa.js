@@ -41,9 +41,9 @@ $(document).ready(function() {
             $("#ex").removeClass("hidden").addClass("visible");
             $("#a").removeClass("hidden").addClass("visible");
             $("#exwrap").removeClass("hidden").addClass("visible");
-            $("#example > div > h1").text("WBUR");
-            $("#example > div > p").text("One of dozens of campaigns I created for WBUR’s fundraising. During my time there, we increased the amount raised through the mail by more than TEN times. This campaign illustrated our central theme -- by contributing through the mail, you could drastically reduce on-air fundraising, a benefit that every listener would support.");
-            $("#eximg").attr("src", "http://edwordscreative.com/Portfolio_-_WBUR_files/Food_newspaper_IC%201.jpg");        
+            $("#example > div > h1").text("LowellWorks");
+            $("#example > div > p").text("One of my most rewarding projects, these posters were a collaboration among 38 non-profit groups in Lowell, MA. I named the group, wrote 20 posters, arranged for (pro bono) photography and design, and produced the posters. They were featured in a press conference hosted by the mayor of Lowell, and I was a guest on a local radio station to promote the effort. I also received a special award for the work.");
+            $("#eximg").attr("src", "http://edwordscreative.com/Portfolio_-_Lowellworks_posters_files/Mirror%20poster.jpg");        
         });
     $("#msc_env").click(function() {
             $("#msc_env").fadeOut(1000);

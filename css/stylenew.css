@@ -142,15 +142,23 @@ img {
   background-image: url(https://d30y9cdsu7xlg0.cloudfront.net/png/42984-200.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: bottom;
+  background-position: center 98%;
   background-color: #A3ADB8; }
 
 #clients {
   background-image: url(https://d30y9cdsu7xlg0.cloudfront.net/png/42984-200.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: bottom;
+  background-position: center 98%;
   background-color: #057555; }
+
+#rowone {
+  margin: auto; }
+
+#rowone img {
+  display: inline-block;
+  max-width: 250px;
+  max-height: 250px; }
 
 .arrow_box {
   position: relative;

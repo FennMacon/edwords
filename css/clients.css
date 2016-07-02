@@ -23,15 +23,15 @@ p {
   background-color: rgba(255, 255, 255, 0.9); }
 
 #slide1 {
-  background-image: url(https://www.bbdo.com/assets/images/BBDO_logo_white.svg);
+  background-image: url(.././img/hh.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-size: 50%;
+  background-size: 30%;
   height: 680px; }
 
 #slide2 {
-  background-image: url(http://thenewswheel.com/wp-content/themes/patterns/timthumb.php?src=http://thenewswheel.com/wp-content/uploads/2015/05/old-Volvo-logo-emblem.png&q=90&w=660&zc=1);
+  background-image: url(.././img/LLbean.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -39,7 +39,7 @@ p {
   height: 680px; }
 
 #slide3 {
-  background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/The_Hartford_Financial_Services_Group_logo.svg/1034px-The_Hartford_Financial_Services_Group_logo.svg.png);
+  background-image: url(.././img/MorganStanley.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -47,7 +47,7 @@ p {
   height: 680px; }
 
 #slide4 {
-  background-image: url(http://static1.squarespace.com/static/54749c39e4b0712a5b6a8d96/t/54aff14be4b0a22a3692325e/1420816716476/bostonglobe.png);
+  background-image: url(.././img/Habitat.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -55,7 +55,7 @@ p {
   height: 680px; }
 
 #slide5 {
-  background-image: url(http://lotuscomputerusa.com/wp-content/uploads/2016/02/logo-tagline.png);
+  background-image: url(.././img/HP.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -63,75 +63,11 @@ p {
   height: 680px; }
 
 #slide6 {
-  background-image: url(http://web.wellesley.edu/PublicAffairs/cpaPage/logoDL/Wellesley_Logo_280.png);
+  background-image: url(.././img/Wellesley.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: 50%;
-  height: 680px; }
-
-#slide7 {
-  background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/a/a0/RitzCarlton.svg/1280px-RitzCarlton.svg.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 50%;
-  height: 680px; }
-
-#slide8 {
-  background-image: url(http://4vector.com/i/free-vector-nynex-logo_090545_Nynex_logo.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 50%;
-  height: 680px; }
-
-#slide9 {
-  background-image: url(https://upload.wikimedia.org/wikipedia/en/d/d3/Nikon_logo.svg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 45%;
-  height: 680px; }
-
-#slide10 {
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Panasonic-Logo.svg/2000px-Panasonic-Logo.svg.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 50%;
-  height: 680px; }
-
-#slide11 {
-  background-image: url(http://s3.amazonaws.com/cdn.wbur.org/images/logos/wbur/wbur-logo.svg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 50%;
-  height: 680px; }
-
-#slide12 {
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/L.L.Bean_wordmark.svg/2000px-L.L.Bean_wordmark.svg.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 50%;
-  height: 680px; }
-
-#slide13 {
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Biogen_Idec_logo.svg/2000px-Biogen_Idec_logo.svg.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 50%;
-  height: 680px; }
-
-#slide14 {
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Massachusetts_General_Hospital_logo.svg/2000px-Massachusetts_General_Hospital_logo.svg.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 40%;
   height: 680px; }
 
 @media (max-width: 768px) {

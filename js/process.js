@@ -27,7 +27,7 @@ $(document).ready(function() {
         });
     $("#l6").click(function() { 
     $("#fill").fadeIn(1000);   
-            $("#p1").text("Shared usage: The consumer buys your product if it’s on sale. Preferred usage: the consumer buys your product even if the competitor is cheaper, Exclusive usage: consumer will buy your product ONLY");
+            $("#p1").text("Shared usage: The consumer buys your product if it’s on sale. Preferred usage: the consumer buys your product even if the competitor is cheaper. Exclusive usage: consumer will buy your product ONLY");
             $("#p2").text("Tactic: Loyalty programs, lifestyle marketing, newsletters");
         });
 });
