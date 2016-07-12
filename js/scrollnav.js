@@ -10,11 +10,15 @@ $(document).ready(function(){
 		$( "#nb" ).addClass("scroll");
 		$( "#active" ).removeClass("active-noscroll");
 		$( "#active" ).addClass("active-scroll");
+		$( "#top_btn" ).removeClass("btn-noscroll");
+		$( "#top_btn" ).addClass("btn-scroll");
        } else {
 		$( "#nb" ).addClass("noscroll");
 		$( "#nb" ).removeClass("scroll");
 		$( "#active" ).addClass("active-noscroll");
 		$( "#active" ).removeClass("active-scroll");
+		$( "#top_btn" ).removeClass("btn-scroll");
+		$( "#top_btn" ).addClass("btn-noscroll");
        }
    });
     };
@@ -29,8 +33,8 @@ $(document).ready(function(){
 	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
 	      if (target.length) {
 	        $('html, body').animate({
-	          scrollTop: target.offset().top
-	        }, 800);
+	          scrollTop: target.offset().top - 55
+	        }, 1200);
 	        return false;
 	      }
 	    }

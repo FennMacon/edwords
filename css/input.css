@@ -7,7 +7,7 @@
   text-shadow: none; }
 
 p {
-  font-size: 18px; }
+  font-size: 20px; }
 
 *, body, p {
   text-shadow: none;
@@ -168,7 +168,7 @@ ul {
   text-shadow: none; }
 
 #l2:hover {
-  color: #855723;
+  color: #a57743;
   text-shadow: none; }
 
 #l3:hover {
@@ -191,7 +191,7 @@ ul {
   -moz-transition: all 1.5s ease-in;
   -o-transition: all 1.5s ease-in;
   transition: all 1.5s ease-in;
-  background-color: #855723; }
+  background-color: #a57743; }
 
 .l3h {
   -webkit-transition: all 1.5s ease-in;
@@ -295,7 +295,7 @@ ul {
   background-color: #a9a18c; }
 
 #e2 {
-  background-color: #855723; }
+  background-color: #a57743; }
 
 #e3 {
   background-color: #688d3c; }
