@@ -257,7 +257,7 @@ img {
 
 #top_btn {
   position: fixed;
-  top: 94%;
+  top: 90%;
   left: 94%;
   text-align: center;
   vertical-align: top;
@@ -319,6 +319,7 @@ img {
     box-shadow: 0 10px 6px -6px #777;
     border-bottom: 1px solid black; }
   #scraps {
+    width: 100%;
     margin: 20px auto;
     display: flex;
     float: left;
@@ -336,4 +337,8 @@ img {
     padding-top: 60px; }
   .divider {
     width: 100%;
-    margin: 0; } }
+    margin: 0; }
+  #top_btn {
+    position: fixed;
+    top: 90%;
+    left: 84%; } }

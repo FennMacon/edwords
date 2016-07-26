@@ -1,8 +1,4 @@
 $(document).ready(function() {
-    $("#msc_letter").hide();
-    $("#msc_insert").hide();
-    $("#msc_toque").hide();
-    $("#msc_reply").hide();
     $("#l1").click(function() {    
             $("#headline").text("Finding the sweet spot.");
             $("#p1").text("People make decisions for emotional reasons. Human beings respond better to stories, rather than facts. That’s why I believe that, if you want to sell something to someone, tell them a story. A problem with a solution. A benefit they personally feel. These stories are not easy to identify, or to credibly express. But finding where what your product does dovetails with why the consumer cares is the key to effective marketing.");
@@ -26,10 +22,10 @@ $(document).ready(function() {
             $("#ex").removeClass("hidden").addClass("visible");
             $("#a").removeClass("hidden").addClass("visible");
             $("#exwrap").removeClass("hidden").addClass("visible");
-            $("#example > div > h1").text("Scudder");
-            $("#example > div > p").text("A high impact series that invested an entire year’s marketing budget in one direct mail campaign. Generated millions in business, reeled in two clients that were larger than any previous client, and won the New England Direct Marketing Association’s \“Best of Show\” award.");
-            $("#eximg1").attr("src", "http://edwordscreative.com/Portfolio_-_Scudder_hats_files/scudderhat.jpg");    
-            $("#eximg2").attr("src", "");
+            $("#example > div > h1").text("Olin College");
+            $("#example > div > p").text("As a new school that takes a revolutionary approach to educating engineers, Olin turns the usual fundraising method on its head; rather than focusing on the appeal, they can succeed by reinforcing the mission. This “emergency” fundraiser, almost entirely mission-focused, still reached its goal within its first week.");
+            $("#eximg1").attr("src", ".././img/Olin 1.png");    
+            $("#eximg2").attr("src", ".././img/Olin 2.png");
             $("#eximg3").attr("src", "");
             $("#eximg4").attr("src", "");   
         });
@@ -62,25 +58,5 @@ $(document).ready(function() {
             $("#eximg2").attr("src", "http://edwordscreative.com/Portfolio_-_Lowellworks_posters_files/Joy%20poster.jpg");
             $("#eximg3").attr("src", "http://edwordscreative.com/Portfolio_-_Lowellworks_posters_files/Tricia%20poster.jpg");
             $("#eximg4").attr("src", "http://edwordscreative.com/Portfolio_-_Lowellworks_posters_files/Tran%20poster.jpg");    
-        });
-    $("#msc_env").click(function() {
-            $("#msc_env").fadeOut(1000);
-            $("#msc_letter").fadeIn(1500);
-        });
-    $("#msc_letter").click(function() {
-            $("#msc_letter").fadeOut(1000);
-            $("#msc_insert").fadeIn(1500);
-        });
-    $("#msc_insert").click(function() {
-            $("#msc_insert").fadeOut(1000);
-            $("#msc_toque").fadeIn(1500);
-        });
-    $("#msc_toque").click(function() {
-            $("#msc_toque").fadeOut(1000);
-            $("#msc_reply").fadeIn(1500);
-        });
-    $("#msc_reply").click(function() {
-            $("#msc_reply").fadeOut(1000);
-            $("#msc_env").fadeIn(1500);
         });
 });

@@ -73,9 +73,18 @@ $(document).ready(function(){
 	});
 	$( "#o3b" ).click(function(){
 		$( "#o3" ).toggleClass("is-active");
+	    
 	});	
 	$( "#o4b" ).click(function(){
 		$( "#o4" ).toggleClass("is-active");
+		$("#or3").hide();
+	    $("#or4").hide();
+	    $("#or5").hide();
+	    $("#or6").hide();
+		$("#or7").hide();
+	    $("#or8").hide();
+	    $("#or9").hide();
+	    $("#or10").hide();
 	});
 	$( "#o5b" ).click(function(){
 		$( "#o5" ).toggleClass("is-active");
@@ -109,5 +118,87 @@ $(document).ready(function(){
 	$( "#om4b" ).click(function(){
 		$( "#om4" ).toggleClass("is-active");
 	});
+
+    $("#msc_env").click(function() {
+            $("#msc_env").fadeOut(1000);
+            $("#msc_letter").fadeIn(1500);
+        });
+    $("#msc_letter").click(function() {
+            $("#msc_letter").fadeOut(1000);
+            $("#msc_insert").fadeIn(1500);
+        });
+    $("#msc_insert").click(function() {
+            $("#msc_insert").fadeOut(1000);
+            $("#msc_toque").fadeIn(1500);
+        });
+    $("#msc_toque").click(function() {
+            $("#msc_toque").fadeOut(1000);
+            $("#msc_reply").fadeIn(1500);
+        });
+    $("#msc_reply").click(function() {
+            $("#msc_reply").fadeOut(1000);
+            $("#msc_env").fadeIn(1500);
+        });
+
+    $("#or1").click(function() {
+            $("#or1").fadeOut(1000);
+            $("#or2").fadeOut(1000);
+            $("#or3").fadeIn(1500);
+            $("#or4").fadeIn(1500);
+        });
+    $("#or2").click(function() {
+            $("#or1").fadeOut(1000);
+            $("#or2").fadeOut(1000);
+            $("#or3").fadeIn(1500);
+            $("#or4").fadeIn(1500);
+        });
+    $("#or3").click(function() {
+            $("#or3").fadeOut(1000);
+            $("#or4").fadeOut(1000);
+            $("#or5").fadeIn(1500);
+            $("#or6").fadeIn(1500);
+        });
+    $("#or4").click(function() {
+            $("#or3").fadeOut(1000);
+            $("#or4").fadeOut(1000);
+            $("#or5").fadeIn(1500);
+            $("#or6").fadeIn(1500);
+        });
+    $("#or5").click(function() {
+            $("#or5").fadeOut(1000);
+            $("#or6").fadeOut(1000);
+            $("#or7").fadeIn(1500);
+            $("#or8").fadeIn(1500);
+        });
+    $("#or6").click(function() {
+            $("#or5").fadeOut(1000);
+            $("#or6").fadeOut(1000);
+            $("#or7").fadeIn(1500);
+            $("#or8").fadeIn(1500);
+        });
+    $("#or7").click(function() {
+            $("#or7").fadeOut(1000);
+            $("#or8").fadeOut(1000);
+            $("#or9").fadeIn(1500);
+            $("#or10").fadeIn(1500);
+        });
+    $("#or8").click(function() {
+            $("#or7").fadeOut(1000);
+            $("#or8").fadeOut(1000);
+            $("#or9").fadeIn(1500);
+            $("#or10").fadeIn(1500);
+        });
+    $("#or9").click(function() {
+            $("#or9").fadeOut(1000);
+            $("#or10").fadeOut(1000);
+            $("#or1").fadeIn(1500);
+            $("#or2").fadeIn(1500);
+        });
+    $("#or10").click(function() {
+            $("#or9").fadeOut(1000);
+            $("#or10").fadeOut(1000);
+            $("#or1").fadeIn(1500);
+            $("#or2").fadeIn(1500);
+        });    
 
 });
