@@ -16,6 +16,7 @@ body{
 }
 #section3{
 	background-color: $prompt4-color;
+	margin-bottom   : 200px;
 }
 #section4{
 	background-color: $prompt5-color;
@@ -27,7 +28,6 @@ body{
 	margin: 100px;
 	@include border-radius(5px);
 }
-
 dd{
 	font-size: 18px;
 }
@@ -38,8 +38,98 @@ dt{
 	padding-left: 1.8em;
 	padding-top: 1em;
 }
+
+#arrow1 {
+    border-right:15px solid $main-color;
+    border-bottom:15px solid $main-color;
+    width:50px;
+    height:50px;
+    transform: rotate(45deg);
+    position: relative;
+    top: 50px;
+    left: 95%;
+}
+#arrow1:hover{
+	@include transition(0.5s);
+    border-right:15px solid $prompt2-color;
+    border-bottom:15px solid $prompt2-color;
+}
+#arrow1:active{
+	@include transition(0.1s);
+    border-right:15px solid $background-light-color;
+    border-bottom:15px solid $background-light-color;
+}
+#arrow2 {
+    border-right:15px solid $main-color;
+    border-bottom:15px solid $main-color;
+    width:50px;
+    height:50px;
+    transform: rotate(45deg);
+    position: relative;
+    top: 50px;
+    left: 95%;
+}
+#arrow2:hover{
+	@include transition(0.5s);
+    border-right:15px solid $prompt3-color;
+    border-bottom:15px solid $prompt3-color;
+}
+#arrow2:active{
+	@include transition(0.1s);
+    border-right:15px solid $background-light-color;
+    border-bottom:15px solid $background-light-color;
+}
+#arrow3 {
+    border-right:15px solid $main-color;
+    border-bottom:15px solid $main-color;
+    width:50px;
+    height:50px;
+    transform: rotate(45deg);
+    position: relative;
+    top: 50px;
+    left: 95%;
+}
+#arrow3:hover{
+	@include transition(0.5s);
+    border-right:15px solid $prompt4-color;
+    border-bottom:15px solid $prompt4-color;
+}
+#arrow3:active{
+	@include transition(0.1s);
+    border-right:15px solid $background-light-color;
+    border-bottom:15px solid $background-light-color;
+}
+#arrow4 {
+    border-right:15px solid $main-color;
+    border-bottom:15px solid $main-color;
+    width:50px;
+    height:50px;
+    transform: rotate(225deg);
+    position: relative;
+    top: 50px;
+    left: 95%;
+}
+#arrow4:hover{
+	@include transition(0.5s);
+    border-right:15px solid $prompt1-color;
+    border-bottom:15px solid $prompt1-color;
+}
+#arrow4:active{
+	@include transition(0.1s);
+    border-right:15px solid $background-light-color;
+    border-bottom:15px solid $background-light-color;
+}
 @media (max-width: 768px) {
 	#section0{
 		padding-top: 15%;
+	}
+	.divider{
+		margin: 10px 10px;
+	}
+	.btn-noscroll{
+		display: none;
+	}
+	.btn-scroll{
+		display: none;
 	}
 }

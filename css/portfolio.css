@@ -151,9 +151,6 @@ body {
 .black h1 {
   color: #ECEFF1; }
 
-#clientList {
-  margin-bottom: 100px; }
-
 .modal p, .modal h3, .modal h4 {
   color: #212121; }
 
@@ -189,3 +186,22 @@ body {
 
 .button:focus {
   outline: none; }
+
+@media (max-width: 768px) {
+  .btn {
+    display: block;
+    margin: 0px 0px;
+    padding: 1px 20px;
+    border-bottom: 1px solid #CC3333;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    background-color: #88BB88;
+    height: 10%;
+    width: 100%;
+    text-wrap: normal; }
+  .prompt {
+    margin-top: 200px; }
+  #totop {
+    margin-top: 100px; } }
