@@ -140,6 +140,13 @@ body{
 	display: flex;
 	flex-flow: row nowrap;
 }
+#om2 > h1{
+	margin-top: -80px;
+	color: $prompt5-color;
+}
+#om2 > h3{
+	color: $prompt4-color;
+}
 
 .button:hover{
 	background : $background-light-color;
