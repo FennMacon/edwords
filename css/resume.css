@@ -16,6 +16,7 @@ body {
   background-color: #ECEFF1; }
 
 #section0 {
+  margin-top: 110px;
   background-color: #a9a18c; }
 
 #section1 {
@@ -33,7 +34,11 @@ body {
 .divider {
   height: 100%;
   padding: 10%;
-  margin: 0; }
+  margin: 100px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px; }
 
 dd {
   font-size: 18px; }

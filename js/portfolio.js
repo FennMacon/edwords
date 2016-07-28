@@ -51,6 +51,14 @@ $(document).ready(function(){
 	});	
 	$( "#dm2b" ).click(function(){
 		$( "#dm2" ).toggleClass("is-active");
+	    $("#olfm").hide();
+		$("#olfmu").hide();
+	    $("#olfr").hide();
+	    $("#olffull").hide();
+	    $("#olrl").hide();
+		$("#olrm").hide();
+	    $("#olrr").hide();
+	    $("#olrfull").hide();
 	});
 	$( "#dm3b" ).click(function(){
 		$( "#dm3" ).toggleClass("is-active");
@@ -172,6 +180,43 @@ $(document).ready(function(){
             $("#mprr").fadeOut(1000);
             $("#mpfl").fadeIn(1500);
         });
+
+     $("#olfl").click(function() {
+            $("#olfl").fadeOut(1000);
+            $("#olfm").fadeIn(1500);
+        });        
+     $("#olfm").click(function() {
+            $("#olfm").fadeOut(1000);
+            $("#olfmu").fadeIn(1500);
+        });  
+     $("#olfmu").click(function() {
+            $("#olfmu").fadeOut(1000);
+            $("#olfr").fadeIn(1500);
+        });             
+     $("#olfr").click(function() {
+            $("#olfr").fadeOut(1000);
+            $("#olffull").fadeIn(1500);
+        });
+     $("#olffull").click(function() {
+            $("#olffull").fadeOut(1000);
+            $("#olrl").fadeIn(1500);
+        });     
+     $("#olrl").click(function() {
+            $("#olrl").fadeOut(1000);
+            $("#olrm").fadeIn(1500);
+        });
+     $("#olrm").click(function() {
+            $("#olrm").fadeOut(1000);
+            $("#olrr").fadeIn(1500);
+        });       
+     $("#olrr").click(function() {
+            $("#olrr").fadeOut(1000);
+            $("#olrfull").fadeIn(1500);
+        });    
+     $("#olrfull").click(function() {
+            $("#olrfull").fadeOut(1000);
+            $("#olfl").fadeIn(1500);
+        });             
 
 
     $("#or1").click(function() {

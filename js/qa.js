@@ -24,8 +24,8 @@ $(document).ready(function() {
             $("#exwrap").removeClass("hidden").addClass("visible");
             $("#example > div > h1").text("Olin College");
             $("#example > div > p").text("As a new school that takes a revolutionary approach to educating engineers, Olin turns the usual fundraising method on its head; rather than focusing on the appeal, they can succeed by reinforcing the mission. This “emergency” fundraiser, almost entirely mission-focused, still reached its goal within its first week.");
-            $("#eximg1").attr("src", ".././img/Olin 1.png");    
-            $("#eximg2").attr("src", ".././img/Olin 2.png");
+            $("#eximg1").attr("src", ".././img/olin/olffull.png");    
+            $("#eximg2").attr("src", ".././img/olin/olrfull.png");
             $("#eximg3").attr("src", "");
             $("#eximg4").attr("src", "");   
         });

@@ -136,6 +136,10 @@ body{
 	display: flex;
 	flex-flow: row nowrap;
 }
+#olin{
+	display: flex;
+	flex-flow: row nowrap;
+}
 
 .button:hover{
 	background : $background-light-color;

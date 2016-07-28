@@ -5,14 +5,12 @@ body{
 }
 
 #section0{
-	background-color: $prompt1-color;
+	background-color: $background-color;
 	margin-top: 50px;
-	margin-left: 0;
-	margin-right: 0;
+	text-align: center;
 	@include border-radius(0px);
-	border-left: none;
-	border-right: none;
-	border-top: 1px #cc3333 inset;
+	border: none;
+	box-shadow: none;
 }
 #section1{
 	background-color: $prompt2-color;
