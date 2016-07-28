@@ -3,7 +3,7 @@ layout: post
 title:  "Musings on Celebrity"
 date:   2016-07-21 16:49:27 -0400
 categories: jekyll update
-permalink: /blog/celebs.html
+permalink: /edwords/blog/celebs.html
 ---
 So culture is totally bonkers but so is the media which I guess is part of culture and this may be better than lorem ipsum but also might not be.
 
