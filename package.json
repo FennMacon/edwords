@@ -1,0 +1,24 @@
+{
+  "name": "edwords",
+  "version": "1.0.0",
+  "description": "Edwords Creative",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FennMacon/edwords.git"
+  },
+  "author": "Fenn Macon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FennMacon/edwords/issues"
+  },
+  "homepage": "https://github.com/FennMacon/edwords#readme",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.1"
+  }
+}

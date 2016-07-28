@@ -1,0 +1,60 @@
+/*
+ * Globals
+ */
+
+$main-color               : #212121;
+$prompt1-color            : #a9a18c;
+$prompt2-color            : #a57743;
+$prompt3-color            : #688d3c;
+$prompt4-color            : #A3ADB8;
+$prompt5-color            : #259575;
+$background-color         : #ECEFF1;
+$background-light-color   : #88BB88;
+$background-lighter-color : #DCDFE1;
+$border-color			  : #CC3333;
+
+$font: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+$secondfont: Futura, "Trebuchet MS", Arial, sans-serif;
+
+@mixin background-gradient ($color1,$color2) {
+    background: $color1; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient($color1,$color2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($color1,$color2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($color1,$color2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient($color1,$color2); /* Standard syntax */
+}
+
+@mixin lr-gradient ($color1,$color2){
+  background: $color1; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, $color1 , $color2); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, $color1, $color2); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, $color1, $color2); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, $color1 , $color2); /* Standard syntax */
+}
+
+@mixin border-radius($radius) {
+	border-radius         : $radius;
+	-webkit-border-radius : $radius;
+	-moz-border-radius    : $radius;
+	-ms-border-radius     : $radius;
+}
+
+@mixin transition($time){
+	-webkit-transition : all $time ease-in;
+	-moz-transition    : all $time ease-in;
+	-o-transition      : all $time ease-in;
+	transition         : all $time ease-in;
+}
+
+*,body,p,h1,h2,h3,h4,h5,h6,{
+	font-family : $font;
+	color       : $main-color;
+	text-shadow : none;
+}
+
+p{
+	font-size: 20px;
+}
+a{
+	color: $main-color;
+}

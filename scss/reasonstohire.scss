@@ -1,0 +1,59 @@
+@import 'globals';
+
+body{
+	background-color: $background-color;
+}
+
+#section0{
+	background-color: $prompt1-color;
+	margin-top: 50px;
+	margin-left: 0;
+	margin-right: 0;
+	@include border-radius(0px);
+	border-left: none;
+	border-right: none;
+	border-top: 1px #cc3333 inset;
+}
+#section1{
+	background-color: $prompt2-color;
+	margin-left: 20%;
+}
+#section2{
+	background-color: $prompt3-color;
+	margin-right: 20%;
+}
+#section3{
+	background-color: $prompt4-color;
+	margin-left: 20%;
+}
+#section4{
+	background-color: $prompt5-color;
+	margin-right: 20%;
+}
+#section5{
+	background-color: $prompt1-color;
+	margin-left: 20%;
+}
+#section6{
+	background-color: $prompt2-color;
+	margin-right: 20%;
+}
+#section7{
+	background-color: $prompt3-color;
+	margin-left: 20%;
+}
+#section8{
+	background-color: $prompt4-color;
+	margin-right: 20%;
+}
+.divider{
+	height  : 100%;
+	margin  : 10px;
+	padding : 3%;
+	border: 1px #cc3333 groove;
+	box-shadow: 1px 1px 3px $main-color;
+	@include border-radius(20px);
+}
+@media (max-width: 768px) {
+
+}

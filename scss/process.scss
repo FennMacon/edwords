@@ -1,0 +1,149 @@
+@import 'globals';
+
+body{
+	background-color : $background-color;
+}
+
+#fullpage{
+}
+
+.section{
+	margin  : 100px 5% 100px 5%;
+	padding : 10%;
+	border: 1px #cc3333 groove;
+	box-shadow: 1px 1px 3px $main-color;
+}
+
+.section {
+	p, h1, h2, h3, h4, h5, h6 {
+		color       : $main-color;
+		text-shadow : none;
+	}
+}
+
+.scrap{
+	display: flex;
+	flex-flow: row nowrap;
+  	align-content: space-around;
+  	justify-content: space-around;
+	padding: 40px 10px 20px 10px;
+	margin: 10px;
+	text-align: center;
+	background-color: $background-color;
+    box-shadow: 0 10px 8px -8px #777;
+    border: 2px solid $main-color;
+	@include background-gradient($background-light-color, $background-color);
+}
+
+
+#scraps{
+	display: flex;
+	flex-flow: row nowrap;
+  	align-content: space-around;
+  	justify-content: space-around;
+  	margin-bottom: 20px;
+  white-space: nowrap ;
+}
+
+.scrap > p{
+	font-size: 24px;
+}
+.scrap > ul{
+	font-size: 16px;
+}
+
+.scrap:hover{
+	cursor:pointer;
+}
+
+.hidden{
+	@include transition(1s);
+	opacity: 0;
+}
+.visible{
+	@include transition(1s);
+	opacity: 1;
+}
+
+#intro {
+	height  : 100%;
+	margin  : 10% 5% 0px 5%;
+	padding : 10%;
+
+	p, h1, h2, h3, h4, h5, h6 {
+		color       : $main-color;
+		text-align  : left;
+		text-shadow : none;
+	}
+}
+
+#buying{
+	background : $background-light-color;
+	color      : $main-color;
+}
+
+#buying h1{
+	color : $main-color;
+}
+@media (max-width: 1000px) {
+	#banner{
+		padding-top : 15%;
+		float: left;
+	}
+	#fill{
+		position: fixed;
+		top: 100px;
+		padding: 10px;
+		margin-right: 5%;
+		background-color: $background-color;
+		border: 1px #cc3333 groove;
+	}
+	.scrap{
+		width: 100%;
+		opacity: 0.95;
+		margin: 0 auto;
+		position: relative;
+		display: flex;
+		flex-flow: column wrap;
+	  	align-content: space-around;
+	  	justify-content: space-around;
+	  	text-align: center;
+		padding: 40px;
+		margin-bottom: 10px;
+		background-color: $background-color;
+	    box-shadow: 0 10px 6px -6px #777;
+	}
+	.scrap > ul{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#scraps{
+		margin:20px;
+		display: flex;
+		flex-flow: column wrap;
+	  	align-content: space-around;
+	  	justify-content: space-around;
+	}
+	#buying{
+		display: flex;
+		flex-flow: column nowrap;
+	}
+	#l1{
+		@include background-gradient($prompt1-color, $prompt2-color);
+	}
+	#l2{
+		@include background-gradient($prompt2-color, $prompt3-color);
+	}
+	#l3{
+		@include background-gradient($prompt3-color, $prompt4-color);	
+	}
+	#l4{
+		@include background-gradient($prompt4-color, $prompt5-color);
+	}
+	#l5{
+		@include background-gradient($prompt5-color, $prompt1-color);
+	}
+	#l6{
+		@include background-gradient($prompt1-color, $border-color);
+	}
+}

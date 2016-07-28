@@ -1,3 +1,7 @@
+---
+layout: defaultmain
+---
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
@@ -73,20 +77,23 @@
       </div>    
     <!-- PAGE START --> 
     <div id="fullpage"> 
-    <div id="banner" class="divider">
-        
+    <div id="post" class="divider" style="margin-top:60px;height:90%;">
+
+          <h1 class="page-heading">Posts</h1>
+
+          <ul class="post-list">
+            {% for post in site.posts %}
+              <li>
+                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+                <h2>
+                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h2>
+              </li>
+            {% endfor %}
+          </ul>
+
     </div>
-    <div id="question" class="divider">
-        
-    </div>
-    <div id="answer" class="divider">
-      
-    </div>
-    <div id="example" class="divider">      
-      
-    </div>
-    <div id="clients" class="divider">
-    </div>  
     <a href="#banner" id="top_btn" class="btn-noscroll"><div id="arrow"></div></a>
     </div>
     <script src="js/qa.js"></script>

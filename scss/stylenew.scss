@@ -1,0 +1,353 @@
+
+@import 'globals';
+
+body{
+	background-color : $background-color;
+}
+
+img{
+	max-width: 500px;
+	max-height: 500px;
+	margin: 10px;
+}
+.jumbotron{
+	background-color:rgba(255, 255, 255, 0.75);
+	box-shadow: 1px 1px 3px $main-color;
+}
+
+.scrap{
+	position: relative;
+	display: flex;
+	flex-flow: row nowrap;
+  	align-content: space-around;
+  	justify-content: space-around;
+	padding: 50px;
+	background-color: $background-color;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+.hidden{
+	@include transition(1s);
+	opacity: 0;
+}
+.visible{
+	@include transition(1s);
+	opacity: 1;
+}
+
+#scraps{
+	display: flex;
+	flex-flow: row nowrap;
+  	align-content: space-around;
+  	justify-content: space-around;
+}
+
+#a{
+	padding: 20px;
+}
+
+#ebtn{
+	margin-top:20px;
+	display: flex;
+	flex-flow: row nowrap;
+  	align-content: space-around;
+  	justify-content: space-around;
+}
+#ex{
+  	background-color: $background-color;
+    box-shadow: 0 10px 6px -6px #777;
+    @include border-radius(1px);
+}
+
+#exwrap{
+	padding: 20px;
+}
+#bcwrap{
+	padding: 20px;
+}
+
+#cl{
+	margin: 20px auto 0 auto;
+	width: 50%;
+}
+#cl > a{
+	color: $main-color;
+}
+
+#pbtn{
+	margin-top:20px;
+	display: flex;
+	flex-flow: row nowrap;
+  	align-content: space-around;
+  	justify-content: space-around;
+}
+
+#nb{
+	opacity: 0.95;
+}
+#nav>ul{
+	margin:5%
+}
+#nav>ul>li{
+	display: inline;
+}
+#nav>ul>li.n-left{
+	text-align: left;
+}
+#nav>ul>li.n-right{
+	text-align: right;
+}
+
+.divider{
+	height  : 100%;
+	margin  : 10px;
+	padding : 10%;
+	border: 1px #cc3333 groove;
+	box-shadow: 1px 1px 3px $main-color;
+}
+
+#post{
+	background-color : $prompt4-color;
+}
+
+#banner{
+	background-image : url(http://www.calvarymemorial.com/img/typewriter-icon.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 60% 60%;
+    background-position: center; 
+	background-color : $prompt1-color;
+	margin-top : 60px;
+}
+
+#question{
+	background-image : url(http://williamleeks.com/img/home-typewriter.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 90%; 
+	background-color : $prompt2-color;
+	display : flex;
+	flex-wrap: center;
+}
+#headline{
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 34px;
+}
+
+#answer{
+	background-image : url(https://cdn3.iconfinder.com/data/icons/creative-process/155/vector_258_11-01-512.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	background-color : $prompt3-color;	
+	display : flex;
+	flex-wrap: center;
+}
+
+#example{
+	background-image : url(https://d30y9cdsu7xlg0.cloudfront.net/png/42984-200.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 98%; 
+	background-color : $prompt4-color;
+}
+.eximg{
+	display: inline;
+}
+#eximg_container{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+#clients{
+	background-image : url(https://d30y9cdsu7xlg0.cloudfront.net/png/42984-200.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 98%; 
+	background-color : $prompt5-color;
+}
+
+#clientjumbo{
+	background-color: $background-color;
+	opacity: 0.97;
+}
+
+#rowone{
+  margin: auto;
+}
+#rowone img{
+  display: inline-block;
+  max-width: 250px;
+  max-height: 250px;
+  min-width: 200px;
+}
+
+.arrow_box {
+	position: relative;
+	background: $background-color;
+	border: 1px solid $prompt3-color;
+	opacity: 0.85;
+}
+.arrow_box:after, .arrow_box:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-top-color: $background-color;
+	border-width: 30px;
+	margin-left: -30px;
+}
+.arrow_box:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-top-color: $prompt3-color;
+	border-width: 33px;
+	margin-left: -33px;
+}
+
+.arrow_box:hover{
+	opacity: 1;
+}
+.arrow_box_r:hover{
+	@include transition(1s);
+	opacity: 1;
+}
+
+.arrow_box_r {
+	position: relative;
+	background: $background-color;
+	border: 1px solid $prompt3-color;
+	@include transition(1s);
+	opacity: 0.85;
+}
+.arrow_box_r:after, .arrow_box_r:before {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box_r:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-left-color: $background-color;
+	border-width: 30px;
+	margin-top: -30px;
+}
+.arrow_box_r:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-left-color: $prompt3-color;
+	border-width: 33px;
+	margin-top: -33px;
+}
+
+.msc_img{ 
+	margin: auto;
+}
+
+#msc_container{
+	padding: 3% 10%;
+}
+
+#top_btn{
+	position: fixed;
+	top: 90%;
+	left: 94%;
+	text-align: center;
+	vertical-align: top;
+	text-decoration: none;
+}
+#arrow {
+    border-right:15px solid $main-color;
+    border-bottom:15px solid $main-color;
+    width:50px;
+    height:50px;
+    transform: rotate(225deg);
+}
+#arrow:hover{
+	@include transition(0.5s);
+    border-right:15px solid $prompt1-color;
+    border-bottom:15px solid $prompt1-color;
+}
+#arrow:active{
+	@include transition(0.1s);
+    border-right:15px solid $background-light-color;
+    border-bottom:15px solid $background-light-color;
+}
+.btn-scroll{
+	@include transition(1s);
+	opacity: 0.8;
+}
+.btn-noscroll{
+	@include transition(1s);
+	opacity: 0.0;
+}
+.site-footer{
+	margin: 10px auto 10px auto;
+}
+
+@media (max-width: 768px) {
+	#banner{
+		padding-top : 15%;
+		float: left;
+	}
+
+	.scrap{
+		width: 100%;
+		opacity: 0.95;
+		margin: 0 auto;
+		position: relative;
+		display: flex;
+		float: left;
+		flex-flow: column wrap;
+	  	align-content: center;
+	  	justify-content: center;
+		padding: 50px;
+		background-color: $background-color;
+	    box-shadow: 0 10px 6px -6px #777;
+	    border-bottom: 1px solid black;
+	}
+	#scraps{
+		width: 100%;
+		margin:20px auto;
+		display: flex;
+		float: left;
+		flex-flow: column nowrap;
+	  	align-content: center;
+	  	justify-content: center;
+	}
+
+	#ebtn{
+		margin:20px;
+		display: flex;
+		float: left;
+		flex-flow: column nowrap;
+	  	align-content: space-around;
+	  	justify-content: space-around;
+	}
+	#question{
+		padding-top: 60px;
+	}
+	.divider{
+		width: 100%;
+		margin: 0;
+	}
+	#top_btn{
+	position: fixed;
+	top: 90%;
+	left: 84%;
+}
+}

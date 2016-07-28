@@ -9,6 +9,9 @@
 p {
   font-size: 20px; }
 
+a {
+  color: #212121; }
+
 body {
   background-color: #ECEFF1; }
 
@@ -110,6 +113,9 @@ img {
   padding: 10%;
   border: 1px #cc3333 groove;
   box-shadow: 1px 1px 3px #212121; }
+
+#post {
+  background-color: #A3ADB8; }
 
 #banner {
   background-image: url(http://www.calvarymemorial.com/img/typewriter-icon.svg);
@@ -299,6 +305,9 @@ img {
   -o-transition: all 1s ease-in;
   transition: all 1s ease-in;
   opacity: 0.0; }
+
+.site-footer {
+  margin: 10px auto 10px auto; }
 
 @media (max-width: 768px) {
   #banner {

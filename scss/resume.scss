@@ -1,0 +1,43 @@
+@import 'globals';
+
+body{
+	background-color: $background-color;
+}
+
+#section0{
+	background-color: $prompt1-color;
+}
+#section1{
+	background-color: $prompt2-color;
+}
+#section2{
+	background-color: $prompt3-color;
+}
+#section3{
+	background-color: $prompt4-color;
+}
+#section4{
+	background-color: $prompt5-color;
+}
+
+.divider{
+	height: 100%;
+	padding: 10%;
+	margin: 0;
+}
+
+dd{
+	font-size: 18px;
+}
+dt{
+	font-size: 18px;
+}
+.disc{
+	padding-left: 1.8em;
+	padding-top: 1em;
+}
+@media (max-width: 768px) {
+	#section0{
+		padding-top: 15%;
+	}
+}

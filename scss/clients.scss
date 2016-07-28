@@ -1,0 +1,74 @@
+@import 'globals';
+
+*,body,p,h1,h2,h3,h4,h5,h6{
+  text-shadow:none;
+  color: $main-color;
+  font-family: $font;
+  }
+
+.slide{
+	height: 100%;
+	padding: 120px 10% 100px 10%;
+	margin: 0;
+}
+.jumbotron{
+	background-color:rgba(255, 255, 255, 0.9);
+}
+
+#slide1{
+	background-image : url(.././img/hh.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: 30%;
+    height: 680px;
+}
+#slide2{
+	background-image : url(.././img/LLbean.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: 40%;
+    height: 680px;
+}
+#slide3{
+	background-image : url(.././img/MorganStanley.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 40%;
+    height: 680px;
+
+}
+#slide4{
+	background-image : url(.././img/Habitat.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 50%;
+    height: 680px;
+
+}
+#slide5{
+	background-image : url(.././img/HP.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 50%;
+    height: 680px;
+
+}
+#slide6{
+	background-image : url(.././img/Wellesley.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 50%;
+    height: 680px;
+
+}
+@media (max-width: 768px) {
+	#slide1{
+		padding-top: 15%;
+	}
+}
