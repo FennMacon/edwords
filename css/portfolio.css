@@ -166,6 +166,10 @@ body {
   color: #212121;
   border: 1px solid #88BB88; }
 
+#msp {
+  display: flex;
+  flex-flow: row nowrap; }
+
 .button:hover {
   background: #88BB88; }
 

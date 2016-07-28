@@ -132,6 +132,11 @@ body{
 	border     : 1px solid $background-light-color;
 }
 
+#msp{
+	display: flex;
+	flex-flow: row nowrap;
+}
+
 .button:hover{
 	background : $background-light-color;
 }

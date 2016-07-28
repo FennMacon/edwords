@@ -60,10 +60,11 @@ $(document).ready(function(){
 	});
 	$( "#dm5b" ).click(function(){
 		$( "#dm5" ).toggleClass("is-active");
+	    $("#msc_letter").hide();
+		$("#msc_insert").hide();
+	    $("#msc_toque").hide();
+	    $("#msc_reply").hide();
 	});	
-	$( "#dm6b" ).click(function(){
-		$( "#dm6" ).toggleClass("is-active");
-	});
 
 	$( "#o1b" ).click(function(){
 		$( "#o1" ).toggleClass("is-active");
@@ -73,18 +74,9 @@ $(document).ready(function(){
 	});
 	$( "#o3b" ).click(function(){
 		$( "#o3" ).toggleClass("is-active");
-	    
 	});	
 	$( "#o4b" ).click(function(){
 		$( "#o4" ).toggleClass("is-active");
-		$("#or3").hide();
-	    $("#or4").hide();
-	    $("#or5").hide();
-	    $("#or6").hide();
-		$("#or7").hide();
-	    $("#or8").hide();
-	    $("#or9").hide();
-	    $("#or10").hide();
 	});
 	$( "#o5b" ).click(function(){
 		$( "#o5" ).toggleClass("is-active");
@@ -108,15 +100,31 @@ $(document).ready(function(){
 
 	$( "#om1b" ).click(function(){
 		$( "#om1" ).toggleClass("is-active");
+	    $("#mpf").hide();
+	    $("#mpfr").hide();
+		$("#mpr").hide();
+	    $("#mprl").hide();
+		$("#mprr").hide();
 	});	
 	$( "#om2b" ).click(function(){
 		$( "#om2" ).toggleClass("is-active");
 	});
 	$( "#om3b" ).click(function(){
 		$( "#om3" ).toggleClass("is-active");
-	});	
+	});		
 	$( "#om4b" ).click(function(){
 		$( "#om4" ).toggleClass("is-active");
+	});
+	$( "#om5b" ).click(function(){
+		$( "#om5" ).toggleClass("is-active");
+		$("#or3").hide();
+	    $("#or4").hide();
+	    $("#or5").hide();
+	    $("#or6").hide();
+		$("#or7").hide();
+	    $("#or8").hide();
+	    $("#or9").hide();
+	    $("#or10").hide();
 	});
 
     $("#msc_env").click(function() {
@@ -139,6 +147,32 @@ $(document).ready(function(){
             $("#msc_reply").fadeOut(1000);
             $("#msc_env").fadeIn(1500);
         });
+
+     $("#mpfl").click(function() {
+            $("#mpfl").fadeOut(1000);
+            $("#mpfr").fadeIn(1500);
+        });     
+     $("#mpfr").click(function() {
+            $("#mpfr").fadeOut(1000);
+            $("#mpf").fadeIn(1500);
+        });
+     $("#mpf").click(function() {
+            $("#mpf").fadeOut(1000);
+            $("#mpr").fadeIn(1500);
+        });     
+     $("#mpr").click(function() {
+            $("#mpr").fadeOut(1000);
+            $("#mprl").fadeIn(1500);
+        });
+     $("#mprl").click(function() {
+            $("#mprl").fadeOut(1000);
+            $("#mprr").fadeIn(1500);
+        });
+     $("#mprr").click(function() {
+            $("#mprr").fadeOut(1000);
+            $("#mpfl").fadeIn(1500);
+        });
+
 
     $("#or1").click(function() {
             $("#or1").fadeOut(1000);
