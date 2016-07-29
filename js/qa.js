@@ -9,9 +9,9 @@ $(document).ready(function() {
             $("#exwrap").removeClass("hidden").addClass("visible");
             $("#example > div > h1").text("LL Bean");
             $("#example > div > p").text("LL Bean is one of the most beloved brands in the world. These ads reinforce Bean’s connection to the outdoors, and to values that are traditional, respected and very Maine-like.");
-            $("#eximg1").attr("src", "http://edwordscreative.com/Portfolio_-_Bean_files/llbean1.jpg");
-            $("#eximg2").attr("src", "http://edwordscreative.com/Portfolio_-_Bean_files/llbean2.jpg");
-            $("#eximg3").attr("src", "http://edwordscreative.com/Portfolio_-_Bean_files/llbean3.jpg");
+            $("#eximg1").attr("src", "./img/portfolio/print/llbean1.jpg");
+            $("#eximg2").attr("src", "./img/portfolio/print/llbean2.jpg");
+            $("#eximg3").attr("src", "./img/portfolio/print/llbean3.jpg");
             $("#eximg4").attr("src", "");
         });
     $("#l2").click(function() {    
@@ -39,9 +39,9 @@ $(document).ready(function() {
             $("#exwrap").removeClass("hidden").addClass("visible");
             $("#example > div > h1").text("The New England Journal of Medicine");
             $("#example > div > p").text("Designed to re-connect today’s physician with the New England Journal of Medicine, this campaign unites the Journal’s values with those of physicians. Its visual style places the reader in the ad’s story and signs off with a reader-centric tag line – Never Stop Learning.");
-            $("#eximg1").attr("src", "http://edwordscreative.com/Portfolio_-_NEJM_ads_files/Integrity.jpg");   
-            $("#eximg2").attr("src", "http://edwordscreative.com/Portfolio_-_NEJM_ads_files/care.jpg");
-            $("#eximg3").attr("src", "http://edwordscreative.com/Portfolio_-_NEJM_ads_files/Commitment.jpg");
+            $("#eximg1").attr("src", "./img/portfolio/print/nejm1.jpg");   
+            $("#eximg2").attr("src", "./img/portfolio/print/nejm2.jpg");
+            $("#eximg3").attr("src", "./img/portfolio/print/nejm3.jpg");
             $("#eximg4").attr("src", "");         
         });
     $("#l4").click(function() {    
@@ -54,9 +54,9 @@ $(document).ready(function() {
             $("#exwrap").removeClass("hidden").addClass("visible");
             $("#example > div > h1").text("LowellWorks");
             $("#example > div > p").text("These posters were a collaboration among 38 non-profit groups in Lowell, MA. I named the group, wrote 20 posters, and arranged for pro bono photograph and design. I was honored at a press conference with the mayor of Lowell and received a special award for the work.");
-            $("#eximg1").attr("src", "http://edwordscreative.com/Portfolio_-_Lowellworks_posters_files/Mirror%20poster.jpg");    
-            $("#eximg2").attr("src", "http://edwordscreative.com/Portfolio_-_Lowellworks_posters_files/Joy%20poster.jpg");
-            $("#eximg3").attr("src", "http://edwordscreative.com/Portfolio_-_Lowellworks_posters_files/Tricia%20poster.jpg");
-            $("#eximg4").attr("src", "http://edwordscreative.com/Portfolio_-_Lowellworks_posters_files/Tran%20poster.jpg");    
+            $("#eximg1").attr("src", "./img/portfolio/other/lowell1.jpg");    
+            $("#eximg2").attr("src", "./img/portfolio/other/lowell2.jpg");
+            $("#eximg3").attr("src", "./img/portfolio/other/lowell3.jpg");
+            $("#eximg4").attr("src", "./img/portfolio/other/lowell4.jpg");    
         });
 });
