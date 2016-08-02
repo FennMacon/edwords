@@ -33,6 +33,11 @@ prose:
         field:
           element: "hidden"
           value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Permalink"
+          value: ""
       - name: "categories"
         field:
           element: "hidden"
@@ -42,16 +47,6 @@ prose:
           element: "text"
           label: "Permalink"
           value: "/./blog/"
-      - name: "tags"
-        field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
-          options:
-            - name: ""
-              value: "apples"
-            - name: ""
-              value: "bananas"
     _posts/static:
       - name: "layout"
         field:
