@@ -62,7 +62,53 @@ body {
   font-size: 16px; }
 
 .scrap:hover {
-  cursor: pointer; }
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  background: #A3ADB8;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#A3ADB8, #ECEFF1);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#A3ADB8, #ECEFF1);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#A3ADB8, #ECEFF1);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#A3ADB8, #ECEFF1);
+  /* Standard syntax */ }
+
+.scrap:active {
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  background: #a9a18c;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#a9a18c, #ECEFF1);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#a9a18c, #ECEFF1);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#a9a18c, #ECEFF1);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#a9a18c, #ECEFF1);
+  /* Standard syntax */ }
+
+.active_scrap {
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  background: #259575;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#259575, #ECEFF1);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#259575, #ECEFF1);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#259575, #ECEFF1);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#259575, #ECEFF1);
+  /* Standard syntax */ }
 
 .hidden {
   -webkit-transition: all 1s ease-in;

@@ -7,12 +7,7 @@ $(document).ready(function() {
             $("#ex").removeClass("hidden").addClass("visible");
             $("#a").removeClass("hidden").addClass("visible");
             $("#exwrap").removeClass("hidden").addClass("visible");
-            $("#example > div > h1").text("LL Bean");
-            $("#example > div > p").text("LL Bean is one of the most beloved brands in the world. These ads reinforce Bean’s connection to the outdoors, and to values that are traditional, respected and very Maine-like.");
-            $("#eximg1").attr("src", "./img/portfolio/print/llbean1.jpg");
-            $("#eximg2").attr("src", "./img/portfolio/print/llbean2.jpg");
-            $("#eximg3").attr("src", "./img/portfolio/print/llbean3.jpg");
-            $("#eximg4").attr("src", "");
+            $("#modalTarget").attr("data-target","#exampleOne");
         });
     $("#l2").click(function() {    
             $("#headline").text("\“Brand advertising that pays for itself.\”");
@@ -22,12 +17,15 @@ $(document).ready(function() {
             $("#ex").removeClass("hidden").addClass("visible");
             $("#a").removeClass("hidden").addClass("visible");
             $("#exwrap").removeClass("hidden").addClass("visible");
-            $("#example > div > h1").text("Olin College");
-            $("#example > div > p").text("As a new school that takes a revolutionary approach to educating engineers, Olin turns the usual fundraising method on its head; rather than focusing on the appeal, they can succeed by reinforcing the mission. This “emergency” fundraiser, almost entirely mission-focused, still reached its goal within its first week.");
-            $("#eximg1").attr("src", "./img/olin/olffull.png");    
-            $("#eximg2").attr("src", "./img/olin/olrfull.png");
-            $("#eximg3").attr("src", "");
-            $("#eximg4").attr("src", "");   
+            $("#modalTarget").attr("data-target","#exampleTwo");      
+        $("#olfl").hide();
+        $("#olfm").hide();
+        $("#olfr").hide();
+        $("#olffull").hide();
+        $("#olrl").hide();
+        $("#olrm").hide();
+        $("#olrr").hide();
+        $("#olrfull").hide();     
         });
     $("#l3").click(function() {    
             $("#headline").text("Mapping your brand");
@@ -37,12 +35,7 @@ $(document).ready(function() {
             $("#ex").removeClass("hidden").addClass("visible");
             $("#a").removeClass("hidden").addClass("visible");
             $("#exwrap").removeClass("hidden").addClass("visible");
-            $("#example > div > h1").text("The New England Journal of Medicine");
-            $("#example > div > p").text("Designed to re-connect today’s physician with the New England Journal of Medicine, this campaign unites the Journal’s values with those of physicians. Its visual style places the reader in the ad’s story and signs off with a reader-centric tag line – Never Stop Learning.");
-            $("#eximg1").attr("src", "./img/portfolio/print/nejm1.jpg");   
-            $("#eximg2").attr("src", "./img/portfolio/print/nejm2.jpg");
-            $("#eximg3").attr("src", "./img/portfolio/print/nejm3.jpg");
-            $("#eximg4").attr("src", "");         
+            $("#modalTarget").attr("data-target","#exampleThree");
         });
     $("#l4").click(function() {    
             $("#headline").text("Why do people give away money?");
@@ -52,11 +45,37 @@ $(document).ready(function() {
             $("#ex").removeClass("hidden").addClass("visible");
             $("#a").removeClass("hidden").addClass("visible");
             $("#exwrap").removeClass("hidden").addClass("visible");
-            $("#example > div > h1").text("LowellWorks");
-            $("#example > div > p").text("These posters were a collaboration among 38 non-profit groups in Lowell, MA. I named the group, wrote 20 posters, and arranged for pro bono photograph and design. I was honored at a press conference with the mayor of Lowell and received a special award for the work.");
-            $("#eximg1").attr("src", "./img/portfolio/other/lowell1.jpg");    
-            $("#eximg2").attr("src", "./img/portfolio/other/lowell2.jpg");
-            $("#eximg3").attr("src", "./img/portfolio/other/lowell3.jpg");
-            $("#eximg4").attr("src", "./img/portfolio/other/lowell4.jpg");    
+            $("#modalTarget").attr("data-target","#exampleFour"); 
         });
+
+
+     $("#olfmu").click(function() {
+            $("#olfmu").fadeOut(1000);
+            $("#olfr").fadeIn(1500);
+        });        
+     $("#olfr").click(function() {
+            $("#olfr").fadeOut(1000);
+            $("#olfl").fadeIn(1500);
+        });  
+     $("#olfl").click(function() {
+            $("#olfl").fadeOut(1000);
+            $("#olrl").fadeIn(1500);
+        });
+     $("#olrl").click(function() {
+            $("#olrl").fadeOut(1000);
+            $("#olrm").fadeIn(1500);
+        });
+     $("#olrm").click(function() {
+            $("#olrm").fadeOut(1000);
+            $("#olrr").fadeIn(1500);
+        });       
+     $("#olrr").click(function() {
+            $("#olrr").fadeOut(1000);
+            $("#olfm").fadeIn(1500);
+        }); 
+     $("#olfm").click(function() {
+            $("#olfm").fadeOut(1000);
+            $("#olfmu").fadeIn(1500);
+        });     
+
 });

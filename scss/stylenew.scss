@@ -191,29 +191,6 @@ img{
 	border: 1px solid $prompt3-color;
 	opacity: 0.85;
 }
-.arrow_box:after, .arrow_box:before {
-	top: 100%;
-	left: 50%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-}
-
-.arrow_box:after {
-	border-color: rgba(136, 183, 213, 0);
-	border-top-color: $background-color;
-	border-width: 30px;
-	margin-left: -30px;
-}
-.arrow_box:before {
-	border-color: rgba(194, 225, 245, 0);
-	border-top-color: $prompt3-color;
-	border-width: 33px;
-	margin-left: -33px;
-}
 
 .arrow_box:hover{
 	opacity: 1;

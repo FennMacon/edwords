@@ -54,6 +54,16 @@ body{
 
 .scrap:hover{
 	cursor:pointer;
+	@include transition(0.3s);
+	@include background-gradient($prompt4-color, $background-color);
+}
+.scrap:active{
+	@include transition(0.3s);
+	@include background-gradient($prompt1-color, $background-color);
+}
+.active_scrap{
+	@include transition(0.3s);
+	@include background-gradient($prompt5-color, $background-color);
 }
 
 .hidden{

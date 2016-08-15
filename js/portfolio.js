@@ -51,8 +51,8 @@ $(document).ready(function(){
 	});	
 	$( "#dm2b" ).click(function(){
 		$( "#dm2" ).toggleClass("is-active");
+        $("#olfl").hide();
 	    $("#olfm").hide();
-		$("#olfmu").hide();
 	    $("#olfr").hide();
 	    $("#olffull").hide();
 	    $("#olrl").hide();
@@ -108,7 +108,7 @@ $(document).ready(function(){
 
 	$( "#om1b" ).click(function(){
 		$( "#om1" ).toggleClass("is-active");
-	    $("#mpf").hide();
+	    $("#mpfl").hide();
 	    $("#mpfr").hide();
 		$("#mpr").hide();
 	    $("#mprl").hide();
@@ -170,7 +170,7 @@ $(document).ready(function(){
         });     
      $("#mpr").click(function() {
             $("#mpr").fadeOut(1000);
-            $("#mprl").fadeIn(1500);
+            $("#mpf").fadeIn(1500);
         });
      $("#mprl").click(function() {
             $("#mprl").fadeOut(1000);
@@ -181,26 +181,18 @@ $(document).ready(function(){
             $("#mpfl").fadeIn(1500);
         });
 
-     $("#olfl").click(function() {
-            $("#olfl").fadeOut(1000);
-            $("#olfm").fadeIn(1500);
-        });        
-     $("#olfm").click(function() {
-            $("#olfm").fadeOut(1000);
-            $("#olfmu").fadeIn(1500);
-        });  
      $("#olfmu").click(function() {
             $("#olfmu").fadeOut(1000);
             $("#olfr").fadeIn(1500);
-        });             
+        });        
      $("#olfr").click(function() {
             $("#olfr").fadeOut(1000);
-            $("#olffull").fadeIn(1500);
-        });
-     $("#olffull").click(function() {
-            $("#olffull").fadeOut(1000);
+            $("#olfl").fadeIn(1500);
+        });  
+     $("#olfl").click(function() {
+            $("#olfl").fadeOut(1000);
             $("#olrl").fadeIn(1500);
-        });     
+        });  
      $("#olrl").click(function() {
             $("#olrl").fadeOut(1000);
             $("#olrm").fadeIn(1500);
@@ -211,12 +203,12 @@ $(document).ready(function(){
         });       
      $("#olrr").click(function() {
             $("#olrr").fadeOut(1000);
-            $("#olrfull").fadeIn(1500);
-        });    
-     $("#olrfull").click(function() {
-            $("#olrfull").fadeOut(1000);
-            $("#olfl").fadeIn(1500);
-        });             
+            $("#olfm").fadeIn(1500);
+        }); 
+     $("#olfm").click(function() {
+            $("#olfm").fadeOut(1000);
+            $("#olfmu").fadeIn(1500);
+        });     
 
 
     $("#or1").click(function() {
