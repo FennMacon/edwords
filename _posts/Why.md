@@ -1,0 +1,73 @@
+---
+categories: blog
+layout: post
+published: false
+permalink: /./blog/
+---
+![Why?]({{site.baseurl}}/media/Picture1.png)
+
+**Why?**
+
+You know that annoying little 4-year-old who constantly asks “why?” Who responds to every explanation with another “why?” Who you’d pay serious money to they would just STFU for a few minutes?
+
+Yeah. That was me.
+
+Over the years, I have gotten less annoying about it (hopefully). And I can usually find my own answers. But I’m just as curious as ever, and I contend that it’s what makes me a good copywriter.
+
+But that’s not the topic of this post. 
+
+![BUZZZZ! Wrong answer!]({{site.baseurl}}/media/Picture2.png)
+_BUZZZZ! Wrong answer!_
+
+Instead, I want to tell you a story.
+
+**Long, long ago …**
+
+Back in the Devonian Age of marketing – say, about 1993 – I had a client call me up (yup, Devonian Age of communications too) and ask if I could help them create a web site. My response made sense at the time, but sounds as quaint as a scheduled double header and a surrey with a fringe on top today:
+
+![I just LOVE this movie – chicks and geese and ducks better scurry …]({{site.baseurl}}/media/Picture3.png)
+_I just LOVE this movie – chicks and geese and ducks better scurry …_
+
+“Why?”
+
+Why did they want a web site? The answer boiled down to, because everyone is making them. Well, that’s a decent enough __business__ reason, but it doesn’t provide much __creative__ direction. What are we trying to communicate? How would the site fit into their overall marketing strategy? Who was the target audience? These are key questions with any communications project – as a writer, I need to know this stuff if the end product is going to worth its cost (or the reader’s time).
+
+In fact, I would argue that the inability to answer those questions drove the early development of the web, and helps explain why most early web sites were so awful.
+
+But that’s not the topic of this post either.
+
+![Hey, Mr. Bowtie-and-Fake-Cashmere … wrong again]({{site.baseurl}}/media/Picture4.png)
+_Hey, Mr. Bowtie-and-Fake-Cashmere … wrong again_
+
+The actual topic of this post is – the topic of this post. Or, more broadly, the topic of this blog. Let me explain: I know I need a blog for business reasons, and re-launching my web site is an excellent time to start … but what am I gonna write about?
+
+After much internal debate and tense negotiation between responsible Ed and the lazy, good-for-nothing lay-about Ed, who are forever waging the Hatfield vs. McCoy feud in my psyche, I have committed to myself to write 3-4 posts per month. That is the absolute minimum to accomplish the business objectives. But it’s a LOT of content. I have some ideas about marketing, advertising, branding, etc. that would make interesting posts. But 50+ a year? I dunno. 
+
+Besides, I have thoughts about other subjects too – books, films, language, management, parenting (kinda like management, but with smaller direct reports and longer term consequences when you fuck up), world events, history, philosophical conundrums, Tom Brady (OK, maybe he should be off-limits – even though he is the single greatest paragon of sports excellence ever to grace the planet, and he was utterly screwed by the NFL, for reasons unfathomable to fair-minded observers … but I digress. Although … maybe I SHOULD digress, dammit! I mean, Tom Brady! WTF is wrong with you, NFL?? … _OK,OK, I’ll stop. Deeeep breath. Thinking abut rainbows and happy trees. Back on track. Continue)_. 
+
+![A man crush? Who, me?]({{site.baseurl}}/media/Picture5.png)
+_A man crush? Who, me?_
+
+_(cough, cough)_. So. Anyway. Lots of things.
+
+I can even construct a business reason to write about all that stuff. It’s a chance to show how I think, what kind of analysis I might apply to your marketing issue, how I might uncover an essential nugget that can connect an organization with a customer. In the final analysis, that’s what you want from your freelance communications guy, right?
+
+On the other hand, well, no one wants to read the meandering thoughts of some random guy. Do I think about the Israeli-Palestinian problem? Why yes, I do. Are my conclusions important to anyone other than maybe … _maybe_ … my immediate family? Not really. There are people way smarter than I pondering stuff like that. 
+
+So. Where does that leave us?
+
+Communications. That is the topic of this blog, broadly speaking. Marketing communications, of course. But also books, movies, television shows, theatre. Overheard communications. Other blog posts. If its purpose is for a human (or set of humans) to communicate to another human (or set of humans), I can use it. Fair?
+
+So, my plan is to rotate between practical thoughts on good branding and marketing communications, book reviews (I read a lot), television programs and movies (I look for a) good reviews, b) recommendations from someone I respect, and/or c) the involvement of a few people I will identify in due time), politics (if it’s about communications – policy questions are above my intellectual pay grade), human relationships (again, only communications issues), and anything else that seems to touch on an interesting issue about communications.
+
+![“What you heard is not what I said … or vice versa”]({{site.baseurl}}/media/Picture6.png)
+_“What you heard is not what I said … or vice versa”_
+
+I’m going to call the blog “Words X Ed-words” (as in “North BY Northwest”). Which is not a great name, so I reserve the right to change it. But the new site is ready to launch (finally!) and I am too busy to think of a really great name. Also, it’s not exactly a BAD name (and making these choices will be the topic of a future post, BTW), just not the inspirational __Infinite Jest__ of blog names (though lengthwise, this post is rapidly becoming the __Infinite Jest__  of blogs … if this was the Academy Awards, the wrap-up music would’ve started about four paragraphs ago).
+
+So, anyhoo, if you’ve enjoyed this post, check back about once a week or so for more heartbreaking words of staggering genius. Or maybe a rant about Tom Brady _(no! Absolutely not!! No Tom Brady!! You promised!!)_
+
+![OK, OK … but just one more awesome photo (sigh)]({{site.baseurl}}/media/Picture7.png)
+_OK, OK … but just one more awesome photo (sigh)_
+
+
