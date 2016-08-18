@@ -1,8 +1,8 @@
 ---
 categories: blog
 layout: post
-published: false
-permalink: /./blog/
+published: true
+permalink: /./blog/why.html
 ---
 ![Why?]({{site.baseurl}}/media/Picture1.png)
 
