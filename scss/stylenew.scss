@@ -162,6 +162,11 @@ img{
 	align-content: center;
 }
 
+#olm:hover{
+	cursor:e-resize;
+	box-shadow: 2px 2px 3px $main-color;
+}
+
 #clients{
 	background-image : url(https://d30y9cdsu7xlg0.cloudfront.net/png/42984-200.png);
     background-repeat: no-repeat;
