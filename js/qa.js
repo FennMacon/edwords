@@ -50,31 +50,31 @@ $(document).ready(function() {
 
 
      $("#olfmu").click(function() {
-            $("#olfmu").fadeOut(1000);
+            $("#olfmu").fadeOut(0);
             $("#olfr").fadeIn(1500);
         });        
      $("#olfr").click(function() {
-            $("#olfr").fadeOut(1000);
+            $("#olfr").fadeOut(0);
             $("#olfl").fadeIn(1500);
         });  
      $("#olfl").click(function() {
-            $("#olfl").fadeOut(1000);
+            $("#olfl").fadeOut(0);
             $("#olrl").fadeIn(1500);
         });
      $("#olrl").click(function() {
-            $("#olrl").fadeOut(1000);
+            $("#olrl").fadeOut(0);
             $("#olrm").fadeIn(1500);
         });
      $("#olrm").click(function() {
-            $("#olrm").fadeOut(1000);
+            $("#olrm").fadeOut(0);
             $("#olrr").fadeIn(1500);
         });       
      $("#olrr").click(function() {
-            $("#olrr").fadeOut(1000);
+            $("#olrr").fadeOut(0);
             $("#olfm").fadeIn(1500);
         }); 
      $("#olfm").click(function() {
-            $("#olfm").fadeOut(1000);
+            $("#olfm").fadeOut(0);
             $("#olfmu").fadeIn(1500);
         });     
 

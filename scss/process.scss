@@ -88,7 +88,7 @@ body{
 }
 
 #buying{
-	background : $background-light-color;
+	@include background-gradient($background-light-color,$background-color);
 	color      : $main-color;
 }
 

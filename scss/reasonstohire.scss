@@ -13,35 +13,35 @@ body{
 	box-shadow: none;
 }
 #section1{
-	background-color: $prompt2-color;
+	@include background-gradient($prompt2-color,$background-color);
 	margin-left: 20%;
 }
 #section2{
-	background-color: $prompt3-color;
+	@include background-gradient($prompt3-color,$background-color);
 	margin-right: 20%;
 }
 #section3{
-	background-color: $prompt4-color;
+	@include background-gradient($prompt4-color,$background-color);
 	margin-left: 20%;
 }
 #section4{
-	background-color: $prompt5-color;
+	@include background-gradient($prompt5-color,$background-color);
 	margin-right: 20%;
 }
 #section5{
-	background-color: $prompt1-color;
+	@include background-gradient($prompt1-color,$background-color);
 	margin-left: 20%;
 }
 #section6{
-	background-color: $prompt2-color;
+	@include background-gradient($prompt2-color,$background-color);
 	margin-right: 20%;
 }
 #section7{
-	background-color: $prompt3-color;
+	@include background-gradient($prompt3-color,$background-color);
 	margin-left: 20%;
 }
 #section8{
-	background-color: $prompt4-color;
+	@include background-gradient($prompt4-color,$background-color);
 	margin-right: 20%;
 }
 .divider{
