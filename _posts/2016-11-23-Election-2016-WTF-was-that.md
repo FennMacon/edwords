@@ -1,7 +1,7 @@
 ---
 categories: blog
 layout: post
-published: false
+published: true
 permalink: /./blog/election-2016
 ---
 ## Election 2016: WTF was that?!?!
