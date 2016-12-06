@@ -1,8 +1,8 @@
 ---
 categories: blog
 layout: post
-published: false
-permalink: /./blog/
+published: true
+permalink: /./blog/the-tyranny-of-collaboration
 ---
 ## The De-evolution of Marketing Communications, Part 1: _The tyranny of collaboration._
 
