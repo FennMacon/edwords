@@ -34,7 +34,7 @@ Now, these guys write great literature, and I am NOT comparing it to what my dau
 
 ### **Everyone used to know this.**
 
-In those halcyon days, advertising creative teams presented their work to the client. Then, within strict and aggressively enforced parameters, clients were entitled to ask questions – the bold ones might sheepishly inquire “did you think about doing it this way instead?” The writer or AD would dismissively roll their eyes, prompting a younger and perhaps less dashing version of Roger Sterling to jump in and say, “let’s leave the creative work to the creative people, shall we? Hey, who wants a three martini lunch?”
+In those halcyon days, advertising creative teams presented their work to the client. Then, within strict and aggressively enforced parameters, clients were entitled to ask questions – the bold ones might sheepishly inquire “did you think about doing it _this way_ instead?” The writer or AD would dismissively roll their eyes, prompting a younger and perhaps less dashing version of Roger Sterling to jump in and say, “let’s leave the creative work to the creative people, shall we? Hey, who wants a three martini lunch?”
 
  ![3dot5.jpg]({{site.baseurl}}/media/3dot5.jpg)
 _The sacrifices I make to protect your precious copy, Don …_
