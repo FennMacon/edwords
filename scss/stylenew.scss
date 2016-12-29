@@ -107,7 +107,12 @@ img{
 }
 
 #post{
-	@include background-gradient($prompt4-color, $background-color)
+	background-gradient: ($prompt4-color, $background-color, 20%);
+    background: $prompt4-color; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient($prompt4-color, $background-color, 20%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($prompt4-color, $background-color, 20%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($prompt4-color, $background-color, 20%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient($prompt4-color, $background-color, 20%); /* Standard syntax */
 }
 
 #banner{

@@ -115,15 +115,16 @@ img {
   box-shadow: 1px 1px 3px #212121; }
 
 #post {
+  background-gradient: #A3ADB8, #ECEFF1, 20%;
   background: #A3ADB8;
   /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#A3ADB8, #ECEFF1);
+  background: -webkit-linear-gradient(#A3ADB8, #ECEFF1, 20%);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#A3ADB8, #ECEFF1);
+  background: -o-linear-gradient(#A3ADB8, #ECEFF1, 20%);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#A3ADB8, #ECEFF1);
+  background: -moz-linear-gradient(#A3ADB8, #ECEFF1, 20%);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#A3ADB8, #ECEFF1);
+  background: linear-gradient(#A3ADB8, #ECEFF1, 20%);
   /* Standard syntax */ }
 
 #banner {
