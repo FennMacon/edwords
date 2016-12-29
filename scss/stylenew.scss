@@ -115,6 +115,10 @@ img{
     background: linear-gradient($prompt4-color, $background-color, 10%); /* Standard syntax */
     padding-right: 300px !important;
 }
+#post img + p {
+  margin-top: 0px;
+}
+
 
 #banner{
 	background-image : url(http://www.calvarymemorial.com/img/typewriter-icon.svg);
