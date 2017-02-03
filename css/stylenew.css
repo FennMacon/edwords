@@ -24,6 +24,90 @@ img {
   background-color: rgba(255, 255, 255, 0.75);
   box-shadow: 1px 1px 3px #212121; }
 
+aside {
+  width: 30%;
+  float: left;
+  margin-top: 60px;
+  position: fixed; }
+
+#postr {
+  width: 65%;
+  float: right;
+  position: float;
+  background-gradient: #A3ADB8, #ECEFF1;
+  background: #A3ADB8;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#A3ADB8, #ECEFF1);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#A3ADB8, #ECEFF1);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#A3ADB8, #ECEFF1);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#A3ADB8, #ECEFF1);
+  /* Standard syntax */
+  padding: 40px 20px; }
+
+.contain-all {
+  width: 100%;
+  display: inline; }
+
+.go-back {
+  margin-top: 30px; }
+
+#post {
+  background-gradient: #A3ADB8, #ECEFF1;
+  background: #A3ADB8;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#A3ADB8, #ECEFF1);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#A3ADB8, #ECEFF1);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#A3ADB8, #ECEFF1);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#A3ADB8, #ECEFF1);
+  /* Standard syntax */
+  margin: 10px 10%;
+  padding: 40px 20px; }
+
+#postr img {
+  margin: 10px auto;
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+h1.page-heading {
+  margin: 0 0 20px 0;
+  padding: 0 0 0 0;
+  text-align: center; }
+
+ul.post-list {
+  text-align: center;
+  padding: 0px;
+  margin: 0px; }
+
+p.post-meta {
+  font-size: 15px; }
+
+.post-header {
+  text-align: center;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0; }
+
+a.post-link {
+  padding-bottom: 40px; }
+
+.post-title {
+  padding: 20px 0 10px 0;
+  margin: 0 0 0 0; }
+
+.post-content {
+  padding: 0px 40px;
+  margin-top: 20px; }
+
+.post-list-blog {
+  margin-top: 60px;
+  display: block; }
+
 .scrap {
   position: relative;
   display: flex;
@@ -113,19 +197,6 @@ img {
   padding: 10%;
   border: 1px #cc3333 groove;
   box-shadow: 1px 1px 3px #212121; }
-
-#post {
-  background-gradient: #A3ADB8, #ECEFF1, 20%;
-  background: #A3ADB8;
-  /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#A3ADB8, #ECEFF1, 20%);
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#A3ADB8, #ECEFF1, 20%);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#A3ADB8, #ECEFF1, 20%);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#A3ADB8, #ECEFF1, 20%);
-  /* Standard syntax */ }
 
 #banner {
   background-image: url(http://www.calvarymemorial.com/img/typewriter-icon.svg);
@@ -299,12 +370,18 @@ img {
   opacity: 0.0; }
 
 .site-footer {
-  margin: 10px auto 10px auto; }
+  display: block;
+  position: relative; }
 
 @media (max-width: 768px) {
   #banner {
     padding-top: 15%;
     float: left; }
+  #postr {
+    width: 100%; }
+  aside {
+    position: static;
+    width: 100%; }
   .scrap {
     width: 100%;
     opacity: 0.95;
