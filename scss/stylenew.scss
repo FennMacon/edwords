@@ -49,9 +49,9 @@ aside{
     margin: 10px 10%;
     padding: 40px 20px;
 }
-#postr p, h1, h2, h3, h4, h5, h6, em, strong{
-	font-family: $secondfont !important;
-}
+#postr {p, h1, h2, h3, h4, h5, h6, em, strong{
+	font-family: $secondfont;
+}}
 #postr img{
 	margin: 15px auto;
 	display: block;

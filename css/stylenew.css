@@ -61,8 +61,8 @@ aside {
   margin: 10px 10%;
   padding: 40px 20px; }
 
-#postr p, h1, h2, h3, h4, h5, h6, em, strong {
-  font-family: "Roboto", sans-serif !important; }
+#postr p, #postr h1, #postr h2, #postr h3, #postr h4, #postr h5, #postr h6, #postr em, #postr strong {
+  font-family: "Roboto", sans-serif; }
 
 #postr img {
   margin: 15px auto;
