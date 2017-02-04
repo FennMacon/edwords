@@ -34,18 +34,11 @@ aside {
   width: 65%;
   float: right;
   position: float;
-  background-gradient: #A3ADB8, #ECEFF1;
-  background: #A3ADB8;
-  /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#A3ADB8, #ECEFF1);
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#A3ADB8, #ECEFF1);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#A3ADB8, #ECEFF1);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#A3ADB8, #ECEFF1);
-  /* Standard syntax */
+  background: #ECEFF1;
   padding: 40px 20px; }
+
+#postr p h1 h2 h3 h4 h5 h6 {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif; }
 
 .contain-all {
   width: 100%;
@@ -74,6 +67,11 @@ aside {
   display: block;
   max-width: 100%;
   height: auto; }
+
+#postr img + em {
+  padding: 0 10% 0 10%;
+  color: #259575;
+  font-size: 16px; }
 
 h1.page-heading {
   margin: 0 0 20px 0;
@@ -373,6 +371,10 @@ a.post-link {
   display: block;
   position: relative; }
 
+@media (max-width: 992px) {
+  .navbar-right {
+    margin-top: -48px !important; } }
+
 @media (max-width: 768px) {
   #banner {
     padding-top: 15%;
@@ -419,4 +421,6 @@ a.post-link {
   #top_btn {
     position: fixed;
     top: 90%;
-    left: 84%; } }
+    left: 84%; }
+  aside {
+    margin-top: 0; } }

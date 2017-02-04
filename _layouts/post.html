@@ -2,19 +2,6 @@
 layout: default
 ---
 <div class="contain-all">
-	<aside>
-		<ul class="post-list-blog">
-	            {% for post in site.posts %}
-	             
-	                <div>
-	                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-	                  <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-	                </div>  
-	              
-	            {% endfor %}
-	            <div class="go-back"><p><a href="../index.html">Home</a>&nbsp;&middot;&nbsp;<a href="../blog.html">Blog Index</a></p></div>
-	          </ul>
-          </aside>
 	<div id="postr" class="divider" style="margin-top:60px">
 		<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -29,4 +16,17 @@ layout: default
 
 		</article>
 	</div>
+	<aside>
+		<ul class="post-list-blog">
+	            {% for post in site.posts %}
+	             
+	                <div>
+	                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+	                  <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+	                </div>  
+	              
+	            {% endfor %}
+	            <div class="go-back"><p><a href="../index.html">Home</a>&nbsp;&middot;&nbsp;<a href="../blog.html">Blog Index</a></p></div>
+	          </ul>
+          </aside>
 </div>
