@@ -10,7 +10,7 @@ permalink: /./blog/the-tyranny-of-collaboration
 A client gave me a sweatshirt with this phrase on it: 
 
  ![3dot1.jpg]({{site.baseurl}}/media/3dot1.jpg)
-Very inspiring.
+_Very inspiring._
 
 At BrainyQuote, deep thinkers from Thomas Friedman to Krist Novoselic concur – all must bow at the altar of collaboration. Lin-Manuel Miranda says “working with other people makes you smarter; that’s proven.” Not sure about “proven,” but he deserves some slack for “Hamilton” (tickets gratefully accepted).
 
