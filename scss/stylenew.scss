@@ -30,10 +30,7 @@ aside{
     background: $background-color; 
     padding: 40px 20px;
 }
-#postr p h1 h2 h3 h4 h5 h6{
 
-    font-family: $secondfont;
-}
 .contain-all{
 	width: 100%;
 	display: inline;
@@ -52,14 +49,15 @@ aside{
     margin: 10px 10%;
     padding: 40px 20px;
 }
-#postr h1{
-	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+#postr p, h1, h2, h3, h4, h5, h6, em, strong{
+	font-family: $secondfont !important;
 }
 #postr img{
 	margin: 15px auto;
 	display: block;
 	max-width: 100%;
 	height: auto;
+    box-shadow: 5px 5px 5px #888888;
 }
 #postr img + em{
 	color: $prompt5-color;
@@ -99,6 +97,7 @@ a.post-link{
 .post-list-blog{
 	margin-top: 60px;
 	display: block;
+	font-size: 18px;
 }
 
 .scrap{

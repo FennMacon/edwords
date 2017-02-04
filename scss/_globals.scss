@@ -13,8 +13,10 @@ $background-light-color   : #88BB88;
 $background-lighter-color : #DCDFE1;
 $border-color			  : #CC3333;
 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 $font: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
-$secondfont: Futura, "Trebuchet MS", Arial, sans-serif;
+$secondfont:'Roboto', sans-serif;
 
 @mixin background-gradient ($color1,$color2) {
     background: $color1; /* For browsers that do not support gradients */
