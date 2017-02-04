@@ -252,3 +252,7 @@ body {
     /* For Firefox 3.6 to 15 */
     background: linear-gradient(#a9a18c, #CC3333);
     /* Standard syntax */ } }
+
+@media (max-width: 992px) {
+  .navbar-right {
+    margin-top: -48px !important; } }

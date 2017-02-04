@@ -73,6 +73,10 @@ a {
   background-size: 50%;
   height: 680px; }
 
+@media (max-width: 992px) {
+  .navbar-right {
+    margin-top: -48px !important; } }
+
 @media (max-width: 768px) {
   #slide1 {
     padding-top: 15%; } }

@@ -155,6 +155,11 @@ body{
 .button:focus{
 	outline : none;
 }
+@media (max-width: 992px) {
+	.navbar-right{
+		margin-top: -48px !important;
+	}
+}
 
 @media (max-width: 768px) {
 	.btn{

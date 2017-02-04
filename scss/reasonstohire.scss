@@ -52,6 +52,11 @@ body{
 	box-shadow: 1px 1px 3px $main-color;
 	@include border-radius(20px);
 }
+@media (max-width: 992px) {
+	.navbar-right{
+		margin-top: -48px !important;
+	}
+}
 @media (max-width: 768px) {
 
 }

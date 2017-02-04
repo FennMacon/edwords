@@ -119,6 +119,11 @@ dt{
     border-right:15px solid $background-light-color;
     border-bottom:15px solid $background-light-color;
 }
+@media (max-width: 992px) {
+    .navbar-right{
+        margin-top: -48px !important;
+    }
+}
 @media (max-width: 768px) {
 	#section0{
 		padding-top: 15%;

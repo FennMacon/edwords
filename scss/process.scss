@@ -157,3 +157,8 @@ body{
 		@include background-gradient($prompt1-color, $border-color);
 	}
 }
+@media (max-width: 992px) {
+	.navbar-right{
+		margin-top: -48px !important;
+	}
+}

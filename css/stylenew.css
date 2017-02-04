@@ -28,7 +28,8 @@ aside {
   width: 30%;
   float: left;
   margin-top: 60px;
-  position: fixed; }
+  position: fixed;
+  text-align: center; }
 
 #postr {
   width: 65%;
@@ -62,16 +63,20 @@ aside {
   margin: 10px 10%;
   padding: 40px 20px; }
 
+#postr h1 {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif; }
+
 #postr img {
-  margin: 10px auto;
+  margin: 15px auto;
   display: block;
   max-width: 100%;
   height: auto; }
 
 #postr img + em {
-  padding: 0 10% 0 10%;
   color: #259575;
-  font-size: 16px; }
+  font-size: 16px;
+  text-align: center;
+  display: block; }
 
 h1.page-heading {
   margin: 0 0 20px 0;
@@ -80,7 +85,7 @@ h1.page-heading {
 
 ul.post-list {
   text-align: center;
-  padding: 0px;
+  padding: 10px 0px;
   margin: 0px; }
 
 p.post-meta {
@@ -380,10 +385,15 @@ a.post-link {
     padding-top: 15%;
     float: left; }
   #postr {
-    width: 100%; }
+    width: 100%;
+    padding: 10px 0px; }
+  #post {
+    width: 100%;
+    margin: 0px 0px; }
   aside {
     position: static;
-    width: 100%; }
+    width: 100%;
+    margin: 0; }
   .scrap {
     width: 100%;
     opacity: 0.95;
@@ -421,6 +431,4 @@ a.post-link {
   #top_btn {
     position: fixed;
     top: 90%;
-    left: 84%; }
-  aside {
-    margin-top: 0; } }
+    left: 84%; } }
