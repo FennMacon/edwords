@@ -17,6 +17,7 @@ $border-color			  : #CC3333;
 
 $font: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
 $secondfont:'Roboto', sans-serif;
+$titlefont: Futura, "Trebuchet MS", Arial, sans-serif;
 
 @mixin background-gradient ($color1,$color2) {
     background: $color1; /* For browsers that do not support gradients */

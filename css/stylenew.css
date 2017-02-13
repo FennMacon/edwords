@@ -26,14 +26,15 @@ img {
   box-shadow: 1px 1px 3px #212121; }
 
 aside {
-  width: 30%;
+  width: 19%;
   float: left;
-  margin-top: 60px;
+  margin: 60px 0px 0px -20px;
+  padding: 0px;
   position: fixed;
-  text-align: center; }
+  text-align: left; }
 
 #postr {
-  width: 65%;
+  width: 80%;
   float: right;
   position: float;
   background: #ECEFF1;
@@ -101,6 +102,9 @@ a.post-link {
 .post-title {
   padding: 20px 0 10px 0;
   margin: 0 0 0 0; }
+
+h1.post-title {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif !important; }
 
 .post-content {
   padding: 0px 40px;
