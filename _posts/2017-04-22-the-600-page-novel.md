@@ -26,7 +26,6 @@ What else? Maybe The Martian. Rebecca. The Maltese Falcon. The Green Mile. I'd m
 There are even a couple where the movie actually re-interprets the book and both are within hailing distance of each other, quality-wise: 
 
 ![Catch 22 cover.png]({{site.baseurl}}/media/Catch 22 cover.png)![Slaughterhouse 5 cover.png]({{site.baseurl}}/media/Slaughterhouse 5 cover.png)
-
  _"A mashup of two great books ... hey, what if "Yossarian was unstuck in time..."_
 
 
@@ -48,7 +47,6 @@ Novels are worth 600 pages for, I would argue, two valid reasons.
 For example, this tragically underappreciated tour de force:
 
 ![Cryptonomicon cover.png]({{site.baseurl}}/media/Cryptonomicon cover.png)
-
  _Codes, WWII, Silicon Valley entrepreneurs ... oh, just read it already_
 
 
@@ -59,21 +57,18 @@ Also: the aforementioned Gone with the Wind. Harry Potter Books 4, 6 and 7. Anna
 A vague and catch-all category, I realize. So here are some examples. Perhaps the book’s **structure** is really complicated:
 
 ![Cloud Atlas cover.png]({{site.baseurl}}/media/Cloud Atlas cover.png)
-
  _OK, so, it's actually 6 stories, each written in a different style and/or dialect, and each is told halfway through, except for the middle one, which is told all the way, then followed by the second halves of the first 5. Oh, and the one about the composer stealing the magnum opus from his mentor? The symphony he's composing HAS THE SAME STRUCTURE AS THE NOVEL ITSELF! Not surprisingly, the movie kinda sucked a little._
 
 
 It was originally published as a **serial**, so it's unfair to judge it on length anyway:
 
 ![Bleak House cover.png]({{site.baseurl}}/media/Bleak House cover.png)
-
  _Sure, 932 pages is long book, but hey, I've got 30 hours to kill. And it's STILL shorter than David Copperfield's 358,000 words._
 
 
 The author’s **brilliance** makes editing inconceivable:
 
 ![Infinite Jest cover.png]({{site.baseurl}}/media/Infinite Jest cover.png)
-
  _Editor: Hm. Maybe we should cut the footnotes. No, wait, those are some of the best parts. Maybe the stuff about weed. No, that's some of the best stuff too. Maybe the tennis stuff. No, that won't work. Oh, forget it._ 
 
 
@@ -102,7 +97,6 @@ I’ll stick to popular books of recent vintage, and start with the easiest targ
 ## Example 1: 
 
 ![Goldfinch cover.png]({{site.baseurl}}/media/Goldfinch cover.png)
-
  _We waited eleven years for THIS??!?_
 
 
@@ -111,7 +105,6 @@ I like Donna Tartt. I really do. I liked The Secret History (friends know what a
 ## Example 2:
 
 ![Order of the phoenix cover]({{site.baseurl}}/media/Order of the phoenix cover.png)
-
 _"WHAT?? A Harry Potter book???? You heretic!! You heathen!! You heartless squib!"_
 
 
@@ -122,7 +115,6 @@ I shall explain, but first, thank you, Jo, for writing a fantastic series for ch
 ## Example 3:
 
 ![JFK book cover.png]({{site.baseurl}}/media/JFK book cover.png)
-
  ___zzzzzzzzzzzzzzzzzzzzzzzzzzzzz_
 
 
@@ -140,7 +132,6 @@ I could go on and on (hell, I could fill a whole blog post on overlong novels wr
 Are you with me? If so, I extend my absolution to you too:
 
 ![Absolution edited.png]({{site.baseurl}}/media/Absolution edited.png)
-
  _"Forgive the author, Father, for he/she has sinned ..."_
 
 
@@ -151,5 +142,4 @@ Are you with me? If so, I extend my absolution to you too:
 Finally, here is a photo of Tom Brady. Because everything is made better with a photo of Tom Brady.
 
 ![Brady pointing at head.png]({{site.baseurl}}/media/Brady pointing at head.png)
-
  _"Before you read that 600 page book, THINK!"_
