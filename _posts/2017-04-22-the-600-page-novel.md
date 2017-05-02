@@ -2,7 +2,7 @@
 categories: blog
 layout: post
 published: true
-permalink: /./blog/Declaring-war-on-the-600-page-novel
+permalink: /./blog/the-600-page-novel
 ---
 ## Enough is Enough: 
 ### My personal declaration of WAR on the 600 page novel
@@ -18,7 +18,6 @@ Actually, let me add a ground rule – both the book and the movie have to be at
 I can think of a few movie/book combinations where BOTH the book and the movie are terrific, and the creation of one doesn’t impact my enjoyment of the other, such as these two: 
 
 ![GWTW cover.png]({{site.baseurl}}/media/GWTW cover.png)![True Grit cover.png]({{site.baseurl}}/media/True Grit cover.png)
-
  _"Why, Mr. Cogburn, I do declare!" "Yeah, well, tough as I am, frankly, my dear, I don't  give a damn."_ 
 
 
