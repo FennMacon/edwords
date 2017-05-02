@@ -112,6 +112,7 @@ I like Donna Tartt. I really do. I liked The Secret History (friends know what a
 ## Example 2:
 
 ![Order of the phoenix cover]({{site.baseurl}}/media/Order of the phoenix cover.png)
+
 _"WHAT?? A Harry Potter book???? You heretic!! You heathen!! You heartless squib!"_
 
 
@@ -135,7 +136,7 @@ I could go on and on (hell, I could fill a whole blog post on overlong novels wr
 ![Page limit sign.png]({{site.baseurl}}/media/Page limit sign.png)
 
 
-**If it’s 600 pages, I reserve the right to reject it on principle. If I decide to take the plunge nonetheless, I hereby give myself permission to quit after 100 pages, or to remain in a judgemental holding pattern in subsequent 50 page increments. Are you with me? If so, I extend my absolution to you too.**
+### **If it’s 600 pages, I reserve the right to reject it on principle. If I decide to take the plunge nonetheless, I hereby give myself permission to quit after 100 pages, or to remain in a judgemental holding pattern in subsequent 50 page increments. Are you with me? If so, I extend my absolution to you too.**
 
 ![Absolution edited.png]({{site.baseurl}}/media/Absolution edited.png)
 
