@@ -4,12 +4,11 @@ layout: post
 published: false
 permalink: 'http://edwordscreative.com/blog/EdwardTufte'
 ---
-## Hopeless
+## ## Hopeless
 
-I have been so spectacularly delinquent in updating this blog that the best approach is simply to ignore my failures and just start posting again.
+I have been so spectacularly delinquent in updating this blog that the best approach is simply to ignore my failures and just start posting again. I will reference my shortcomings only in the title of this post, which is:
 
-## The Genius and the Procrastinating Moron (guess which one is me)
-
+##The Genius and the Procrastinating Moron
 
 To wit: I went to a seminar given by Edward Tufte this week.
 
