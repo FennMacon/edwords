@@ -56,10 +56,10 @@ _"Keep wagging me, motherfucker, and I'll bite your ass!! Oh, wait ..."_
 
 If people who give presentations would remember these things, there would be a lot less hate in the world. Trump would still be President (or would he? Bwahahahahahaha!!!!), but the world would be a better (and more productive) place.
 
-1.	They’re bullet points, not novellas. 
-2.	People can’t listen and read at the same time.
-3.	Speak your own words – use what’s on the slide as a summary or reminder.
-4.	A presentation should reflect the content, not the other way around.
+- They’re bullet points, not novellas.
+- People can’t listen and read at the same time.
+- Speak your own words – use what’s on the slide as a summary or reminder.
+- A presentation should reflect the content, not the other way around.
 
 I could come up with more of these, but I’m starting to bore even myself – which reflects the immense power of PowerPoint: it can be boring in both concept and practice!
 
@@ -77,7 +77,7 @@ Meaning, for these purposes, it’s hard to make connections when you have to sw
 
 Tufte used this chart created by Charles Minard in 1869 to show Napoleon’s invasion of Russia. It’s hard to see here, maybe, but I’ll include a link: 
 
-http://bigthink.com/strange-maps/229-vital-statistics-of-a-deadly-campaign-the-minard-map
+[Minard Map](http://bigthink.com/strange-maps/229-vital-statistics-of-a-deadly-campaign-the-minard-map "Minard map")
 
 ![Minard map.png]({{site.baseurl}}/media/Minard map.png)
 
