@@ -14,7 +14,6 @@ I have been so spectacularly delinquent in updating this blog that the best appr
 To wit: I went to a seminar given by Edward Tufte this week.
 
 ![Tufte image resized.png]({{site.baseurl}}/media/Tufte image resized.png)
-
 _Who is this guy?_
 
 If you don’t know the name, Wikipedia describes him as a “statistician and professor emeritus of political science, statistics and computer science at Yale University” while also indicating that he is “noted for his writings on information design and as a pioneer in the field of data visualization.”
@@ -60,7 +59,6 @@ I could come up with more of these, but I’m starting to bore even myself – w
 But maybe you should just stop using it altogether. You know who already does that? Amazon. That’s because Jeff Bezos nailed one of the key problems with it: “PowerPoint is easy for the presenter but hard for the audience.” 
 
 ![Bezos laughing resized.jpg]({{site.baseurl}}/media/Bezos laughing resized.jpg)
-
 _“Sure I’m laughing. I passed Gates as the world’s richest man AND I don’t have to sit through PowerPoint presentations. Life is awesome!!"_
 
 He’s exactly right. There are a lot of reasons, but here’s a key one, that I gleaned from the Tufte seminar:
