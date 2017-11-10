@@ -1,7 +1,7 @@
 ---
 categories: blog
 layout: post
-published: true
+published: false
 permalink: /./blog/Edward-Tufte
 ---
 ## Hopeless
