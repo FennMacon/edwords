@@ -1,8 +1,8 @@
 ---
 categories: blog
 layout: post
-published: true
-permalink: /./blog/
+published: false
+permalink: /./blog/Edward-Tufte
 ---
 ## Hopeless
 
