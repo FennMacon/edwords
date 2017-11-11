@@ -69,7 +69,7 @@ Meaning, for these purposes, it’s hard to make connections when you have to sw
 
 Tufte used this chart created by Charles Minard in 1869 to show Napoleon’s invasion of Russia. It’s hard to see here, maybe, but I’ll include a link: 
 
-http://bigthink.com/strange-maps/229-vital-statistics-of-a-deadly-campaign-the-minard-map
+[The Minard Map](http://bigthink.com/strange-maps/229-vital-statistics-of-a-deadly-campaign-the-minard-map)
 
 ![Minard map.png]({{site.baseurl}}/media/Minard map.png)
 
