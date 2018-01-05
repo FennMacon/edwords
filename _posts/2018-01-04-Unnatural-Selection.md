@@ -81,13 +81,10 @@ To (finally!) return to my original point, both of these are examples of how a p
 ## My Advice
 
 Don’t let this happen to you! If you do creative work for a living, here are two things I recommend to keep your work fresh:
- 
- 1. Try to work with people, or hire people, whose work is radically different from yours.
 
+## a) Try to work with people, or hire people, whose work is radically different from yours.
 
- 
- 2. Accept opinions from people who may not actually know what they’re doing.
-
+## b) Accept opinions from people who may not actually know what they're doing.
 
 
 Oh man, are these hard to do! After all – they really don’t know as much as you do. But that’s why you have to listen to them, because they are not jaded by doing so much work, nor do they automatically accept things that you’ve internalized so much, you’ll never question it otherwise. After all, you KNOW you’re right – you’ve spent your career having your brilliance validated. Except sometimes, you are wrong.
