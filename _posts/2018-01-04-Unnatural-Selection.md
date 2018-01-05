@@ -50,7 +50,7 @@ Amid the ensuing howls of protest was some version of this: “what do you know 
 My point is, it takes a fresh approach to create a paradigm shift – and most of the time, those with a vested interest in the old paradigm aren’t giving up without a fight.
 
 ![Fist fight resized.jpg]({{site.baseurl}}/media/Fist fight resized.jpg)
-_"'Paradigm shift??' I'll paradigm shift your jaw, asshole!"
+_"'Paradigm shift??' I'll paradigm shift your jaw, asshole!"_
 
 
 I have seen this in many fields in my career. In fact, I’ve seen it in two separate subsets of the same field: education. 
@@ -81,8 +81,9 @@ Don’t let this happen to you! If you do creative work for a living, here are t
 
 ![My advice resized.jpg]({{site.baseurl}}/media/My advice resized.jpg)
 
-**- Try to work with people, or hire people, whose work is radically different from yours.
-- Accept opinions from people who may not actually know what they’re doing.**
+ **1. Try to work with people, or hire people, whose work is radically different from yours.**
+ 
+ **2. Accept opinions from people who may not actually know what they’re doing.**
 
 Oh man, are these hard to do! After all – they really don’t know as much as you do. But that’s why you have to listen to them, because they are not jaded by doing so much work, nor do they automatically accept things that you’ve internalized so much, you’ll never question it otherwise. After all, you KNOW you’re right – you’ve spent your career having your brilliance validated. Except sometimes, you are wrong.
 
