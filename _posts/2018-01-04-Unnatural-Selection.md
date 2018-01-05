@@ -103,7 +103,7 @@ Honestly, in this case, I am not sure I can do anything about this problem – I
 
 But I’ll tell you what – I am going to do two things from here on: 
 
-1.I am going to make a sincere attempt to question EVERYTHING, no matter how axiomatic or widely accepted, and 
+1. I am going to make a sincere attempt to question EVERYTHING, no matter how axiomatic or widely accepted, and 
 2. I am going to listen when people tell me something I reflexively think is wrong.
 
 I think my clients will benefit … plus, it’s fun to stir up trouble.
