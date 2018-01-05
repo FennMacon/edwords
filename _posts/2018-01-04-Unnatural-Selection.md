@@ -14,14 +14,14 @@ What does it say about me that I HAVE a favorite scientific theory? Hm, topic fo
 2)	It’s incredibly simple and elegant
 3)	It’s logically unassailable
 
-![Unhappy giraffe resized.jpg]({{site.baseurl}}/media/Unhappy%20giraffe%20resized.jpg)
+![Unhappy giraffe resized.jpg]({{site.baseurl}}/media/Unhappy giraffe resized.jpg)
 _I don't know nuthin about Natural Selection, but a longer neck would be super-handy_
 
 Reasons #1 is crucial: Newton’s third law of motion and Einstein’s E=MC2 are both elegant and simple, but to truly understand them, you need to know the math. But natural selection? Once you accept that genes are a) responsible for your body and its attendant structures being the way they are, and b) heredity, you just can’t argue with natural selection. It’s brain-dead simple – you have a characteristic that makes you more successful evolutionarily, you pass it on to your offspring and, given enough generations, those that have the trait survive and breed, and the ones that lack it don’t. The logic is flawless, there are no exceptions, and, as I said, any moron can understand it.
 
 But as much as I love natural selection, I think its universal applicability is causing serious harm to marketing communications (well, frankly, to all human culture in general, but I should start small).
 
-![Unintended consequences resized.jpg]({{site.baseurl}}/media/Unintended%20consequences%20resized.jpg)
+![Unintended consequences resized.jpg]({{site.baseurl}}/media/Unintended%20consequences resized.jpg)
 _I'm King of the World! Wait, how do I get down?_
 
 Here’s how.
@@ -69,7 +69,7 @@ That’s no way to teach engineering, they said. Well, according to whom? Accord
 
 The exact same pattern has created a controversy in medical schools. At some point in the recent past, a variety of issues have been raised about medical education – doctors are taught to be too focused on disease mitigation rather than health, med students never study human skills like bedside manner, residents make mistakes because they are mentally exhausted by 48-hour shifts, and so on. 
 
-![sleeping-resident resized.jpg]({{site.baseurl}}/media/sleeping-resident%20resized.jpg)
+![sleeping-resident resized.jpg]({{site.baseurl}}/media/sleeping-resident resized.jpg)
 _ZZZZZZZZZZZZZZZZZZ_
 
 Changes were proposed … and vigorously resisted by medical school professors and administrators. Which consist of the roughly 1/3 of medical school graduates who DON’T become practicing doctors, choosing research and education instead. It’s a self fulfilling prophecy, and a highly intellectualized version of the “not invented here” syndrome. 
@@ -94,7 +94,7 @@ Oh man, are these hard to do! After all – they really don’t know as much as 
 
 An embarrassing example: I do a ton of work with financial advisors, creating custom marketing materials for them. The company for whom I do this likes to describe what these advisors do as “wealth management.” Seems like a handy term – accurate, relatively understandable, not too jargon-y. However, just a few days ago, I spoke with an advisor who said, “I hate that term, wealth management.” I thought, oh jeez, here’s a live one. I thought, it doesn’t matter if YOU hate the term, that’s the term because … well, because it’s the term, it’s what everyone calls it. But instead, I bit the holy hell out of my tongue and asked her why she didn’t like it. “Because clients turn off when I say it. I don’t think most of them think of themselves as ‘wealthy.’ Even if they have, say, $5 million to invest, to them, they think the wealthy are a whole different class from them.” Which means, according to this one advisor, we are turning off some subset of the total audience with THE NAME OF OUR PRODUCT! That’s a problem, and one that I wouldn’t have EVER thought of, even though I’ve written web sites and print materials for maybe 300 financial advisors.
 
-![Guilty shar pei resized.jpg]({{site.baseurl}}/media/Guilty%20shar%20pei.jpg)
+![Guilty shar pei resized.jpg]({{site.baseurl}}/media/Guilty shar pei.jpg)
 _OK, well, possibly not my most spectacular moment_
 
 I needed an outside voice, a paradigm shift, to overcome the unavoidable impact of natural selection.
@@ -108,4 +108,4 @@ But I’ll tell you what – I am going to do two things from here on:
 
 I think my clients will benefit … plus, it’s fun to stir up trouble.
 
-![Practical joke resized.jpg]({{site.baseurl}}/media/Practical%20joke%20resized.jpg)
+![Practical joke resized.jpg]({{site.baseurl}}/media/Practical joke resized.jpg)
