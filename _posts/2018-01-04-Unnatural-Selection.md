@@ -82,11 +82,11 @@ To (finally!) return to my original point, both of these are examples of how a p
 
 Don’t let this happen to you! If you do creative work for a living, here are two things I recommend to keep your work fresh:
  
- 1. Try to work with people, or hire people, whose work is radically different from yours.###
+ 1. Try to work with people, or hire people, whose work is radically different from yours.
 
 
  
- 2. Accept opinions from people who may not actually know what they’re doing.###
+ 2. Accept opinions from people who may not actually know what they’re doing.
 
 
 
@@ -103,8 +103,8 @@ Honestly, in this case, I am not sure I can do anything about this problem – I
 
 But I’ll tell you what – I am going to do two things from here on: 
 
-1. I am going to make a sincere attempt to question EVERYTHING, no matter how axiomatic or widely accepted, and 
-2. I am going to listen when people tell me something I reflexively think is wrong.
+**1. I am going to make a sincere attempt to question EVERYTHING, no matter how axiomatic or widely accepted, and 
+2. I am going to listen when people tell me something I reflexively think is wrong.**
 
 I think my clients will benefit … plus, it’s fun to stir up trouble.
 
