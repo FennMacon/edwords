@@ -1,7 +1,7 @@
 ---
 categories: blog
 layout: post
-published: false
+published: true
 permalink: /./blog/
 ---
 ## Why Darwin Would Be A Great Copywriter
