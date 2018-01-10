@@ -44,12 +44,12 @@ Again, the answer can be gleaned from the history of science. In 1962, Thomas Ku
 
 ![Dinosaur meteor resized.jpg]({{site.baseurl}}/media/Dinosaur meteor resized.jpg)
 
-Amid the ensuing howls of protest was some version of this: “what do you know about extinction, motherfucker?? You’re a geologist/physicist! Biologists are the ones who study extinction.” Exactly. Biologists at the time were accounting for the weird and sudden shift in the fossil record about 66 million years ago by saying it was a data gathering problem, or a statistical anomaly or whatever – even Darwin himself was a firm believer that species became extinct at about the same rate as they evolved, and for much the same reasons.
+Amid the ensuing howls of protest was some version of this: “what do you know about extinction, Alvarez?? You’re a geologist/physicist! Biologists are the ones who study extinction.” Exactly. Biologists at the time were accounting for the weird and sudden shift in the fossil record about 66 million years ago by saying it was a data gathering problem, or a statistical anomaly or whatever – even Darwin himself was a firm believer that species became extinct at about the same rate as they evolved, and for much the same reasons.
 
 My point is, it takes a fresh approach to create a paradigm shift – and most of the time, those with a vested interest in the old paradigm aren’t giving up without a fight.
 
 ![Fist fight resized.jpg]({{site.baseurl}}/media/Fist fight resized.jpg)
-_"'Paradigm shift??' I'll paradigm shift your jaw, asshole!"_
+_"'Paradigm shift??' I'll paradigm shift your jaw for you!"_
 
 
 I have seen this in many fields in my career. In fact, I’ve seen it in two separate subsets of the same field: education. 
@@ -57,7 +57,7 @@ I have seen this in many fields in my career. In fact, I’ve seen it in two sep
 In my work for Olin College, I learned that there is a fundamental disconnect in the education of engineers. Traditional engineering schools stick students in three years of academic classes about physics, materials science and the like before they get to, you know, build something.  
 
 ![Bored college student resized.png]({{site.baseurl}}/media/Bored college student resized.png)
-_"oooh, can't waint to spend the rest of my life doing this shit ..._
+_"oooh, can't waint to spend the rest of my life doing this ..._
 
 But building stuff is a) what attracts kids to engineering in the first place, and b) what companies want the engineers they hire to do. Olin’s model was (if I may hugely and grotesquely simplify their paradigm-shifting concept) to turn that on its head, and start with building stuff, back-filling the science as the student progressed. 
 
