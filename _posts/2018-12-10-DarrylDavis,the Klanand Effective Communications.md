@@ -1,7 +1,7 @@
 ---
 categories: blog
 layout: post
-published: false
+published: true
 permalink: /./blog/
 ---
 ## A New Post
@@ -86,4 +86,3 @@ Her goal, she says, is for people to “get to know one person from a group you 
 It’s banal to say that communications is a powerful tool. The real insight is that all communications, even mass communications like the kind I write for my clients, is really just one person talking to another. 
 
 ![people talking.jpeg]({{site.baseurl}}/media/people talking.jpeg)
-
