@@ -2,7 +2,7 @@
 categories: blog
 layout: post
 published: true
-permalink: /./blog/
+permalink: /./blog/unnatural-selection
 ---
 ## Why Darwin Would Be A Great Copywriter
 
