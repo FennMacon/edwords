@@ -6,7 +6,6 @@ permalink: /./blog/
 ---
 ## A New Post
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
 Have you ever watched this PBS series Independent Lens?
 
 ![Independent lens logo.png]({{site.baseurl}}/media/Independent lens logo.png)
