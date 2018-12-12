@@ -2,7 +2,7 @@
 categories: blog
 layout: post
 published: true
-permalink: /./blog/
+permalink: /./blog/Darryl-Davis
 ---
 ## A New Post
 
