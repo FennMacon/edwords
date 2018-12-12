@@ -4,8 +4,6 @@ layout: post
 published: true
 permalink: /./blog/Darryl-Davis
 ---
-## A New Post
-
 Have you ever watched this PBS series Independent Lens?
 
 ![Independent lens logo.png]({{site.baseurl}}/media/Independent lens logo.png)
