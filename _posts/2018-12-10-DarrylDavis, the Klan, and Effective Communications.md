@@ -1,7 +1,7 @@
 ---
 categories: blog
 layout: post
-published: false
+published: true
 permalink: /./blog/
 ---
 ## A New Post
