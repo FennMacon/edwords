@@ -78,7 +78,7 @@ Same for the Klansmen – he hates his abstract vision of “black people” –
 
 A similar idea is discussed in Elizabeth Lesser’s TED Talk, “Take an Other to Lunch.” She bemoans “otherizing” in our society, and challenges you to have a conversation with someone – anyone – from the other side of your politics. As she says, it’s not going to make “We Are the World” suddenly play over the restaurant’s sound system, but it might prevent you from demonizing the other side so easily.
 
-![Lesser TED.png]({{site.baseurl}}/http://edwordscreative.com/media/Lesser%20TED.png)
+![Lesser TED.png]({{site.baseurl}}/media/Lesser%20TED.png)
 [Elizabeth Lesser: Take "the Other" to lunch](https://www.ted.com/talks/elizabeth_lesser_take_the_other_to_lunch#t-440410)
 
 Her goal, she says, is for people to “get to know one person from a group you have negatively stereotyped.”  
