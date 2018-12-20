@@ -72,13 +72,16 @@ Humans are much more invested in emotions than facts. This was demonstrated by T
 As marketers, we KNOW that stories are more potent than facts. For Habitat for Humanity, a million homes is just a statistic. But tell me the story of a struggling family and I want to help them.
 
 
-Same for the Klansmen – he hates his abstract vision of “black people” – but then he meets Darryl Davis, a great guy, and he becomes a true friend. Which undercuts his racist attitudes.
+Same for the Klansman – he hates his abstract vision of “black people” – but then he meets Darryl Davis, a great guy, and he becomes a true friend. Which undercuts his racist attitudes.
 
-A similar idea is discussed in Elizabeth Lesser’s TED Talk, “Take an Other to Lunch.” She bemoans “otherizing” in our society, and challenges you to have a conversation with someone – anyone – from the other side of your politics. As she says, it’s not going to make “We Are the World” suddenly play over the restaurant’s sound system, but it might prevent you from demonizing the other side so easily.
+Here's another thing -- Darryl Davis convinced more than 30 hard core racists to change their views on race. How many minds has BLM changed? (Though, we must recognize that BLM's purpose is not to change anyone's mind, necessarily, but to mobilize political action).
+
+A similar notion is discussed in Elizabeth Lesser’s TED Talk, “Take an Other to Lunch.” She bemoans “otherizing” in our society, and challenges you to have a conversation with someone – anyone – from the other side of your politics. As she says, it’s not going to make “We Are the World” suddenly play over the restaurant’s sound system, but it might prevent you from demonizing the other side so easily.
 
 [![Elizabeth Lesser: Take "the Other" to lunch]({{site.baseurl}}/media/Lesser%20TED.png)](https://www.ted.com/talks/elizabeth_lesser_take_the_other_to_lunch#t-440410)
 
 Her goal, she says, is for people to “get to know one person from a group you have negatively stereotyped.”  
+
 
 It’s banal to say that communications is a powerful tool. The real insight is that all communications, even mass communications like the kind I write for my clients, is really just one person talking to another. 
 
